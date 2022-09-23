@@ -28,6 +28,9 @@ header-includes:
   \newtcolorbox{warning-box}{colback=orange!5!white,arc=0pt,outer arc=0pt,colframe=orange!80!black}
   \newtcolorbox{error-box}{colback=red!5!white,arc=0pt,outer arc=0pt,colframe=red!75!black}
 
+
+
+
   ```
 
 
@@ -45,7 +48,6 @@ pandoc-latex-environment:
 
 
 ...
-
 
 
 
@@ -142,3 +144,191 @@ TAK ---  DARAP ---  OEK ---  FLAB
 A ---  C ---  D ---  F ---  G ---  H ---  I ---  J ---  K ---  L ---  M ---  O ---  P
 
 :::
+
+
+::: box
+13. **Welk woord is correct geschreven?**
+
+* Mischien
+* Miscchien
+* Misschine
+* Misschien
+
+:::
+
+
+::: box
+14. **Welke maand heeft 30 dagen?**
+
+* Januari
+* Februari
+* Maart
+* April
+
+:::
+
+
+::: box
+15. **Welk woord hoort niet thuis is dit rijtje?**
+
+* Warm
+* Lauw
+* Rood
+* Koud
+
+:::
+
+
+::: box
+16. **wat is het juiste uitkomst?**
+
+$$ 1200 + 1300 $$
+
+* 1500
+* 500 
+* 3500
+* 2500
+
+
+:::
+
+
+::: box
+17. **Wat is de juiste uitkomst?**
+
+$$ 900 + 1300 $$
+
+* 2200
+* 2100
+* 1200
+* 3000
+
+:::
+
+
+::: box
+18. **Wat is de juiste uitkomst?**
+
+$$ 30 \times 40 $$
+
+* 40
+* 60
+* 90
+* 120
+* 130
+
+:::
+
+
+::: box
+19. **Wat is de juiste uitkomst?**
+
+$$ 20 \times 80 $$
+
+* 100
+* 160
+* 1000
+* 1600
+
+:::
+
+::: box
+20. **Wat is de juiste uitkomst?**
+
+$$ 1500 \div 30 $$
+
+* 20
+* 30
+* 40
+* 50
+
+:::
+
+
+::: box
+21. **Wat is de juiste uitkomst?**
+$$ 432 - 263 $$
+
+* 167
+* 168
+* 169
+* 170
+
+:::
+
+
+::: box
+22. **Wat is de juiste uitkomst?**
+$$ 321 - 123 $$
+
+* 196
+* 197
+* 198
+* 199
+
+:::
+
+
+
+
+
+::: box
+23. **Wat is de juiste uitkomst?** 
+
+$$ {\frac{4}{4}} deel van 100 $$
+
+
+* 25
+* 50
+* 75
+* 100
+
+:::
+
+
+::: box
+24. **Wat is de juiste uitkomst?** 
+
+$$ {\frac{3}{4}} deel van 100 $$
+
+
+* 25
+* 50
+* 75
+* 100
+
+:::
+
+
+
+::: box
+25. **Wat is de juiste uitkomst?** 
+
+$$ {\frac{2}{4}} deel van 100 $$
+
+
+* 25
+* 50
+* 75
+* 100
+
+:::
+
+
+
+
+::: box
+26. **Wat is de juiste uitkomst?** 
+
+$$ {\frac{1}{4}} deel van 100 $$
+
+
+* 25
+* 50
+* 75
+* 100
+
+:::
+
+
+\clubsuit
