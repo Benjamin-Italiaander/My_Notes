@@ -22,6 +22,7 @@ header-includes:
 
 - |
   ```{=latex}
+
   \usepackage{tcolorbox}
   \usepackage{awesomebox}
   \newtcolorbox{info-box}{colback=cyan!5!white,arc=0pt,outer arc=0pt,colframe=cyan!60!black}
@@ -331,4 +332,3 @@ $$ {\frac{1}{4}} deel van 100 $$
 :::
 
 
-\clubsuit
