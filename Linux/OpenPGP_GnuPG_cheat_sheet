@@ -1,5 +1,20 @@
 # A small list with som important commands i use with GnuPG
 
+## YubiKey and gnuPG OpenPGP or gpg
+Just start with
+```
+# open the gpg with your yubikey
+gpg --card-edit
+
+# Now enter the admin command
+gpg/card> admin
+
+# sometimes you need to enter a PIN first 
+
+```
+
+
+
 List all keys including keygrip or keyidentity on a yubiKey
 ```
  gpg --card-status --with-keygrip
