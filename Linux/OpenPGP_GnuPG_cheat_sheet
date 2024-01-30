@@ -5,3 +5,8 @@ List all keys including keygrip or keyidentity on a yubiKey
  gpg --card-status --with-keygrip
 ```
 
+
+Edit yubiKey with gpg
+```
+gpg --expert --edit-card
+```
