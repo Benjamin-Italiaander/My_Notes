@@ -1,0 +1,7 @@
+# A small list with som important commands i use with GnuPG
+
+List all keys including keygrip or keyidentity on a yubiKey
+```
+ gpg --card-status --with-keygrip
+```
+
