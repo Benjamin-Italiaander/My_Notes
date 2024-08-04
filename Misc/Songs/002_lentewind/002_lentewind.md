@@ -4,11 +4,11 @@
 
 c1: C              G            F     C
 l1: Luister wat de vogel in de boom  verzint
-c1: 
+c1: C
 l1: Een vreemd verhaal in de lentewind
-c1: 
+c1: C
 l1: Een liedje zonder woorden
-c1: 
+c1: C
 l1: Het eindigt zoals het begint
 
 c1: 
@@ -16,8 +16,8 @@ l1: In de lentewind
 
 
 
-l1: De kat op het kozijn vind het welletjes
-l1: Het visje in de kom blaast belletjes
+De kat op het kozijn vind het welletjes
+Het visje in de kom blaast belletjes
 Een liedje zonder woorden
 Het eindigt zoals het begint
 In de lentewind
