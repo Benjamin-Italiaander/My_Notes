@@ -54,5 +54,3 @@ In de lentewind
 
 T’is een liedje zonder woorden t eindigt zoals het begint
 In de lentewind
-
-wieteke-van-dort
