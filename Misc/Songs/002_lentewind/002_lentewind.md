@@ -1,21 +1,23 @@
 # Lentewind
-#### Auteur: Harrie Geelen
-#### Componist: Joop Stokkermans
-#### Uitgegeven in: 1969
-#### Taal: Nederlands
-#### Komt voor op: Oebele is hupsakee (1970) 
 
 
 
+c1: C              G            F     C
+l1: Luister wat de vogel in de boom  verzint
+c1: 
+l1: Een vreemd verhaal in de lentewind
+c1: 
+l1: Een liedje zonder woorden
+c1: 
+l1: Het eindigt zoals het begint
 
-[C]Luister wat de [G]vogel in de [F]boom [C]verzint.\
-Een vreemd verhaal in de lentewind\
-Een liedje zonder woorden\
-Het eindigt zoals het begint\
-In de lentewind\
+c1: 
+l1: In de lentewind
 
-De kat op het kozijn vind het welletjes
-Het visje in de kom blaast belletjes
+
+
+l1: De kat op het kozijn vind het welletjes
+l1: Het visje in de kom blaast belletjes
 Een liedje zonder woorden
 Het eindigt zoals het begint
 In de lentewind
