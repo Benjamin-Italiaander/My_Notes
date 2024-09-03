@@ -9,11 +9,11 @@
 This is a regular config
 ```bash
 Host server.tld
-     User root
-     IdentityFile /root/.ssh/id_rsa
+     User username
+     IdentityFile /home/username/.ssh/id_rsa
      ForwardAgent yes
 ```
-She ForwardAgent option allows you to use your private, local SSH key remotely without worrying about leaving confidential data on the server you're working with. It's built into ssh, and is easy to set up and use.
+The ForwardAgent option allows you to use your private, local SSH key remotely without worrying about leaving confidential data on the server you're working with. It's built into ssh, and is easy to set up and use.
 
 
 
