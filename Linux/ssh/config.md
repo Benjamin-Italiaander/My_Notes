@@ -27,3 +27,10 @@ Host server01
      IdentityFile /root/.ssh/id_rsa
      ForwardAgent yes
 ```
+
+#### More options
+```bash
+ProxyJump jump.server.tld
+```
+This connect a remote hosts through a proxy
+
