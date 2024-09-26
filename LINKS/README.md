@@ -29,3 +29,6 @@
 - [grep tutorial by Bruce Barnett](https://www.grymoire.com/Unix/Grep.html)
 - [sed tutorial by Bruce Barnerr](https://www.grymoire.com/Unix/Sed.html)
 - [awk tutorial by Bruce Barnett](https://www.grymoire.com/Unix/Awk.html)
+
+### Handy Websites
+- [Amazing collection of cheatsheets](https://devhints.io/) by [Rico Sta. Cruz](https://ricostacruz.com/)
