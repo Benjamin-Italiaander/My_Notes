@@ -21,3 +21,6 @@
 ### Code versioning
 - [Kallithea](https://kallithea-scm.org/) A tool for Mercurial and Git with a built-in push/pull server, with full text search and code-review.
 - [gitea](https://github.com/go-gitea/gitea) The goal of gitea is to make the easiest, fastest, and most painless way of setting up a self-hosted Git service.
+
+### Linux KVM
+- [virt-backup does hot external backups of your Libvirt guests, using the BlockCommit feature. The goal is to do an automatic backup system, with optional compression, and be able to easily restore a backup.](https://github.com/aruhier/virt-backup/tree/master)
