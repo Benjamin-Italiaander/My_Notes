@@ -33,4 +33,8 @@
 
 ### Handy Websites
 - [Amazing collection of cheatsheets](https://devhints.io/) by [Rico Sta. Cruz](https://ricostacruz.com/)
-- A [fork](https://github.com/Benjamin-Italiaander/links) of really intresting links made by [Paweł Romanowski](https://pawroman.dev/) 
+- A [fork](https://github.com/Benjamin-Italiaander/links) of really intresting links made by [Paweł Romanowski](https://pawroman.dev/)
+
+### People
+- [Christopher Wellons](https://github.com/skeeto?tab=repositories) aka [skeeto](https://nullprogram.com/)
+- 
