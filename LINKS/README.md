@@ -14,3 +14,6 @@
 
 ### Linux cluster management
 - [Slurm open-source cluster resource management and job scheduling](https://github.com/SchedMD/slurm)
+
+### Website creation in Linux
+- [Pelican](https://github.com/getpelican) a static site generator, written in Python Have a look at the [Themes](https://pelicanthemes.com/)
