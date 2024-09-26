@@ -16,13 +16,6 @@ sc-im is based on [sc](https://en.wikipedia.org/wiki/Sc_(spreadsheet_calculator)
   <img src="https://raw.githubusercontent.com/andmarti1424/sc-im/dev/logo.png" alt="sc-im" height="25%" width="25%">
 </h1>
 
-
-# NOTE 06/01/2023:
-This project needs some help.
-This is a one person project and lost sponsoring in the last months. There are only just a few left. I want to still maintain and develop sc-im, but I am the only income in my family and its becoming difficult to work as much as I would want.
-If you can make a donation (see at the bottom), please do. Your help would be really appreciated!!
-Thanks.
-
 # sc-im
 Spreadsheet Calculator Improvised, aka sc-im, is an ncurses based, vim-like spreadsheet calculator.
 
