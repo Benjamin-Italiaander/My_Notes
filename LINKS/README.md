@@ -1,7 +1,7 @@
 # Here are the links to the tools I'm using
 
 ### Linux cli tools
--  [sc-im Spreadsheet Calculator Improvised](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/LINKS/sc-im.md) is a new version of [sc](https://github.com/n-t-roff/sc) with [vim](https://github.com/vim) key-binds build in. [In memory of Bram Moolenaar](https://nl.wikipedia.org/wiki/Bram_Moolenaar)
+-  [sc-im Spreadsheet Calculator Improvised](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/LINKS/sc-im.md) is a new version of [sc](https://github.com/n-t-roff/sc) with [Bram Moolenaar](https://nl.wikipedia.org/wiki/Bram_Moolenaar) his [vim](https://github.com/vim) key-binds build in. 
 
 
 ### Backup tools
