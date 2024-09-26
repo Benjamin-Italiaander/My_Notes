@@ -1,4 +1,4 @@
-# My links of tools i am using
+# Here are the links to the tools I'm using
 
 ### Linux cli tools
 -  [sc-im Spreadsheet Calculator Improvised](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/LINKS/sc-im.md) is a new version of [sc](https://github.com/n-t-roff/sc) with vim shortcut build in.
