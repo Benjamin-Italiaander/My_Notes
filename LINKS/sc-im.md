@@ -1,3 +1,7 @@
+Title: sc-im
+Date: 2010-12-03 10:20
+Category: Review
+
 # Spreadsheet for linux vim based
 
 Spreadsheet Calculator Improvised, aka sc-im, is an ncurses based, vim-like spreadsheet calculator.
