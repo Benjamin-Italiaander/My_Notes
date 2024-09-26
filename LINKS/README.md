@@ -11,3 +11,6 @@
 
 ### Math tools
 - [SageMath can be used to study elementary and advanced, pure and applied mathematics.](https://www.sagemath.org/)  A good video tutorial can be found [here](https://player.vimeo.com/video/13986940?h=0fa825c593)
+
+### Linux cluster management
+- [Slurm open-source cluster resource management and job scheduling](https://github.com/SchedMD/slurm)
