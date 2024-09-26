@@ -24,3 +24,6 @@
 
 ### Linux KVM
 - [virt-backup does hot external backups of your Libvirt guests, using the BlockCommit feature. The goal is to do an automatic backup system, with optional compression, and be able to easily restore a backup.](https://github.com/aruhier/virt-backup/tree/master)
+
+### Bash things
+- [awk tutorial by Bruce Barnett](https://www.grymoire.com/Unix/Awk.html)
