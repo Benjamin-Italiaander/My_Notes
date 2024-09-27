@@ -1,3 +1,9 @@
+---
+title: 'A list to remember'
+author: 'Benjamin Italiaander'
+date: today
+---
+
 # Here are links to the tools I'm using
 
 ### Linux cli tools
@@ -34,6 +40,9 @@
 ### Handy Websites
 - [Amazing collection of cheatsheets](https://devhints.io/) by [Rico Sta. Cruz](https://ricostacruz.com/)
 - A [fork](https://github.com/Benjamin-Italiaander/links) of really intresting links made by [Paweł Romanowski](https://pawroman.dev/)
+
+### Markdown
+[BOOKDOWN Write HTML, PDF, ePub, and Kindle books with R Markdown](https://bookdown.org/)
 
 ### People
 - [Christopher Wellons](https://github.com/skeeto?tab=repositories) aka [skeeto](https://nullprogram.com/)
