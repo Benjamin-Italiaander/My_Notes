@@ -3,7 +3,7 @@ section: Linux
 title: 'Install linux from usb on fujitsu lifebook'
 author: 'benjamin-italiaander'
 description:  'Install Linux from USB on fujitsu lifebook'
-author: Benjamin Italiaander
+author: 'benjamin-italiaander'
 date: 2022
 ---
 
