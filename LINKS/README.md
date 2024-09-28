@@ -47,8 +47,8 @@ date: 2024
 [BOOKDOWN Write HTML, PDF, ePub, and Kindle books with R Markdown](https://bookdown.org/)
 
 
-## Boot stick creation
-- [ventoy USB tool](https://www.ventoy.net/en/index.html)
+## Boot stick creation tools
+- [ventoy USB tool](https://www.ventoy.net/en/index.html)  is an open source tool to create bootable USB drive for ISO/WIM/IMG/VHD(x)/EFI files. 
  
 
 ## People
