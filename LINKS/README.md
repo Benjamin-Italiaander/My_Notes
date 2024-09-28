@@ -2,7 +2,7 @@
 section: links
 title: 'Links to remember'
 author: 'Benjamin Italiaander'
-date: today
+pubDate: 2024
 ---
 # Here are links that i for some reason like to remember and share
 
