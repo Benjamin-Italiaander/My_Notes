@@ -1,7 +1,6 @@
 ---
 section: links
-title: 'A list to remember'
-author: 'Benjamin Italiaander'
+title: 'Links to remember'
 date: today
 ---
 
