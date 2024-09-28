@@ -1,8 +1,8 @@
 ---
 section: links
 title: 'Links to remember'
-author: 'Benjamin Italiaander'
-pubDate: 2024
+author: 'benjamin-italiaander'
+date: 2024
 ---
 # Here are links that i for some reason like to remember and share
 
