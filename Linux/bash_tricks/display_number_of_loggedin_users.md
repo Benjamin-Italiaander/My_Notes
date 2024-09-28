@@ -1,3 +1,11 @@
+---
+section: Linux
+title: 'Some tricks in bash'
+description: 'Count loggedin users'
+author: 'benjamin-italiaander'
+date: 2021
+---
+
 # Display the number of logged in users using the who command
 
 
