@@ -1,13 +1,10 @@
 ---
 section: Linux
-title: 'Install linux from usb on fujitsu lifebook'
+title: 'Install linux fujitsu lifebook'
+description: 'Install Linux from USB on fujitsu lifebook'
 author: 'benjamin-italiaander'
-description:  'Install Linux from USB on fujitsu lifebook'
-author: 'benjamin-italiaander'
-date: 2022
+date: 2021
 ---
-
-
 I was trying to run a USB-install with Fedora 36 on my fujitsu lifebook u7410 but it did not boot from usb.
 
 ```bash
