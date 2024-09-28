@@ -18,7 +18,7 @@ date: today
 
 ## Math tools
 - [SageMath can be used to study elementary and advanced, pure and applied mathematics.](https://www.sagemath.org/)  A good video tutorial can be found [here](https://player.vimeo.com/video/13986940?h=0fa825c593)
-- [KaTeX](https://katex.org/) is a fast, easy-to-use JavaScript library for TeX math rendering on the web.
+- [KaTeX](https://katex.org/) is a fast, easy-to-use JavaScript library for TeX math rendering on the web. Find KaTeX on [GitHub](https://github.com/KaTeX/KaTeX)
 
 ## Linux cluster management
 - [Slurm open-source cluster resource management and job scheduling](https://github.com/SchedMD/slurm)
