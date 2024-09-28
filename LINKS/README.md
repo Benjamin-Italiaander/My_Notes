@@ -46,6 +46,11 @@ date: 2024
 ## Markdown
 [BOOKDOWN Write HTML, PDF, ePub, and Kindle books with R Markdown](https://bookdown.org/)
 
+
+## Boot stick creation
+- [ventoy USB tool](https://www.ventoy.net/en/index.html)
+ 
+
 ## People
 - [Christopher Wellons](https://github.com/skeeto?tab=repositories) aka [skeeto](https://nullprogram.com/)
 
