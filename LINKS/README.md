@@ -8,7 +8,8 @@ date: today
 # Here are links to the tools I'm using
 
 ## Linux cli tools
--  [sc-im Spreadsheet Calculator Improvised](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/LINKS/sc-im.md) is a new version of [sc](https://github.com/n-t-roff/sc) with [Bram Moolenaar](https://nl.wikipedia.org/wiki/Bram_Moolenaar) his [vim editor](https://github.com/vim) key bindings build in. 
+-  [sc-im Spreadsheet Calculator Improvised](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/LINKS/sc-im.md) is a new version of [sc](https://github.com/n-t-roff/sc) with [Bram Moolenaar](https://nl.wikipedia.org/wiki/Bram_Moolenaar) his [vim editor](https://github.com/vim) key bindings build in.
+-  [Conquer of completion](https://github.com/neoclide/coc.nvim/wiki) is a extention for vim in Nodejs for vim & neovim, load extensions like VSCode and host language servers.  [Github](https://github.com/neoclide/coc.nvim)
 
 
 ## Backup tools
@@ -48,4 +49,7 @@ date: today
 
 ## People
 - [Christopher Wellons](https://github.com/skeeto?tab=repositories) aka [skeeto](https://nullprogram.com/)
+
+## Mindmap flowchart
+- [Markmap](https://markmap.js.org/) Visualize your Markdown as mindmaps Also handy for vscode users.
 - 
