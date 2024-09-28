@@ -1,3 +1,10 @@
+---
+section: Linux
+title: 'GnuPG'
+author: 'benjamin-italiaander'
+date: 2021
+---
+
 # The GNU Privacy Guard
 
 How to encrypt and decrypt a file
