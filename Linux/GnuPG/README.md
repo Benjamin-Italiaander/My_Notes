@@ -1,6 +1,7 @@
 ---
 section: Linux
 title: 'GnuPG'
+description: 'GnuPG is a complete and free implementation of the OpenPGP'
 author: 'benjamin-italiaander'
 date: 2021
 ---
