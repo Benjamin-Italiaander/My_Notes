@@ -51,5 +51,5 @@ date: today
 - [Christopher Wellons](https://github.com/skeeto?tab=repositories) aka [skeeto](https://nullprogram.com/)
 
 ## Mindmap flowchart
-- [Markmap](https://markmap.js.org/) Visualize your Markdown as mindmaps Also handy for vscode users.
+- [Markmap](https://markmap.js.org/) Visualize your Markdown as mindmaps Also handy for vscode users [gitHub](https://github.com/markmap).
 - 
