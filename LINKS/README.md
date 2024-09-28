@@ -4,7 +4,7 @@ title: 'Links to remember'
 date: today
 ---
 
-# Here are links to the tools I'm using
+# Here are links to i likte to remember for some reason
 
 ## Linux cli tools
 -  [sc-im Spreadsheet Calculator Improvised](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/LINKS/sc-im.md) is a new version of [sc](https://github.com/n-t-roff/sc) with [Bram Moolenaar](https://nl.wikipedia.org/wiki/Bram_Moolenaar) his [vim editor](https://github.com/vim) key bindings build in.
