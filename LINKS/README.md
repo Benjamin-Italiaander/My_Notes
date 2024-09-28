@@ -1,6 +1,7 @@
 ---
 section: links
 title: 'Links to remember'
+author: 'Benjamin Italiaander'
 date: today
 ---
 # Here are links that i for some reason like to remember and share
