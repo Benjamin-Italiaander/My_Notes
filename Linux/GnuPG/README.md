@@ -5,9 +5,7 @@ description: 'GnuPG is a complete and free implementation of the OpenPGP'
 author: 'benjamin-italiaander'
 date: 2021
 ---
-
 # The GNU Privacy Guard
-
 How to encrypt and decrypt a file
 
 ```bash
