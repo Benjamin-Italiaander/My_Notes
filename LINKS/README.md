@@ -52,7 +52,7 @@ date: 2024
 - [ventoy USB tool](https://www.ventoy.net/en/index.html)  is an open source tool to create bootable USB drive for ISO/WIM/IMG/VHD(x)/EFI files. 
  
 ## mailClient
-- [mailPile ](https://www.mailpile.is/) is written in python, it's a great mail client for those who like to be sure of their privacy.
+- [mailPile ](https://www.mailpile.is/) is written in python, it's a great mail client for those who like to be sure of their privacy. Find the source-code [here](https://github.com/mailpile/Mailpile)
 
 ## People
 - [Christopher Wellons](https://github.com/skeeto?tab=repositories) aka [skeeto](https://nullprogram.com/)
