@@ -51,6 +51,8 @@ date: 2024
 ## Boot stick creation tools
 - [ventoy USB tool](https://www.ventoy.net/en/index.html)  is an open source tool to create bootable USB drive for ISO/WIM/IMG/VHD(x)/EFI files. 
  
+## mailClient
+- [mailPile ](https://www.mailpile.is/) is written in python, it's a great mail client for those who like to be sure of their privacy.
 
 ## People
 - [Christopher Wellons](https://github.com/skeeto?tab=repositories) aka [skeeto](https://nullprogram.com/)
