@@ -9,6 +9,7 @@ date: 2024
 ## Linux cli tools
 -  [sc-im Spreadsheet Calculator Improvised](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/LINKS/sc-im.md) is a new version of [sc](https://github.com/n-t-roff/sc) with [Bram Moolenaar](https://nl.wikipedia.org/wiki/Bram_Moolenaar) his [vim editor](https://github.com/vim) key bindings build in.
 -  [Conquer of completion](https://github.com/neoclide/coc.nvim/wiki) is a extention for vim in Nodejs for vim & neovim, load extensions like VSCode and host language servers.  [Github](https://github.com/neoclide/coc.nvim)
+-  [nchat](https://github.com/d99kris/nchat) is a linux commandline chat application for WhatsApp build by [Kristofer Berggren](https://d99kris.github.io/)
 
 
 ## Backup tools
