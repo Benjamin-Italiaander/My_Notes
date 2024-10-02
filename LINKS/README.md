@@ -21,7 +21,7 @@ date: 2024
 - [KaTeX](https://katex.org/) is a fast, easy-to-use JavaScript library for TeX math rendering on the web. Find KaTeX on [GitHub](https://github.com/KaTeX/KaTeX)
 - [Matplotlib](https://matplotlib.org/stable/) is a comprehensive library for creating static, animated, and interactive visualizations
 
-## Linux cluster management
+## Linux cluster management 
 - [Slurm open-source cluster resource management and job scheduling](https://github.com/SchedMD/slurm)
 
 ## Website creation in Linux
