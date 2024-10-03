@@ -1,5 +1,9 @@
 Just a reminder how to do stuff
 
+A simple way to devide
+```katex
+\frac {(4+b)} {(b-2)}
+```
 $$\frac {(4+b)} {(b-2)}$$
 
 **The Cauchy-Schwarz Inequality**
