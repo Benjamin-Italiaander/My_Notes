@@ -6,3 +6,5 @@ A simple way to make a expression devide
 ```
 $$\frac {(4+b)} {(b-2)}$$
 
+Now align this to the left
+$$\left(\frac {(4+b)} {(b-2)})$$
