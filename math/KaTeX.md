@@ -7,6 +7,11 @@ A simple way to make a expression devide
 $$\frac {(4+b)} {(b-2)}$$
 
 
+\begin{align*}
+& a_{ijk} = 2 \\
+&(because ||V_1-V_2|| = \max_{i \in [d]}|V^i_1 - V^i_2|)
+\end{align*}
+
 $$\begin{equation}
   \frac {
         (4+b)
