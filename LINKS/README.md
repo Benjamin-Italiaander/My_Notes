@@ -47,6 +47,7 @@ date: 2024
 
 ## Markdown
 [BOOKDOWN Write HTML, PDF, ePub, and Kindle books with R Markdown](https://bookdown.org/)
+[GitHub](https://github.com) made a nice [extended markdown manual](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 
 ## Boot stick creation tools
