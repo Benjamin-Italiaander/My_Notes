@@ -16,3 +16,6 @@ $$\begin{equation}
 
 Now align this to the left
 $$\left{( \frac {(4+b)} {(b-2)})}\left$$
+
+
+Also have a look [here](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
