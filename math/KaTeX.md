@@ -7,12 +7,12 @@ A simple way to make a expression devide
 $$\frac {(4+b)} {(b-2)}$$
 
 
-\begin{equation}
+$$\begin{equation}
   \frac {
         (4+b)
         (b-2)
         }
-\end{equation}
+\end{equation}$$
 
 Now align this to the left
 $$\left( \frac {(4+b)} {(b-2)})\left$$
