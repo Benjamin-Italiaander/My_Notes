@@ -46,8 +46,8 @@ date: 2024
 - A [fork](https://github.com/Benjamin-Italiaander/links) of really intresting links made by [Paweł Romanowski](https://pawroman.dev/)
 
 ## Markdown
-[BOOKDOWN Write HTML, PDF, ePub, and Kindle books with R Markdown](https://bookdown.org/)
-[GitHub](https://github.com) made a nice [extended markdown manual](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [BOOKDOWN Write HTML, PDF, ePub, and Kindle books with R Markdown](https://bookdown.org/)
+- [GitHub](https://github.com) made a nice [extended markdown manual](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 
 ## Boot stick creation tools
