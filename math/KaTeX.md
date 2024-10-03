@@ -15,4 +15,4 @@ $$\begin{equation}
 \end{equation}$$
 
 Now align this to the left
-$$\left{( \frac {(4+b)} {(b-2)})}$$
+$$\left{( \frac {(4+b)} {(b-2)})}\left$$
