@@ -16,8 +16,10 @@ cat ./somefile.txt | qrencode -t ansiutf8
 or i manage my passowords with pass and needed to copy a password to my phone by qr
 
 ```bash
-pass work/someaccount | head -n1 | qrencode -t ansiutf8
+pass work/someaccount | head -n1 | tr -d \\n | qrencode -t ansiutf8
 ```
+'tr' removes the newline at the end witch is added. 
+
 
 # Other way around - read a qrcode from linux cli -
 One option is to use [zbar-tools](https://github.com/mchehab/zbar). Zbar-tools is a great tool becaus you dont need to cut out the qrcode or anything, you just send the image to zbmarim and the app is looking for the qrcodes by itself. 
