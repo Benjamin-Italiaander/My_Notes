@@ -9,3 +9,4 @@ date: 2011
 
 
 - [Displaying Outgoing TCP Connections in the Linux Terminal](https://raw.githubusercontent.com/Benjamin-Italiaander/My_Notes/refs/heads/main/Linux/cli/outgoing_connections.md)
+- [Convert cli output into a qr code in the Linux Terminal](https://raw.githubusercontent.com/Benjamin-Italiaander/My_Notes/refs/heads/main/Linux/cli/qrcode.md)
