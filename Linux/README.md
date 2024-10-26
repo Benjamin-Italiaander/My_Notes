@@ -8,4 +8,4 @@ date: 2011
 
 
 
-- [How to display outgoing TCP connections](https://raw.githubusercontent.com/Benjamin-Italiaander/My_Notes/refs/heads/main/Linux/cli/outgoing_connections.md)
+- [Displaying Outgoing TCP Connections in the Linux Terminal](https://raw.githubusercontent.com/Benjamin-Italiaander/My_Notes/refs/heads/main/Linux/cli/outgoing_connections.md)
