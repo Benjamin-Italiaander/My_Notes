@@ -27,7 +27,7 @@ date: 2024
 
 ## Website creation in Linux
 - [Pelican](https://github.com/getpelican) a static site generator, written in Python Have a look at the [Themes](https://pelicanthemes.com/)
-- [Starlight](https://github.com/withastro/starlight) is a documentation website framework for [Astro](https://github.com/withastro) havea look at the [themes](https://astro.build/themes/) Have a look [here](https://github.com/one-aalam/awesome-astro?tab=readme-ov-file)
+- [Starlight](https://github.com/withastro/starlight) is a documentation website framework for [Astro](https://github.com/withastro) havea look at the [themes](https://astro.build/themes/) Have a look [here](https://github.com/one-aalam/awesome-astro?tab=readme-ov-file) What i like about StarLight is their CO2 list, how to they measure software how ecoFriendly it is. [Have a look at the co2 friendy list they made](https://starlight.astro.build/environmental-impact/)
 
 ## Code versioning
 - [Kallithea](https://kallithea-scm.org/) A tool for Mercurial and Git with a built-in push/pull server, with full text search and code-review.
