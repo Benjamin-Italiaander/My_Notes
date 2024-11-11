@@ -58,7 +58,9 @@ date: 2024
 
 ## People
 - [Christopher Wellons](https://github.com/skeeto?tab=repositories) aka [skeeto](https://nullprogram.com/)
-
+client for signing certificates with an ACME-server
 ## Mindmap flowchart
 - [Markmap](https://markmap.js.org/) Visualize your Markdown as mindmaps Also handy for vscode users [gitHub](https://github.com/markmap).
-- 
+
+ 
+- [De hydrated ssl certifiaces](https://github.com/dehydrated-io/dehydrated) client for signing certificates with an ACME-server
