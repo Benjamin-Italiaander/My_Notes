@@ -16,7 +16,7 @@ If you like to copy it to clipboard, just use xclip
 
 This way you run your own otp tool in bash. 
 
-## If you like to pgg encrypt your token, have a look at this example below
+## If you like to pgp encrypt your token, have a look at this example below
 It's a simple but working example - you need to have gpg and oathool working first. 
 
 ```bash
