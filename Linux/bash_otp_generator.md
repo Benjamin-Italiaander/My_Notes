@@ -16,4 +16,13 @@ If you like to copy it to clipboard, just use xclip
 
 This way you run your own otp tool in bash. 
 
-TODO is to encrypt the string in GnuPGP.
+## If you like to pgg encrypt your token, have a look at this example below
+It's a simple but working example - you need to have gpg and oathool working first. 
+
+```bash
+# This example generates a var $token from a gpg file called example.gpg
+
+secret="$(gpg -d ./example.gpg 2>/dev/null)"
+token="$(/usr/bin/oathtool -b  --totp $secret)"
+echo $token
+```
