@@ -27,7 +27,7 @@ token="$(/usr/bin/oathtool -b  --totp $secret)"
 echo $token
 ```
 ## Now script it a bit together
-If you like to make a fancy script out of it here is a small example that gives you the OTP token or inmideatly copy it to clipboard
+If you like to make a script out of it here is a small example that gives prints you the OTP token on the screen or inmideatly copy it to clipboard
 
 ```bash
 #!/bin/bash
@@ -43,7 +43,7 @@ Help()
 {
 # A bit of a Help menu here
    echo 
-   echo "OTP token for user John in office365."
+   echo "OTP token for user John in the office portal."
    echo
    echo "Syntax: [-h|c|p]"
    echo "options:"
