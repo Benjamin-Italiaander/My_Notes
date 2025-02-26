@@ -6,7 +6,7 @@ Best way of generating a CSR is by creating a request configuration file where y
 
 ```bash
 [ req ]
-default_bits        = 2048
+default_bits        = 4096
 iattributes	    = req_attributes
 distinguished_name  = req_distinguished_name
 prompt		    = no
