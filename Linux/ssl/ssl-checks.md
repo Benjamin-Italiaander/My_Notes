@@ -42,5 +42,4 @@ echo "$key:"
 openssl rsa -noout -modulus -in $key | openssl md5
 echo "$csr:"
 test ! x$csr = x && openssl req -noout -modulus -in $csr | openssl md5
-
 ```
