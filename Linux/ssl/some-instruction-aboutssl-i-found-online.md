@@ -1,3 +1,5 @@
+i found this useful instruction [here](https://gist.github.com/soarez/9688998)
+
 
 # How to setup your own CA with OpenSSL
 
