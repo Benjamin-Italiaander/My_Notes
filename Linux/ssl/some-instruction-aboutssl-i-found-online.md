@@ -1,4 +1,4 @@
-i found this useful instruction [here](https://gist.github.com/soarez/9688998)
+i found this useful instruction [here](https://gist.github.com/soarez/9688998) Thank you for sharing [Igor Soarez](https://uk.linkedin.com/in/soarez)
 
 
 # How to setup your own CA with OpenSSL
