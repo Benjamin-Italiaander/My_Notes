@@ -24,3 +24,23 @@ You can check if a crt and a key file are a match with a md5 check, if the outpu
 openssl rsa -modulus -noout -in ./certificate.key | openssl md5
 openssl x509 -modulus -noout -in ./certificate.crt | openssl md5
 ```
+
+Here is a small script that you may use to check if the pairs are matching
+```bash
+#!/bin/bash
+if [ $# -eq 0 ]
+then
+    echo "usage: $(basename $0) certfile keyfile csrfile"
+    exit
+fi
+cert=$1
+key=$2
+csr=$3
+echo "$cert:"
+openssl x509 -noout -modulus -in $cert | openssl md5
+echo "$key:"
+openssl rsa -noout -modulus -in $key | openssl md5
+echo "$csr:"
+test ! x$csr = x && openssl req -noout -modulus -in $csr | openssl md5
+
+```
