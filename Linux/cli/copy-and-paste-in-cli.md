@@ -1,4 +1,4 @@
-#Copying and pasting in the Linux terminal is quite easy with xclip.
+# Copying and pasting in the Linux terminal is quite easy with xclip.
 
 ### simple bash command
 ```bash
