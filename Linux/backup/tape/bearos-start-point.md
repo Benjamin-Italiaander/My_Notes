@@ -1,6 +1,6 @@
-# Here i have some notes about bareos
+# The first basics of Bareos
 
-# Main components of Bareos
+## Main components of Bareos
 Bareos is made up of the following major components or services: 
 - [Bareos Director Service](#Bareos-Director-Service)
 - Console service 
