@@ -14,3 +14,7 @@ The Director is the central control program for all the other daemons. It schedu
 
 ### Bareos File Daemon
 The Bareos File Daemon is a program that must be installed on each (Client) machine that should be backed up. At the request of the Bareos Director, it finds the files to be backed up and sends them (their data) to the Bareos Storage Daemon.
+
+It is specific to the operating system on which it runs and is responsible for providing the file attributes and data when requested by the Bareos Director.
+
+The Bareos File Daemon is also responsible for the file system dependent part of restoring the file attributes and data during a recovery operation. This program runs as a daemon on the machine to be backed up.
