@@ -6,8 +6,7 @@ Bareos is made up of the following major components or services:
 - [Console service](#Console-service)
 - [Bareos File deamon](#Bareos-File-Daemon)
 - [Bareos Storage Deamon](#Bareos-Storage-Daemon)
-- Monitor service
-
+- [Bareos Monitor service](#Bareos-Monitor-Service)
 
 ### Bareos Director Service
 The Director is the central control program for all the other daemons. It schedules and supervises all the backup, restore, verify and archive operations. The system administrator uses the Bareos Director to schedule backups and to recover files. The Director runs as a daemon (or service) in the background.
@@ -24,4 +23,8 @@ The Bareos File Daemon is also responsible for the file system dependent part of
 The Bareos Storage Daemon is responsible, at the Bareos Director request, for accepting data from a Bareos File Daemon and storing the file attributes and data to the physical backup media or volumes. In the case of a restore request, it is responsible to find the data and send it to the Bareos File Daemon.
 There can be multiple Bareos Storage Daemon in your environment, all controlled by the same Bareos Director.
 The Storage services runs as a daemon on the machine that has the backup device (such as a tape drive).
+
+
+### Bareos Monitor Service
+The program that interfaces to all the daemons allowing the user or system administrator to monitor Bareos status.
 
