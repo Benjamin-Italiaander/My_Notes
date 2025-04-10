@@ -20,7 +20,7 @@ It is specific to the operating system on which it runs and is responsible for p
 The Bareos File Daemon is also responsible for the file system dependent part of restoring the file attributes and data during a recovery operation. This program runs as a daemon on the machine to be backed up.
 
 ### Bareos Storage Daemon
-The Bareos Storage Daemon is responsible, at the Bareos Director request, for accepting data from a Bareos File Daemon and storing the file attributes and data to the physical backup media or volumes. In the case of a restore request, it is responsible to find the data and send it to the Bareos File Daemon.
+The Storage daemon, sometimes referred to as the SD, is the code that writes the attributes and data to a storage Volume (usually a tape or disk). The Bareos Storage Daemon is responsible, at the Bareos Director request, for accepting data from a Bareos File Daemon and storing the file attributes and data to the physical backup media or volumes. In the case of a restore request, it is responsible to find the data and send it to the Bareos File Daemon.
 There can be multiple Bareos Storage Daemon in your environment, all controlled by the same Bareos Director.
 The Storage services runs as a daemon on the machine that has the backup device (such as a tape drive).
 
