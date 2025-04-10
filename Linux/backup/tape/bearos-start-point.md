@@ -1,4 +1,4 @@
-#Here i have some notes about bareos
+# Here i have some notes about bareos
 
 Bareos is made up of the following major components or services: 
 - Director service
