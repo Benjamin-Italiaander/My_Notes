@@ -3,9 +3,9 @@
 ## Main components of Bareos
 Bareos is made up of the following major components or services: 
 - [Bareos Director Service](#Bareos-Director-Service)
-- Console service 
-- [Bareos File deamon](Bareos-File-Daemon)
-- [Bareos Storage Deamon](Bareos-Storage-Daemon)
+- [Console service](#Console-service)
+- [Bareos File deamon](#Bareos-File-Daemon)
+- [Bareos Storage Deamon](#Bareos-Storage-Daemon)
 - Monitor service
 
 
