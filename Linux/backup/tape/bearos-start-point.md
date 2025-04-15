@@ -39,6 +39,11 @@ run job=MyFirstJob yes
 ```
 
 ```bash
+# list running jop on client
+status client
+```
+
+```bash
 list jobs
 ```
 
