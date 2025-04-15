@@ -38,6 +38,14 @@ estimate listing job=MyFirstJob
 run job=MyFirstJob yes
 ```
 
+```bash
+list jobs
+```
+
+```bash
+list joblog jobid=61
+```
+
 
 ```bash
 # display the files inside a job
