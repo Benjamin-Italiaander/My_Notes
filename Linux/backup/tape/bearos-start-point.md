@@ -30,7 +30,7 @@ The program that interfaces to all the daemons allowing the user or system admin
 
 ```bash
 # estimate will give you the results of a job what will be backed up
-estimate listing job=MyFirstJob
+estimate job=MyFirstJob listing
 ```
 
 ```bash
