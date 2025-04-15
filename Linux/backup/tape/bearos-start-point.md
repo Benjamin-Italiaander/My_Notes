@@ -28,3 +28,18 @@ The Storage services runs as a daemon on the machine that has the backup device 
 ### Bareos Monitor Service
 The program that interfaces to all the daemons allowing the user or system administrator to monitor Bareos status.
 
+```bash
+# estimate will give you the results of a job what will be backed up
+estimate listing job=MyFirstJob
+```
+
+```bash
+# run job
+run job=MyFirstJob yes
+```
+
+
+```bash
+# display the files inside a job
+list files jobid=61
+```
