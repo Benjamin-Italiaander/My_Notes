@@ -51,6 +51,15 @@ list jobs
 list joblog jobid=61
 ```
 
+```bash
+# list on with tape the job is stored
+*list volumes jobid=61
++------------+
+| volumename |
++------------+
+| 000011L9   |
++------------+
+```
 
 ```bash
 # display the files inside a job
