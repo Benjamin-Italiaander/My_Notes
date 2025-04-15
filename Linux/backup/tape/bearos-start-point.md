@@ -65,3 +65,60 @@ list joblog jobid=61
 # display the files inside a job
 list files jobid=61
 ```
+
+
+```bash
+# RESTORE
+*restore 
+Automatically selected Catalog: MyCatalog
+Using Catalog "MyCatalog"
+
+First you select one or more JobIds that contain files
+to be restored. You will be presented several methods
+of specifying the JobIds. Then you will be allowed to
+select which files from those JobIds are to be restored.
+
+To select the JobIds, you have the following choices:
+ 1: List last 20 Jobs run
+ 2: List Jobs where a given File is saved
+ 3: Enter list of comma separated JobIds to select
+ 4: Enter SQL list command
+ 5: Select the most recent backup for a client
+ 6: Select backup for a client before a specified time
+ 7: Enter a list of files to restore
+ 8: Enter a list of files to restore before a specified time
+ 9: Find the JobIds of the most recent backup for a client
+10: Find the JobIds for a backup for a client before a specified time
+11: Enter a list of directories to restore for found JobIds
+12: Select full restore to a specified Job date
+13: Cancel
+Select item:  (1-13): 5
+Automatically selected Client: bareos-fd
+The defined FileSet resources are:
+1: Catalog
+2: SelfTest
+3: cwi1001
+4: cwi1004
+5: cwi2004
+Select FileSet resource (1-5): 3
++-------+-------+----------+----------+---------------------+------------+
+| jobid | level | jobfiles | jobbytes | starttime           | volumename |
++-------+-------+----------+----------+---------------------+------------+
+|    61 | F     |       73 |        0 | 2025-04-15 11:32:33 | 000011L9   |
++-------+-------+----------+----------+---------------------+------------+
+You have selected the following JobId: 61
+
+Building directory tree for JobId(s) 61 ...  ++++++++++++++++++++++++++++++++++++
+73 files inserted into the tree.
+
+You are now entering file selection mode where you add (mark) and
+remove (unmark) files to be restored. No files are initially added, unless
+you used the "all" keyword on the command line.
+Enter "done" to leave this mode.
+
+cwd is: /
+$ dir
+----------   0 0 (root) 0 (root)             0  1970-01-01 01:00:00   /storage/
+$ cd storage/ 
+
+```
