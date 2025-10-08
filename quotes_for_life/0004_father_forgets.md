@@ -1,6 +1,6 @@
 # *Father Forgets*
 
-*by W. Livingston Larned*
+*Father Forgets* by **W. Livingston Larned** was first published in **1927**. It originally appeared as an editorial in the **People’s Home Journal**, and it quickly became widely reprinted in newspapers, magazines, and anthologies — especially after **Dale Carnegie** featured it in *How to Win Friends and Influence People* (1936).
 
 > Listen, son:
 > I am saying this as you lie asleep, one little paw crumpled under your cheek and the blond curls stickily wet on your damp forehead.
