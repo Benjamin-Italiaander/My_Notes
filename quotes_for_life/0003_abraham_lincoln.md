@@ -7,5 +7,5 @@
 >
 **Translated to Dutch**  
 >
-> *“bekritiseer hen niet; zij zijn precies zoals wij zouden zijn onder vergelijkbare omstandigheden.”*
+> *“bekritiseer hen niet; zij doen precies wat wij zouden doen onder vergelijkbare omstandigheden.”*
 > 
