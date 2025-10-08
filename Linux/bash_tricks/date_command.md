@@ -1,6 +1,7 @@
-# Just a small date example
+# Just a small example of the date command
 
-Show the weekday in number, always handy to know
+Show the weekday in number, always handy to know, small examples of the date command
+
 ```bash
 # Display weekday
 date +%u
