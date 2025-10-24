@@ -3,6 +3,18 @@
 *Welcome to my personal recipe collection, inspired by great taste, powered by AI, and made memorable by experience.*
 
 ---
+## Index
+***English***
+- 🌱 [Chickpea & Quinoa Power Bowl (Vegan & Protein-Rich)](./english/001/README.md)
+- 🌿 Portabella Tagliata (Vegetarian Italian Style)
+
+***Dutch***
+- 🌱 Kikkererwten & Quinoa Power Bowl (Vegan & Eiwitrijk)
+- 🌿 Portabella Tagliata (Vegetarische Italiaanse Stijl)
+
+---
+
+
 
 ## 🥄 What Is This?
 
@@ -39,4 +51,3 @@ If you’re reading this, I hope it inspires you to explore food in your own way
 
 **Happy cooking,  
 Benjamin**
-
