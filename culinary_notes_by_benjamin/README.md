@@ -6,11 +6,11 @@
 ## Index
 ***English***
 - 🌱 [Chickpea & Quinoa Power Bowl (Vegan & Protein-Rich)](./english/001/README.md)
-- 🌿 Portabella Tagliata (Vegetarian Italian Style)
+- 🌿 [Portabella Tagliata (Vegetarian Italian Style)](./english/002/README.md)
 
 ***Dutch***
-- 🌱 Kikkererwten & Quinoa Power Bowl (Vegan & Eiwitrijk)
-- 🌿 Portabella Tagliata (Vegetarische Italiaanse Stijl)
+- 🌱 [Kikkererwten & Quinoa Power Bowl (Vegan & Eiwitrijk)](./dutch/001/README.md)
+- 🌿 [Portabella Tagliata (Vegetarische Italiaanse Stijl)](./dutch/002/README.md)
 
 ---
 
