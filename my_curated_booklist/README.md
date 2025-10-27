@@ -12,5 +12,5 @@ For now, I’ve divided the books into two main categories:
 
 
 **Personal Development** 
-- [How to Win Friends and Influence People](https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People)
+- [How to Win Friends and Influence People - Dale Carnegie](https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People)
 - [Choose Again - Diederik Wolsak](https://www.diederik.org/)
