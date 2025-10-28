@@ -5,3 +5,5 @@ When that first scroll arrived, it instantly filled me with joy — the colours,
 From that moment on, I completely fell in love with traditional Japanese art.  
 I kept exploring, discovering, and collecting a few more beautiful pieces that made me smile.  
 Here, I’m sharing some of the artworks that continue to bring me peace, happiness, and inspiration. 🇯🇵💫
+
+[Something about Takamizawa Mokuhansha](./takamizawa_mokuhansha/README.md) I own a Japanese scroll of his hand. 
