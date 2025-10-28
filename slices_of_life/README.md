@@ -8,3 +8,5 @@ Here you’ll find:
 - 💬 Fun **quotes and thoughts** that lift my mood and keep me going  
 
 This is my happy place — full of small joys, creativity, and good vibes only! 💛✨  
+
+You can also find me on  [linkedInn](https://www.linkedin.com/in/italiaander/) or the [GitHub](https://github.com/Benjamin-Italiaander)
