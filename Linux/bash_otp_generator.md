@@ -1,89 +1,111 @@
-# Make a OTP MFA in the bash terminal
 
-I was tired of using googleauthenticator so i found a way in bash to generate my onw OTP in bash. Replace the JH string with you own string.
+
+
+# Create an OTP MFA Tool in the Bash Terminal
+
+I was tired of using **Google Authenticator**, so I found a simple way to generate my own **OTP (One-Time Password)** codes directly in **Bash**.  
+Just replace the example string below (`JHJH...`) with your own secret key.
 
 
 ```bash
-/usr/bin/oathtool -b  --totp 'JHJHJHJHJHJHJHJHJHJHJHJHJ' 
+/usr/bin/oathtool -b --totp 'JHJHJHJHJHJHJHJHJHJHJHJHJ'
 ```
 
-
-If you like to copy it to clipboard, just use xclip
+If you want to copy the token directly to your clipboard, just use **xclip**:
 
 ```bash
-/usr/bin/oathtool -b  --totp 'JHJHJHJHJHJHJHJHJHJHJHJHJ' | xclip -selection c
+/usr/bin/oathtool -b --totp 'JHJHJHJHJHJHJHJHJHJHJHJHJ' | xclip -selection c
 ```
 
-This way you run your own otp tool in bash. 
+This way, you can easily run your own OTP generator right in the terminal.
 
-## If you like to pgp encrypt your token, have a look at this example below
-It's a simple but working example - you need to have gpg and oathool working first. 
+---
+
+## 🔐 Encrypting Your Secret with GPG
+
+If you want to keep your secret key secure, you can encrypt it with **GPG**.
+Here’s a simple working example — make sure both **gpg** and **oathtool** are installed first.
 
 ```bash
-# This example generates a var $token from a gpg file called example.gpg
-
+# This example decrypts a GPG file (example.gpg) and generates an OTP token
 secret="$(gpg -d ./example.gpg 2>/dev/null)"
-token="$(/usr/bin/oathtool -b  --totp $secret)"
+token="$(/usr/bin/oathtool -b --totp $secret)"
 echo $token
 ```
-## Now script it a bit together
-If you like to make a script out of it here is a small example that gives prints you the OTP token on the screen or inmideatly copy it to clipboard
+
+---
+
+## 🧩 Turning It Into a Script
+
+If you’d like to make this a small reusable script, here’s an example that can either print the token to the screen or copy it to your clipboard automatically.
 
 ```bash
 #!/bin/bash
 
-gentoken()
-{
-# Generate a OTP token from a pgp-encrypted file
-	secret="$(gpg -d ./otp_secret_example.gpg 2>/dev/null)"
-	token="$(/usr/bin/oathtool -b  --totp $secret)"
+gentoken() {
+    # Generate an OTP token from a GPG-encrypted file
+    secret="$(gpg -d ./otp_secret_example.gpg 2>/dev/null)"
+    token="$(/usr/bin/oathtool -b --totp $secret)"
 }
 
-Help()
-{
-# A bit of a Help menu here
-   echo 
-   echo "OTP token for user John in the office portal."
-   echo
-   echo "Syntax: [-h|c|p]"
-   echo "options:"
-   echo "h     Print this Help."
-   echo "c     Copy token to clipboard."
-   echo "p     Print token to display."
-   echo
+Help() {
+    # Simple help menu
+    echo 
+    echo "OTP token generator for user John (Office Portal)."
+    echo
+    echo "Syntax: $0 [-h|c|p]"
+    echo "Options:"
+    echo "  -h     Show this help message"
+    echo "  -c     Copy token to clipboard"
+    echo "  -p     Print token to screen"
+    echo
 }
 
-prtoken()
-{
-# Print token to screen
-	gentoken
-	echo $token
+prtoken() {
+    # Print token to screen
+    gentoken
+    echo "$token"
 }
 
-cptoken()
-{
-# Copy token to clipboard using xclip
-	gentoken
-	echo $token | xclip -selection c 
+cptoken() {
+    # Copy token to clipboard using xclip
+    gentoken
+    echo "$token" | xclip -selection c 
 }
 
-
-# Menu Items -- Just a example change as you please
+# Parse command-line options
 while getopts ":hpc" option; do
-   case $option in
-	   h) # display Help
-		   Help
-		   exit;;
-	   p) # print token
-		   prtoken
-		   exit;;
-	   c) # copy token
-		   cptoken
-		   exit;;
-	   \?) # incorrect option
-		   echo "Error: Invalid option use -h argument for help"
-		   exit;;
-   esac
+    case $option in
+        h) Help; exit;;
+        p) prtoken; exit;;
+        c) cptoken; exit;;
+        \?) echo "Error: Invalid option. Use -h for help."; exit;;
+    esac
 done
-
 ```
+
+---
+
+## 🧠 Summary
+
+This Bash-based OTP generator:
+
+* Uses `oathtool` to create TOTP codes
+* Can optionally decrypt your secret with `gpg`
+* Lets you print or copy the token easily
+
+It’s a lightweight and private alternative to Google Authenticator — all from your terminal! 💻✨
+
+---
+
+## ⚙️ Optional: Installing the Required Tools
+
+If you don’t have the needed tools installed yet, you can install them on most Linux systems using:
+
+```bash
+sudo apt install oathtool gpg xclip
+```
+
+---
+
+*Made with 💚 for terminal lovers who like privacy and simplicity.*
