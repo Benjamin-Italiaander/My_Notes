@@ -1,11 +1,4 @@
-## 
-
-
-
 # THE OUTLINE OF JAPANESE WOOD BLOCK PRINT
-
-## 
-
 #### Kyoto, Uchida Wood Block Printing Co., LTD, undated but ca 1950
 
 ---
@@ -163,3 +156,9 @@ of Japanese Ukiyoe prints.
 ### Final result of all the added colors
 
 ![](./../../../img/wood_block_prints/uchida_woodblock_prints_box.jpg)
+
+
+
+
+---
+Source of this file can be fount [here](https://github.com/Benjamin-Italiaander/My_Notes/tree/main/slices_of_life/art_i_enjoy/wood_block_printing/Uchida_Wood_Block_Printing)
