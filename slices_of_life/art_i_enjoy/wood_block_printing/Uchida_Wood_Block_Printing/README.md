@@ -161,4 +161,4 @@ of Japanese Ukiyoe prints.
 
 
 ---
-Source of this file can be fount [here](https://github.com/Benjamin-Italiaander/My_Notes/tree/main/slices_of_life/art_i_enjoy/wood_block_printing/Uchida_Wood_Block_Printing)
+Source of this file can be found [here](https://github.com/Benjamin-Italiaander/My_Notes/tree/main/slices_of_life/art_i_enjoy/wood_block_printing/Uchida_Wood_Block_Printing)
