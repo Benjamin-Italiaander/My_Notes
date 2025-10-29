@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>$if(title)$$title$$else$Document$endif$</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  $for(css)$
+  <link rel="stylesheet" href="$it$" />
+  $endfor$
+</head>
+<body>
+  $for(include-before)$
+  $include-before$
+  $endfor$
+
+  <main>
+    $body$
+  </main>
+
+  $for(include-after)$
+  $include-after$
+  $endfor$
+
+  <footer>
+    $if(date)$
+      <p class="render-date">
+        Website last rendered on <time datetime="$date$">$date$</time> with <a href="https://pandoc.org/">Pandoc</a> by Benjamin Italiaander 
+      </p>
+    $endif$
+  </footer>
+</body>
+</html>
