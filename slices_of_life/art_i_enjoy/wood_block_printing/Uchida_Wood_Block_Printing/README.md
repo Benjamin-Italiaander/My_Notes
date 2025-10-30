@@ -1,4 +1,5 @@
 # THE OUTLINE OF JAPANESE WOOD BLOCK PRINT
+
 #### Kyoto, Uchida Wood Block Printing Co., LTD, undated but ca 1950
 
 ---
@@ -26,9 +27,11 @@ of printing a modern Japanese wood block print.
 
 In the Ashikaga era (1603—1867 A. D.) and before
 days, a wood block print was only a black and white
-one, or on which painted with a hair-brush. In the be-
-ginning of the Tokugawa age, however, the color-printing
-was created and made tremendous progress, until the
+one, or on which painted with a hair-brush. 
+
+In the beginning of the Tokugawa age, however, 
+
+the color-printing was created and made tremendous progress, until the
 golden age of Ukiyoe prints.
 
 With the advent of the printing machinery in the
@@ -41,8 +44,9 @@ Now, let us explain in brief the process making
 a wood block print.
 
 First of all, an original picture is drawn by an
-artist, and then handed over to the sculpturer. Accord-
-ing to the process of Ukiyoe printing, an original painter
+artist, and then handed over to the sculpturer. 
+
+According to the process of Ukiyoe printing, an original painter
 trace the lines of his picture on the thin paper. A carver,
 then, puts it upon the well planed cherry board (some
 times box tree is used), and starts his work according
@@ -157,8 +161,6 @@ of Japanese Ukiyoe prints.
 
 ![](./../../../img/wood_block_prints/uchida_woodblock_prints_box.jpg)
 
-
-
-
 ---
+
 Source of this file can be found [here](https://github.com/Benjamin-Italiaander/My_Notes/tree/main/slices_of_life/art_i_enjoy/wood_block_printing/Uchida_Wood_Block_Printing)
