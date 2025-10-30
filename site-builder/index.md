@@ -30,3 +30,4 @@ Grab a cup of tea, take a peek around, and maybe you’ll find a spark of happin
   - [Linux I use it](linux/index.html)
   - [Linux OpenPGP cheat sheet](linux/OpenPGP_GnuPG_cheat_sheet/index.html)
   - [Linux CLI OTP generator](linux/otp-generator/index.html)
+  - [Benjamin his curated booklist](my_curated_booklist/index.html)

@@ -116,11 +116,17 @@ cp -R ./../slices_of_life/img/ .
 
 
 # Build my artsy pages
-
 mkdir -p ./art_i_enjoy/wood_block_printing/Uchida_Wood_Block_Printing
 md2html ./../slices_of_life/art_i_enjoy/wood_block_printing/Uchida_Wood_Block_Printing/README.md \
         ./art_i_enjoy/wood_block_printing/Uchida_Wood_Block_Printing/index.html \
         "Uchida Wood Block Printing" \
+        ./template.html \
+        ./style.css \
+
+mkdir -p ./my_curated_booklist
+md2html ./../slices_of_life/my_curated_booklist/README.md \
+        ./my_curated_booklist/index.html \
+        "Benjamin his curated booklist" \
         ./template.html \
         ./style.css \
 
