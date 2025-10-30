@@ -4,9 +4,9 @@
 
 site_root="${1:-.}"
 output="${2:-$site_root/index.md}"
-echo "<br><p>" >> "$output"
+echo "<br>" >> "$output"
 echo "---" >> "$output"
-echo "## 🌐 Site Index" >> "$output"
+echo "🌐 " >> "$output"
 echo "" >> "$output"
 echo "" >> "$output"
 

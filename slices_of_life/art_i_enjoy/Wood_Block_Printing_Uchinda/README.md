@@ -4,7 +4,7 @@
 
 ---
 
-![](./../../../img/wood_block_prints/uchida_woodblock_prints_cvr-1.jpg)
+![](./../../img/wood_block_prints/uchida_woodblock_prints_cvr-1.jpg)
 
 Japanese Wood Block Prints
 Uchida Wood Block Printing Co., Kyoto
@@ -139,27 +139,27 @@ of Japanese Ukiyoe prints.
 
 ---
 
-![](./../../../img/wood_block_prints/uchida_woodblock_prints_txt_1.jpg)![](./../../../img/wood_block_prints/uchida_woodblock_prints_txt_2.jpg)
+![](./../../img/wood_block_prints/uchida_woodblock_prints_txt_1.jpg)![](./../../../img/wood_block_prints/uchida_woodblock_prints_txt_2.jpg)
 
-![](./../../../img/wood_block_prints/uchida_woodblock_prints_txt_3.jpg)
+![](./../../img/wood_block_prints/uchida_woodblock_prints_txt_3.jpg)
 
-![](./../../../img/wood_block_prints/uchida_woodblock_prints_txt_4.jpg)
+![](./../../img/wood_block_prints/uchida_woodblock_prints_txt_4.jpg)
 
-![](./../../../img/wood_block_prints/uchida_woodblock_prints_txt_5.jpg)
+![](./../../img/wood_block_prints/uchida_woodblock_prints_txt_5.jpg)
 
 ---
 
 ### Example of how the colors are added
 
-![](./../../../img/wood_block_prints/uchida_woodblock_prints_wb_2-1.jpg)
+![](./../../img/wood_block_prints/uchida_woodblock_prints_wb_2-1.jpg)
 
-![](./../../../img/wood_block_prints/uchida_woodblock_prints_wb_7-1.jpg)
+![](./../../img/wood_block_prints/uchida_woodblock_prints_wb_7-1.jpg)
 
-![](./../../../img/wood_block_prints/uchida_woodblock_prints_wb_11-1.jpg)
+![](./../../img/wood_block_prints/uchida_woodblock_prints_wb_11-1.jpg)
 
 ### Final result of all the added colors
 
-![](./../../../img/wood_block_prints/uchida_woodblock_prints_box.jpg)
+![](./../../img/wood_block_prints/uchida_woodblock_prints_box.jpg)
 
 ---
 

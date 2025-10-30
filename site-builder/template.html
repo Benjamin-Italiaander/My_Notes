@@ -1,10 +1,13 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <meta charset="utf-8">
   <title>$if(title)$$title$$else$Document$endif$</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   $for(css)$
+  
   <link rel="stylesheet" href="$it$" />
   $endfor$
 </head>
@@ -24,8 +27,9 @@
   <footer>
     $if(date)$
       <p class="render-date">
-        Website last rendered on <time datetime="$date$">$date$</time> with <a href="https://pandoc.org/">Pandoc</a> by Benjamin Italiaander 
+        Website last rendered on <time datetime="$date$">$date$</time> with <a href="https://pandoc.org/">Pandoc</a> 
       </p>
+      <p>have a look at Benjamin Italiaander his <a href="https://github.com/Benjamin-Italiaander/peronal-links/wiki"> Personal Links</a></p>
     $endif$
   </footer>
 </body>

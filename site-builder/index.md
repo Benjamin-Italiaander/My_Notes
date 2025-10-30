@@ -16,18 +16,21 @@ Here you’ll find:
 This is my **happy place** — a colorful mix of creativity, curiosity, and sunshine vibes! ☀️💫  
 Grab a cup of tea, take a peek around, and maybe you’ll find a spark of happiness too! 🌻💖  
 
-✨ *It’s still a work in progress — I keep adding my notes and little discoveries whenever inspiration strikes!* 🌈<br><p>
+✨ *It’s still a work in progress — I keep adding my notes and little discoveries whenever inspiration strikes!* 🌈<br>
 ---
-## 🌐 Site Index
+🌐 
 
 
-  - [Benjamin Italiaander Loves Art](art_i_enjoy/index.html)
-  - [Takamizawa Mokuhansha](art_i_enjoy/takamizawa_mokuhansha/index.html)
-    - [Uchida Wood Block Printing](art_i_enjoy/wood_block_printing/Uchida_Wood_Block_Printing/index.html)
-  - [Benjamin Italiaander](index.html)
+  - [EN Art - Benjamin Loves Art](art_i_enjoy/index.html)
+  - [EN Japanese Art - Takamizawa Mokuhansha](art_i_enjoy/takamizawa_mokuhansha/index.html)
+  - [EN Japanese Art - Wood Block Printing - Uchida](art_i_enjoy/Wood_Block_Printing_Uchida/index.html)
+  - [EN Culinary - notes by Benjamin](culinary_notes_by_benjamin/index.html)
+  - [NL Recepten - Kikkererwten_en_Quinoa_Power_Bowl](culinary_notes_by_benjamin/Kikkererwten_en_Quinoa_Power_Bowl/index.html)
+  - [NL Recepten - Portabella Aardappelen Pastinaak Tagliata](culinary_notes_by_benjamin/Portabella_Aardappelen_pastinaak_Tagliata/index.html)
+  - [NL Recepten - Zoete Aardappel &amp; Avocado Sushirollen](culinary_notes_by_benjamin/ZoeteAardappel_Avocado_Sushirollen/index.html)
   - [Linux Find files and igonre hidden files](linux/find_exclude_hidden_files/index.html)
   - [Linux GnuPG](linux/gnupg/index.html)
   - [Linux I use it](linux/index.html)
-  - [Linux OpenPGP cheat sheet](linux/OpenPGP_GnuPG_cheat_sheet/index.html)
+  - [Linux YubiKey OpenPGP cheat sheet](linux/OpenPGP_GnuPG_cheat_sheet/index.html)
   - [Linux CLI OTP generator](linux/otp-generator/index.html)
   - [Benjamin his curated booklist](my_curated_booklist/index.html)
