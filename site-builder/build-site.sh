@@ -109,24 +109,75 @@ md2html() {
   "${args[@]}"
 }
 
-
+./cleanup.sh
 
 mkdir ./img
 cp -R ./../slices_of_life/img/ .
 
-
-# Build my artsy pages
-mkdir -p ./art_i_enjoy/wood_block_printing/Uchida_Wood_Block_Printing
-md2html ./../slices_of_life/art_i_enjoy/wood_block_printing/Uchida_Wood_Block_Printing/README.md \
-        ./art_i_enjoy/wood_block_printing/Uchida_Wood_Block_Printing/index.html \
-        "Uchida Wood Block Printing" \
-        ./template.html \
-        ./style.css \
-
+# Build my booklist
 mkdir -p ./my_curated_booklist
 md2html ./../slices_of_life/my_curated_booklist/README.md \
         ./my_curated_booklist/index.html \
         "Benjamin his curated booklist" \
+        ./template.html \
+        ./style.css \
+
+
+# Build my Receipes
+
+
+mkdir -p ./culinary_notes_by_benjamin
+
+md2html ./../slices_of_life/culinary_notes_by_benjamin/README.md \
+        ./culinary_notes_by_benjamin/index.html \
+        "EN Culinary - notes by Benjamin" \
+        ./template.html \
+        ./style.css \
+
+
+
+
+mkdir -p ./culinary_notes_by_benjamin/Portabella_Aardappelen_pastinaak_Tagliata
+cp  ./../slices_of_life/culinary_notes_by_benjamin/dutch/001/*.png ./culinary_notes_by_benjamin/Kikkererwten_en_Quinoa_Power_Bowl/
+mkdir -p ./culinary_notes_by_benjamin/Kikkererwten_en_Quinoa_Power_Bowl
+mkdir -p ./culinary_notes_by_benjamin/003
+mkdir -p ./culinary_notes_by_benjamin/004
+
+
+md2html ./../slices_of_life/culinary_notes_by_benjamin/dutch/001/README.md \
+        ./culinary_notes_by_benjamin/Kikkererwten_en_Quinoa_Power_Bowl/index.html \
+        "NL Recepten - Kikkererwten_en_Quinoa_Power_Bowl" \
+        ./template.html \
+        ./style.css \
+
+
+mkdir -p ./culinary_notes_by_benjamin/Portabella_Aardappelen_pastinaak_Tagliata/
+cp ./../slices_of_life/culinary_notes_by_benjamin/dutch/002/*.png ./culinary_notes_by_benjamin/Portabella_Aardappelen_pastinaak_Tagliata/
+md2html ./../slices_of_life/culinary_notes_by_benjamin/dutch/002/README.md \
+        ./culinary_notes_by_benjamin/Portabella_Aardappelen_pastinaak_Tagliata/index.html \
+        "NL Recepten - Portabella Aardappelen Pastinaak Tagliata" \
+        ./template.html \
+        ./style.css \
+
+
+
+
+mkdir -p ./culinary_notes_by_benjamin/ZoeteAardappel_Avocado_Sushirollen/
+cp ./../slices_of_life/culinary_notes_by_benjamin/dutch/003/*.png ./culinary_notes_by_benjamin/ZoeteAardappel_Avocado_Sushirollen/
+md2html ./../slices_of_life/culinary_notes_by_benjamin/dutch/003/README.md \
+        ./culinary_notes_by_benjamin/ZoeteAardappel_Avocado_Sushirollen/index.html \
+        "NL Recepten - Zoete Aardappel & Avocado Sushirollen" \
+        ./template.html \
+        ./style.css \
+
+
+
+
+# Build my artsy pages
+mkdir -p ./art_i_enjoy/Wood_Block_Printing_Uchida
+md2html ./../slices_of_life/art_i_enjoy/Wood_Block_Printing_Uchinda/README.md \
+        ./art_i_enjoy/Wood_Block_Printing_Uchida/index.html \
+        "EN Japanese Art - Wood Block Printing - Uchida" \
         ./template.html \
         ./style.css \
 
@@ -136,14 +187,14 @@ md2html ./../slices_of_life/my_curated_booklist/README.md \
 mkdir -p ./art_i_enjoy/takamizawa_mokuhansha/
 md2html ./../slices_of_life/art_i_enjoy/README.md \
         ./art_i_enjoy/index.html \
-        "Benjamin Italiaander Loves Art" \
+        "EN Art - Benjamin Loves Art" \
         ./template.html \
         ./style.css \
         .
 
 md2html ./../slices_of_life/art_i_enjoy/takamizawa_mokuhansha/README.md \
         ./art_i_enjoy/takamizawa_mokuhansha/index.html \
-        "Takamizawa Mokuhansha" \
+        "EN Japanese Art - Takamizawa Mokuhansha" \
         ./template.html \
         ./style.css \
         .
@@ -176,7 +227,7 @@ md2html   ./../Linux/find_exclude_hidden_files.md \
 mkdir -p  ./linux/OpenPGP_GnuPG_cheat_sheet
 md2html   ./../Linux/OpenPGP_GnuPG_cheat_sheet.md \
         ./linux/OpenPGP_GnuPG_cheat_sheet/index.html \
-        "Linux OpenPGP cheat sheet" \
+        "Linux YubiKey OpenPGP cheat sheet" \
         ./template.html \
         ./style.css \
         .

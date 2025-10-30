@@ -1,4 +1,4 @@
-# 🌿 Portabella Tagliata (Vegetarische Italiaanse Stijl)
+# 🌿 Portabella Aardappelen pastinaak Tagliata (Vegetarische Stijl)
 
 ![Portabella Tagliata](portabelle_tagliata.png)
 
@@ -10,6 +10,7 @@
 ---
 
 ## 🧠 Educatief Weetje
+
 **Portabella’s** zijn eigenlijk volwassen champignons met een robuuste structuur en diepe umamismaak. Door hun formaat en bite zijn ze een perfecte vleesvervanger, ideaal voor vegetarische versies van klassieke gerechten zoals tagliata.
 
 ---
@@ -17,6 +18,7 @@
 ## 🛒 Ingrediënten
 
 ### 🥬 Groenten & Verse Producten
+
 - 2 teentjes knoflook *(Irjimpa SL Demeter)*
 - 1 limoen, rasp & sap *(Fairtrasa)*
 - 6 portabella’s *(’t Paddestoelenrijk)*
@@ -25,8 +27,6 @@
 - 3 rode uien *(TVA Organics)*
 - 1 bosje bosui *(Biolatina)*
 - 100 g rucola *(Snijderij Udea)*
-
-### 🧂 Zelf Toevoegen
 - 6 el olijfolie
 - 4 el tamari of sojasaus
 - Snufje zout en (chili)peper
@@ -54,6 +54,7 @@
 ---
 
 ## 🍽️ Voedingswaarden (per portie, geschat)
+
 - **Energie:** ± 430 kcal  
 - **Eiwitten:** ± 10g  
 - **Koolhydraten:** ± 45g  
@@ -63,7 +64,5 @@
 ---
 
 ## ✅ Allergenentip
+
 Bevat **soja** (in tamari of sojasaus). Gebruik *kokosamino's* als alternatief bij soja-allergie. Zorg voor aparte snijplanken als er allergieën zijn in huis.
-
-
-
