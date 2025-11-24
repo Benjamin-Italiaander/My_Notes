@@ -1,6 +1,13 @@
 # SSH with YubiKey (FIDO2)
 Make sure you did the first steps of initiating your YubiKey before you will start using the SSH functionality on your yubikey.
 
+There are still two keys generated: your private key and your public key.
+The private key remains important when using your YubiKey. In fact, the private key functions as a challenge key and works together with your YubiKey.
+
+You should never share your private key with anyone.
+Your public key, on the other hand, can be shared.
+
+
 REMEMBER! **Never use SSH agent forwarding with your YubiKey or ssh -a — or better, don’t use it at all.**
 
 
