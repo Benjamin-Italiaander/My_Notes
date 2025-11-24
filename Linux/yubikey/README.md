@@ -8,8 +8,7 @@ Hardware tokens are a powerful tool and can raise your security to a very high l
 Be aware that using hardware tokens incorrectly will not result in a more secure user environment.
 
 
-This instruction is a modified document based on the YubiKey guide found here:  
-**[Securing SSH with FIDO2](https://developers.yubico.com/SSH/Securing_SSH_with_FIDO2.html)**
+This instruction is a modified document based on the YubiKey guide found here **[Securing SSH with FIDO2](https://developers.yubico.com/SSH/Securing_SSH_with_FIDO2.html)**
 
 > **Never use SSH agent forwarding with your YubiKey — or better, don’t use it at all.**
 
