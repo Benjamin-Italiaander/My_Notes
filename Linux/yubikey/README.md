@@ -1,7 +1,7 @@
 # YubiKey bare minimum
 #### A short Getting Started Using the Linux CLI
 
-The first steps are the absolute bare minimum you should complete before you start using your YubiKey.
+Step 1 till step 8 are the absolute bare minimum you should complete before you start using your YubiKey.
 If you skip these steps, there is nothing truly secure about using your YubiKey.
 
 Hardware tokens are a powerful tool and can raise your security to a very high level—but only when used correctly.
