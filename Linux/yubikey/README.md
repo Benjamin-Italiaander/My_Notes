@@ -38,7 +38,7 @@ Run the `ykman info` command and check if your device is detected:
 ```bash
 ykman info
 Device type: YubiKey 5C NFC
-Serial number: 34397537
+Serial number: 12345678
 Firmware version: 5.7.4
 Form factor: Keychain (USB-C)
 Enabled USB interfaces: OTP, FIDO, CCID
