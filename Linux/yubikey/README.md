@@ -1,4 +1,5 @@
-# YubiKey – Getting Started Using the Linux CLI
+# YubiKey
+#### A short Getting Started Using the Linux CLI
 
 The first steps are the absolute bare minimum you should complete before you start using your YubiKey.
 If you skip these steps, there is nothing truly secure about using your YubiKey.
