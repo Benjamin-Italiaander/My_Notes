@@ -1,5 +1,5 @@
 # SSH with YubiKey (FIDO2)
-Make sure you did the first steps of initiating your YubiKey before you will start using the SSH functionality on your yubikey.
+**Make sure you do the [first steps](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/README.md) of initiating your YubiKey before you will start using the SSH functionality on your yubikey.**
 
 There are still two keys generated: your private key and your public key.
 The private key remains important when using your YubiKey. In fact, the private key functions as a challenge key and works together with your YubiKey.
