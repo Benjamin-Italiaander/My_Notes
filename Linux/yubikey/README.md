@@ -1,4 +1,4 @@
-# YubiKey
+# YubiKey bare minimum
 #### A short Getting Started Using the Linux CLI
 
 The first steps are the absolute bare minimum you should complete before you start using your YubiKey.
