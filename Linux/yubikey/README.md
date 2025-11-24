@@ -16,7 +16,7 @@ This instruction is a modified document based on the YubiKey guide found here **
 
 ---
 
-1.  Install the Necessary Software
+1. Install the Necessary Software
 
 In my case (debian based) I added the needed packages:
 
@@ -31,7 +31,7 @@ sudo apt install yubikey-manager-qt
 
 ---
 
-## Verify the YubiKey
+2. Verify the YubiKey
 
 Run the `ykman info` command and check if your device is detected:
 
@@ -57,7 +57,7 @@ YubiHSM Auth   Enabled  Enabled
 
 ---
 
-# FIDO2
+3. FIDO2
 
 ## Change Default FIDO2 PIN
 
@@ -76,7 +76,7 @@ You will be prompted for:
 - confirmation
   
 
-### Verify the PIN
+4. Verify the PIN
 
 ```bash
 ykman fido access verify-pin
@@ -101,19 +101,19 @@ To change PIV access, you need the default credentials:
 
 ---
 
-## Change PIN
+5. Change PIN
 
 ```bash
 ykman piv access change-pin
 ```
 
-## Change PUK
+6. Change PUK
 
 ```bash
 ykman piv access change-puk
 ```
 
-## Change the Management Key
+7. Change the Management Key
 
 I recommend generating a new management key automatically:
 
@@ -126,7 +126,7 @@ ykman piv access change-management-key --protect --generate
 
 ---
 
-# Check FIDO Credentials
+8. Check FIDO Credentials
 
 Now check if the PIN works — this command should ask for it:
 
