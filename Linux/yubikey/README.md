@@ -16,7 +16,7 @@ This instruction is a modified document based on the YubiKey guide found here **
 
 ---
 
-1. ## Install the Necessary Software
+1.  Install the Necessary Software
 
 In my case (debian based) I added the needed packages:
 
