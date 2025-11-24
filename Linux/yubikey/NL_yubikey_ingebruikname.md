@@ -137,12 +137,3 @@ Credential ID  RP ID  Username  Display name
 ```
 
 ---
-
-Als je wilt, kan ik dit hele document:
-
-✅ omzetten naar **Markdown met headings**
-✅ omzetten naar **een PDF met nette layout**
-✅ herschrijven in een **kortere quick-start versie**
-✅ uitbreiden met **SSH configuratie, PIV, OpenPGP, touch policies**, etc.
-
-Laat maar weten wat je nodig hebt!
