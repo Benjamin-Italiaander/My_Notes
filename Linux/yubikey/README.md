@@ -10,7 +10,9 @@ Be aware that using hardware tokens incorrectly will not result in a more secure
 
 This instruction is a modified document based on the YubiKey guide found here **[Securing SSH with FIDO2](https://developers.yubico.com/SSH/Securing_SSH_with_FIDO2.html)**
 
-> **Never use SSH agent forwarding with your YubiKey — or better, don’t use it at all.**
+
+> **Never use SSH agent forwarding with your YubiKey — or use of ssh -a — in fact, it’s best not to use agent forwarding at all.**
+
 
 ---
 
