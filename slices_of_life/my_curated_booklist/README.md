@@ -36,10 +36,8 @@ For now, I’ve divided the books into categories:
 
 **well-loved verse and poetry writers**
 
-- **isława Szymborska*** (1923 – 2012)
-
+- **isława Szymborska** (1923 – 2012)
 - **Rumi** (Jalāl al-Dīn Rūmī, (1207 – 1273)
-
 - **Toon Tellegen** [1941](https://nl.wikipedia.org/wiki/1941)
 
 ---
