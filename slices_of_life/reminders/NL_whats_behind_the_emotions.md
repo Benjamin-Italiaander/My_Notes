@@ -70,3 +70,101 @@ Er zijn dus drie belangrijke emotielagen:
 Woede ontstaat vaak doordat we dieperliggende gevoelens niet willen voelen.
 In plaats van verdriet, angst, eenzaamheid of kwetsbaarheid toe te laten, creëert het brein woede als een beschermlaag.
 Dit herkennen helpt je om te verschuiven van reageren naar bewust worden — van woede naar het echte gevoel dat eronder ligt.
+
+
+
+
+Hier is een **rustige, warme en therapeutische tekst**, gebaseerd op PRI en bedoeld om helderheid en zachtheid te brengen.
+Je kunt hem gebruiken voor jezelf, in een document, of om anderen uit te leggen wat PRI betekent.
+
+---
+
+# 🌿 Een Rustige Toelichting op Emoties binnen PRI-therapie
+
+In PRI-therapie kijken we met mildheid naar wat er in ons gebeurt.
+We ontdekken dat emoties niet zomaar ontstaan, maar dat ze vaak een boodschap dragen.
+Sommige gevoelens komen rechtstreeks uit het moment, terwijl andere gevoelens eigenlijk echo’s zijn uit onze kindertijd.
+
+Wanneer we dit onderscheid leren herkennen, ontstaat er ruimte.
+Ruimte om te voelen, om te begrijpen, en uiteindelijk om vrijer te leven.
+
+---
+
+## 🌱 Echte emoties
+
+Echte emoties zijn de gevoelens die horen bij het leven in het hier en nu.
+Het zijn zachte maar duidelijke signalen van ons innerlijke kompas.
+Ze vertellen ons wat we nodig hebben, waar onze grenzen liggen, en wat belangrijk is voor ons.
+
+Deze echte emoties kunnen zijn:
+
+* verdriet
+* angst
+* eenzaamheid
+* het gevoel afhankelijk of kwetsbaar te zijn
+
+Wanneer we deze gevoelens toelaten, komen we dichter bij onszelf.
+We worden eerlijker, menselijker, en meer verbonden.
+
+---
+
+## 🌾 Oerpijn
+
+Soms raken we in het heden iets aan wat eigenlijk oud is.
+Een gevoel dat ooit te groot was voor ons als kind — te pijnlijk, te overweldigend.
+
+Deze oude pijn noemen we **oerpijn**.
+Het is niet “fout” of “zwak”; het is simpelweg een stuk verleden dat nog in ons leeft.
+
+Oerpijn bestaat vaak uit:
+
+* verlatenheid
+* afwijzing
+* het gevoel niet gezien te worden
+* het idee niet goed genoeg te zijn
+* onveiligheid of afhankelijkheid
+
+Wanneer deze oude pijn wordt aangeraakt, reageert ons lichaam alsof het opnieuw gebeurt.
+Dat kan verwarrend voelen.
+Maar juist in dit herkennen ligt de mogelijkheid tot heling.
+
+---
+
+## 🛡️ Afweer
+
+Omdat echte emoties en oerpijn soms te scherp kunnen voelen, ontwikkelden we als kind manieren om ons te beschermen.
+PRI noemt dit **afweer**.
+
+Afweer is niet slecht — het heeft ons ooit geholpen te overleven.
+Maar als volwassene kan het ons in de weg gaan staan.
+
+Afweer kan eruitzien als:
+
+* woede
+* overdreven angst
+* afstand nemen, verdoven, niets meer voelen
+* piekeren of controleren
+* rationaliseren in plaats van voelen
+
+Deze reacties zijn eigenlijk lagen die proberen te voorkomen dat we de echte pijn opnieuw moeten ervaren.
+
+Wanneer we leren deze afweer te herkennen, hoeven we er niet meer in mee te gaan.
+We kunnen zachtjes vragen:
+*“Welk gevoel probeert dit te beschermen?”*
+
+---
+
+## 🌸 Terug naar zachtheid
+
+PRI nodigt je uit om stap voor stap weer contact te maken met je echte gevoelens.
+Niet door te forceren, maar door te luisteren.
+Door te vertragen.
+Door jezelf toe te staan om eerlijk te zijn over wat je van binnen tegenkomt.
+
+Wanneer de afweer zachter wordt en de oerpijn mag worden gezien, ontstaat er ruimte voor heling.
+Een gevoel van stevigheid, rust en verbondenheid — met jezelf en met anderen.
+
+---
+
+Als je wilt, kan ik deze tekst nog rustiger maken, meer verhalend, korter, of juist als een **meditatieve versie** schrijven.
+
