@@ -24,8 +24,8 @@ For now, I’ve divided the books into categories:
 
 **Improving Relationships - English**
 - Love phobia: how to overcome your fear of commitment and abandonment - Hannah Cuppen
-
-- The Hold Me Tight: Seven Conversations for a Lifetime of Love -  Sue Johnson 
+- The Hold Me Tight: Seven Conversations for a Lifetime of Love -  Sue Johnson
+  
 > Although *Hold Me Tight* was originally written as a guide for Christian couples, I strongly recommend this book to all couples, regardless of their background, culture, or religion.
 > Its insights into emotional connection, healthy communication, and secure bonding are universal and meaningful for anyone who wants to build a deeper, stronger, and more loving relationship.
 
