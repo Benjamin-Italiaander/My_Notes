@@ -19,7 +19,7 @@ For now, I’ve divided the books into categories:
 - [How to Win Friends and Influence People - Dale Carnegie](https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People)
 - [Choose Again - Diederik Wolsak](https://www.diederik.org/)
 - Running on Empty: Overcome Your Childhood Emotional Neglect - Jonice Webb
-
+- The 7 Habits Of Highly Effective People - Stephen R. Covey 
 ---
 
 **Improving Relationships - English**
