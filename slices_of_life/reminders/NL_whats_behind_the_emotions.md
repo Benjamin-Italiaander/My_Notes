@@ -163,8 +163,3 @@ Door jezelf toe te staan om eerlijk te zijn over wat je van binnen tegenkomt.
 
 Wanneer de afweer zachter wordt en de oerpijn mag worden gezien, ontstaat er ruimte voor heling.
 Een gevoel van stevigheid, rust en verbondenheid — met jezelf en met anderen.
-
----
-
-Als je wilt, kan ik deze tekst nog rustiger maken, meer verhalend, korter, of juist als een **meditatieve versie** schrijven.
-
