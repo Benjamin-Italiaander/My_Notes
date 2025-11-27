@@ -20,3 +20,6 @@ Dus als iemand je uitnodigt voor een etentje terwijl je in een andere stad bent,
 Het is duidelijker, vriendelijker en respectvoller.
 En eerlijk gezegd: mensen hebben liever een directe “nee” dan een twijfelachtige “ja maar…”.
 
+
+---
+Ik heb dit [hier](https://www.youtube.com/watch?v=78d1dmmSMrY&list=WL&index=63) gevonden
