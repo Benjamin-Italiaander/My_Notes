@@ -6,7 +6,7 @@ Ze zijn te defensief.
 
 Ze willen geen pijn voelen omdat ze niet gekwetst willen worden.
 Ze willen niet te veel van zichzelf geven.
-Ze willen niet gul zijn met hun geest, hun hart.
+Ze willen niet vrijgevig zijn met hun geest, met hun hart.
 Ze willen zichzelf beschermen.
 
 Dus bij het minste of geringste conflict met hun partner trekken ze zich terug en kruipen ze in hun schulp.
