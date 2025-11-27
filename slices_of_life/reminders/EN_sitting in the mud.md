@@ -12,3 +12,6 @@ The reason I bring it up is it's the same in a relationship, which is:
 * when you don't call me and say, "I'm in the mud,"
 
 you deny me the opportunity, the joy, the honor of sitting in the mud with me
+
+---
+I found this [here](https://www.youtube.com/shorts/kHWJVRUmLB4)
