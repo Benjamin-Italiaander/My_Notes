@@ -19,3 +19,6 @@ So if someone invites you to dinner while you’re traveling, you might say:
 
 It’s clearer, kinder, and more respectful.
 And honestly, people prefer a direct “no” rather than a hesitant “yes but…”.
+
+---
+I found this [here](https://www.youtube.com/watch?v=78d1dmmSMrY&list=WL&index=63) 
