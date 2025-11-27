@@ -1,6 +1,6 @@
-# Hoe zeg je nee
+# Hoe zeg je correct nee
 
-Hier is waar het meestal misgaat:
+Bij nee zeggen gaat het meestal alsvolgt mis::
 We denken *“Ik wil hen niet teleurstellen. Ik wil niet dat ze me niet meer leuk vinden.”*
 En dan zeggen we iets als: *“Oh wauw, dat klinkt geweldig, ik zou heel graag willen… **maar** ik kan niet, ik heb de hele dag meetings.”*
 
