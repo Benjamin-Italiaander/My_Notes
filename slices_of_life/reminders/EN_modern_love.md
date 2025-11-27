@@ -11,4 +11,4 @@ So, at the slightest kind of conflict with with their partner, they retreat and 
 
 It seems like romantic love between a man and a woman is seen as something corny and sentimental and old-fashioned and like we've outgrown that here in the 21st century.
 
-Man, that is really sad and that is really pathetic of you and that is really actually to deprive yourself of some of the greatest emotions that a human have.
+And that is really sad and that is really pathetic, and that is really actually to deprive yourself of some of the greatest emotions that a human have.
