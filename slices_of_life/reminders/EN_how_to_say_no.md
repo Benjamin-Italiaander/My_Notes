@@ -1,4 +1,4 @@
-# How to say no
+# How to say no the right way
 
 Here’s where the mistake usually happens:
 We feel, *“I don’t want to disappoint them. I don’t want them to dislike me.”*
