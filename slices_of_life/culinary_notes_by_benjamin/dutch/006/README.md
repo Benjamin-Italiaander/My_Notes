@@ -122,6 +122,3 @@ Zet op een rooster en bak nog 15–20 minuten goudbruin en gaar.
 ### 12.
 
 Laat volledig afkoelen voordat je gaat snijden.
-
-
-Laat maar weten!
