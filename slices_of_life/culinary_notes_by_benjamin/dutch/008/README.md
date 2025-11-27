@@ -108,8 +108,6 @@ Verdeel over kommen en garneer met:
 * Sesamzaadjes
 * Verse basilicum
 
-Serveer direct.
-
 
 
 Laat het gerust weten!
