@@ -16,9 +16,9 @@ G     C     D     G
 Feliz Navidad, feliz Navidad
          C              D          G
 Feliz Navidad próspero ano y felicidad
-   C      D        G      Em
+         C     D         G      Em
 Feliz Navidad, feliz Navidad
-   C      D               G
+         C             D           G
 Feliz Navidad próspero ano y felicidad
 ```
 
@@ -27,22 +27,18 @@ Feliz Navidad próspero ano y felicidad
 ## **Chorus** (2×)
 
 ```
-           C                D
+                    C             D
 I wanna wish you a merry Christmas
-           G                Em
+                    G             Em
 I wanna wish you a merry Christmas
-           C
+                     C
 I wanna wish you a merry Christmas
-       D                G
+          D           G
 From the bottom of my heart
 ```
 
 ---
 
-## **Verse**
+## **Verse** *[...]*
 
-*[...]*
-
-## **Chorus** (2×)
-
-*[...]*
+## **Chorus** (2×) *[...]*
