@@ -12,9 +12,9 @@ G     C     D     G
 ## **Verse**
 
 ```
-   C      D        G      Em
+         C    D          G    Em
 Feliz Navidad, feliz Navidad
-   C      D               G
+         C              D          G
 Feliz Navidad próspero ano y felicidad
    C      D        G      Em
 Feliz Navidad, feliz Navidad
