@@ -115,7 +115,7 @@ ykman oath accounts code github
 ```
 
 
-## 5 advanced cli 
+## 5. advanced cli 
 
 ### Copy paste
 You can directly copy/past it to memory and paste your otp with control+v
@@ -143,5 +143,48 @@ token-github()
 }
 ```
 
+## 6. Make a menu
+This is a small script that reads the yubikey otp tokens, and you can select them and autmaticly have them copied to your clipboard
+
+```bash
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Dependencies:
+#  - ykman (YubiKey Manager CLI)
+#  - rofi
+#  - xclip
+#  - notify-send (optional, from libnotify-bin)
+
+# Get list of OATH accounts from the YubiKey
+accounts=$(ykman oath accounts list || true)
+
+if [ -z "$accounts" ]; then
+    notify-send "YubiKey TOTP" "No OATH accounts found (or YubiKey not inserted)." || true
+    exit 1
+fi
+
+# Choose account via rofi
+selection=$(printf '%s\n' "$accounts" | rofi -dmenu -p "YubiKey TOTP")
+
+# If user cancelled rofi
+if [ -z "${selection:-}" ]; then
+    exit 0
+fi
+
+# Generate code for selected account
+# `ykman oath accounts code "<name>"` outputs something like:
+#   AccountName  123456
+code_line=$(ykman oath accounts code "$selection")
+
+# Extract the TOTP code (second field)
+code=$(printf '%s\n' "$code_line" | awk '{print $NF}')
+
+# Copy to clipboard
+printf '%s' "$code" | xclip -selection c
+
+# Optional notification
+notify-send "YubiKey TOTP" "Code for '$selection' copied to clipboard." || true
+```
 
 
