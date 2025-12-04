@@ -92,4 +92,7 @@ To get a code for one specific account:
 ykman oath accounts code "gitHub:myusername"
 ```
 
----
+```bash
+# or in short is also possible
+ykman oath accounts code github
+```
