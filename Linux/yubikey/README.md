@@ -18,7 +18,7 @@ This instruction is a modified document based on the YubiKey guide found here **
 
 1. Install the Necessary Software
 
-In my case (debian based) I added the needed packages:
+There are more ways of installing my advice is to follow [this](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/EN_yubikey_install_ykman.md) instruction, but in case you are in a rush or a less advanced user you can use the apt repo, in my case (debian based) I added the needed packages:
 
 ```bash
 sudo apt-add-repository ppa:yubico/stable
