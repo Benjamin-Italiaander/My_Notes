@@ -113,3 +113,13 @@ ykman oath accounts code "gitHub:myusername"
 # or in short is also possible
 ykman oath accounts code github
 ```
+
+
+## 5 advanced cli 
+You can directly copy/past it to memory and paste your otp with control+v
+
+```bash
+ykman oath accounts code zimbra:italiaan | awk '{print $2}' | xclip -selection c
+```
+
+
