@@ -117,14 +117,14 @@ ykman oath accounts code github
 
 ## 5 advanced cli 
 
-# Copy paste
+### Copy paste
 You can directly copy/past it to memory and paste your otp with control+v
 
 ```bash
 ykman oath accounts code zimbra:italiaan | awk '{print $2}' | xclip -selection c
 ```
 
-# Make a reusable function
+### Make a reusable function
 you can add this to your .bashrc or .zshrc and you have a nice function that allows you to directly copy paste
 
 ```bash
