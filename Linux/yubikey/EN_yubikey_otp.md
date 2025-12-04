@@ -1,35 +1,44 @@
-# YubiKey OATH / TOTP
-About This Guide
-This is a **small guide on how to copy your existing TOTP secrets into your YubiKey**.
+# 🔐 YubiKey OATH / TOTP Guide
 
-**Warning:**
+### Copying Existing TOTP Secrets into Your YubiKey
+
+---
+
+## ⚠️ About This Guide
+
+This guide explains **how to copy your existing TOTP secrets into your YubiKey**.
+
+### ⚠️ Warning 1
+
 Use this method **only if you fully understand what you are doing**.
-TOTP secrets are extremely sensitive. If someone gets your secret, they can generate your codes.
+TOTP secrets are **extremely sensitive** — if someone obtains your secret, they can generate your codes.
 
-The purpose of this guide is to allow you to:
-* create **multiple YubiKeys** using the **same TOTP tokens**, or
-* store the **same token** both on multiple YubiKeys *and/or* in an authenticator app
+### Why do this?
 
-Instead of generating new tokens for each device, this approach lets you **duplicate one TOTP secret** safely across several devices.
+This method allows you to:
+
+* create **multiple YubiKeys** containing the **same TOTP tokens**, or
+* store a token on several YubiKeys *and/or* an authenticator app
+
+Instead of generating new tokens per device, you can **duplicate** a single TOTP secret across several YubiKeys.
 
 Use with caution.
 
-**Warning 2:**
-Before creating TOTP codes on your YubiKey, make sure you have completed the **minimum required setup**. (You can find that guide [**here**](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/README.md).)
+### ⚠️ Warning 2
 
+Before using OATH/TOTP on your YubiKey, complete the **minimum setup** guide:
+👉 **[https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/README.md](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/README.md)**
 
-**Warning 3:** 
-CLEAR YOUR HISTORY AFTER ALL THIS STEPS!
+### ⚠️ Warning 3
+
+After you finish all steps:
+👉 **Clear your terminal and shell history!**
 
 ---
 
+# 1. Check Your OATH Configuration
 
-
----
-
-## 1. Check Your OATH Configuration
-
-Use the command below to inspect the status of your YubiKey’s OATH applet:
+Run:
 
 ```bash
 ykman oath info
@@ -41,13 +50,14 @@ Example output:
 OATH version:        5.7.4
 Password protection: disabled
 ```
-I recomend you will enable a password protection so if password protection is **disabled**, i would recomend to continue to the next step Enable OATH Password Protection
+
+If password protection is **disabled**, continue to the next step.
 
 ---
 
-## 2. Enable OATH Password Protection
+# 2. Enable OATH Password Protection
 
-This encrypts all your TOTP secrets stored on the YubiKey.
+This encrypts all TOTP secrets stored on the YubiKey.
 
 Run:
 
@@ -55,14 +65,14 @@ Run:
 ykman oath access change
 ```
 
-You will be prompted:
+You will be asked:
 
 ```
 Enter the new password:
 Repeat for confirmation:
 ```
 
-Check again:
+Verify:
 
 ```bash
 ykman oath info
@@ -77,12 +87,11 @@ Password protection: enabled
 
 ---
 
-## 3. Add a TOTP Credential
+# 3. Add a TOTP Credential
 
-There are multiple ways to add a TOTP entry to your YubiKey.
-Below are some examples using the **correct ykman 5.x syntax**.
+These examples use the **correct ykman 5.x syntax**.
 
-### Example 1 — Generic TOTP Account
+### Example 1 — Generic TOTP Entry
 
 ```bash
 ykman oath accounts add --touch --digits 6 --period 30 "appName:username" ABCDAOFKRNGKALWD
@@ -94,42 +103,45 @@ ykman oath accounts add --touch --digits 6 --period 30 "appName:username" ABCDAO
 ykman oath accounts add --touch --digits 6 --period 30 "gitHub:myusername" ABCDAOFKRNGKALWD
 ```
 
-> **Note:**
-> The last argument (`ABCDAOFKRNGKALWD`) is your **Base32 TOTP secret**.
+> The final argument (`ABCDAOFKRNGKALWD`) is the **Base32 TOTP secret**.
 
 ---
 
-## 4. Generate TOTP Codes
+# 4. Generate TOTP Codes
 
-To list all current codes:
+List all codes:
 
 ```bash
 ykman oath accounts code
 ```
 
-To get a code for one specific account:
+Get one specific code:
 
 ```bash
 ykman oath accounts code "gitHub:myusername"
 ```
 
+Or a short version:
+
 ```bash
-# or in short is also possible
 ykman oath accounts code github
 ```
 
+---
 
-## 5. advanced cli 
+# 5. Advanced CLI Tricks
 
-### Copy paste
-You can directly copy/past it to memory and paste your otp with control+v
+## Copy TOTP code directly to clipboard
 
 ```bash
 ykman oath accounts code zimbra:italiaan | awk '{print $2}' | xclip -selection c
 ```
 
-### Make a reusable function
-you can add this to your .bashrc or .zshrc and you have a nice function that allows you to directly copy paste
+---
+
+## Create a custom `totp()` shell function
+
+Add to your `.bashrc` or `.zshrc`:
 
 ```bash
 # example one
@@ -139,16 +151,20 @@ totp() {
 }
 ```
 
+### Example 2 — Specific account function
+
 ```bash
-#example two 
-token-github()
+token-github() {
     ykman oath accounts code "gitHub:myusername" | awk '{print $2}' | xclip -selection c
     echo "Copied TOTP for gitHub to clipboard."
 }
 ```
 
-## 6. Make a menu
-This is a small script that reads the yubikey otp tokens, and you can select them and autmaticly have them copied to your clipboard
+---
+
+# 6. Create a Rofi Menu for TOTP
+
+This script lists your YubiKey OATH accounts in **rofi**, lets you pick one, and copies the code automatically.
 
 ```bash
 #!/usr/bin/env bash
@@ -177,8 +193,6 @@ if [ -z "${selection:-}" ]; then
 fi
 
 # Generate code for selected account
-# `ykman oath accounts code "<name>"` outputs something like:
-#   AccountName  123456
 code_line=$(ykman oath accounts code "$selection")
 
 # Extract the TOTP code (second field)
@@ -190,5 +204,4 @@ printf '%s' "$code" | xclip -selection c
 # Optional notification
 notify-send "YubiKey TOTP" "Code for '$selection' copied to clipboard." || true
 ```
-
 
