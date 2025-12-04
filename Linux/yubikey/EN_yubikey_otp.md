@@ -1,4 +1,20 @@
-# YubiKey OATH / TOTP — Quick Setup Guide
+# YubiKey OATH / TOTP
+About This Guide
+This is a **small guide on how to copy your existing TOTP secrets into your YubiKey**.
+
+**Warning:**
+Use this method **only if you fully understand what you are doing**.
+TOTP secrets are extremely sensitive. If someone gets your secret, they can generate your codes.
+
+The purpose of this guide is to allow you to:
+* create **multiple YubiKeys** using the **same TOTP tokens**, or
+* store the **same token** both on multiple YubiKeys *and/or* in an authenticator app
+
+Instead of generating new tokens for each device, this approach lets you **duplicate one TOTP secret** safely across several devices.
+
+Use with caution.
+
+---
 
 Before creating TOTP codes on your YubiKey, make sure you have completed the **minimum required setup**.
 (You can find that guide [**here**](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/README.md).)
