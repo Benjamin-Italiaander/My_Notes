@@ -37,8 +37,7 @@ Example output:
 OATH version:        5.7.4
 Password protection: disabled
 ```
-
-If password protection is **disabled**, continue to the next step.
+I recomend you will enable a password protection so if password protection is **disabled**, i would recomend to continue to the next step.
 
 ---
 
