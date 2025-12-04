@@ -122,7 +122,7 @@ ykman piv access change-management-key --protect --generate
 ```
 
 > **SAVE your management key and PUK somewhere safe.**  
-> I made a QR code from it and stored it offline.
+> I made a QR code from it and stored it offline. I have a instruction [here](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/cli/qrcode.md) about how to generate a qr-code in you cli
 
 ---
 
