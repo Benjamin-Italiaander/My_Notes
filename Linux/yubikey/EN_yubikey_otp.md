@@ -14,10 +14,12 @@ Instead of generating new tokens for each device, this approach lets you **dupli
 
 Use with caution.
 
+**Warning 2:**
+Before creating TOTP codes on your YubiKey, make sure you have completed the **minimum required setup**. (You can find that guide [**here**](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/README.md).)
+
 ---
 
-Before creating TOTP codes on your YubiKey, make sure you have completed the **minimum required setup**.
-(You can find that guide [**here**](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/README.md).)
+
 
 ---
 
