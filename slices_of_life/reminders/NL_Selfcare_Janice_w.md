@@ -46,6 +46,3 @@
 * [ ] Heb ik vandaag één kleine vriendelijke actie voor mezelf gedaan?
 * [ ] Heb ik mezelf niet gekleineerd of streng benaderd?
 * [ ] Heb ik mezelf behandeld zoals ik een vriend(in) zou behandelen?
-
-
-Wat wil je?
