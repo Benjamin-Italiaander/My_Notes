@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta charset="utf-8">
+  <title>EN Yubikey install ykman</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+  <link rel="stylesheet" href="../../../style.css" />
+  </head>
+<body>
+    <nav class="breadcrumbs"><a href="../../../index.html">Home</a> › <a href="../../index.html">Linux</a> › <a href="../index.html">Yubikey</a> › EN yubikey install ykman</nav>
+  
+  <main>
+    <h2 id="installing-the-latest-ykman-advanced-methods">🔧 Installing
+    the Latest <code>ykman</code> (Advanced Methods)</h2>
+    <p>For advanced users, there are several ways to install the
+    <strong>latest development version</strong> of YubiKey Manager
+    (<code>ykman</code>) directly from source. Choose the method that
+    best fits your workflow.</p>
+    <hr />
+    <h1
+    id="install-ykman-in-a-python-virtual-environment-recommended">1. 📦
+    Install <code>ykman</code> in a Python Virtual Environment
+    (Recommended)</h1>
+    <p>This keeps the installation <strong>isolated</strong> from your
+    system Python and avoids conflicts.</p>
+    <h3 id="clone-the-repository">1. Clone the repository</h3>
+    <div class="sourceCode" id="cb1"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/Yubico/yubikey-manager.git</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> yubikey-manager</span></code></pre></div>
+    <h3 id="create-and-activate-a-virtual-environment">2. Create and
+    activate a virtual environment</h3>
+    <div class="sourceCode" id="cb2"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> <span class="at">-m</span> venv .venv</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="bu">source</span> .venv/bin/activate</span></code></pre></div>
+    <h3 id="install-ykman-inside-the-venv">3. Install <code>ykman</code>
+    inside the venv</h3>
+    <div class="sourceCode" id="cb3"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install .</span></code></pre></div>
+    <h3 id="test-it">4. Test it</h3>
+    <div class="sourceCode" id="cb4"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">ykman</span> <span class="at">-v</span></span></code></pre></div>
+    <blockquote>
+    <p><strong>Tip:</strong> To use <code>ykman</code> outside the
+    directory, add <code>.venv/bin</code> to your PATH or call it with
+    the full path:</p>
+    <pre><code>~/.venv/bin/ykman</code></pre>
+    </blockquote>
+    <hr />
+    <h1 id="system-wide-installation-using-pip">2. 🌍 System-Wide
+    Installation (using pip)</h1>
+    <p>This installs <code>ykman</code> <strong>directly into your
+    system Python</strong>, replacing the distribution package.</p>
+    <p>⚠️ <strong>Warning:</strong> This can conflict with distro
+    packages. Use only if you know what you’re doing.</p>
+    <h3 id="commands">Commands</h3>
+    <div class="sourceCode" id="cb6"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/Yubico/yubikey-manager.git</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> yubikey-manager</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install ./ <span class="at">--break-system-packages</span></span></code></pre></div>
+    <h3 id="verify">Verify</h3>
+    <div class="sourceCode" id="cb7"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">ykman</span> <span class="at">-v</span></span></code></pre></div>
+    <hr />
+    <h1 id="install-ykman-using-pipx-clean-isolated">3. 🧪 Install
+    <code>ykman</code> Using <code>pipx</code> (Clean &amp;
+    Isolated)</h1>
+    <p><code>pipx</code> installs Python tools in a <strong>sandboxed
+    environment</strong>, system-wide but isolated from other packages.
+    This is an excellent method for command-line tools.</p>
+    <h3 id="install-pipx-if-needed">1. Install pipx (if needed)</h3>
+    <div class="sourceCode" id="cb8"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install pipx</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="ex">pipx</span> ensurepath</span></code></pre></div>
+    <p>Or manually:</p>
+    <div class="sourceCode" id="cb9"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> <span class="at">-m</span> pip install <span class="at">--user</span> pipx</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> <span class="at">-m</span> pipx ensurepath</span></code></pre></div>
+    <h3 id="clone-the-repository-1">2. Clone the repository</h3>
+    <div class="sourceCode" id="cb10"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/Yubico/yubikey-manager.git</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> yubikey-manager</span></code></pre></div>
+    <h3 id="install-via-pipx">3. Install via pipx</h3>
+    <div class="sourceCode" id="cb11"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pipx</span> install .</span></code></pre></div>
+    <h3 id="test">4. Test</h3>
+    <div class="sourceCode" id="cb12"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="ex">ykman</span> <span class="at">-v</span></span></code></pre></div>
+    <blockquote>
+    <p><strong>Tip:</strong> To update later:</p>
+    <div class="sourceCode" id="cb13"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pipx</span> upgrade yubikey-manager</span></code></pre></div>
+    </blockquote>
+    <hr />
+    <h1 id="summary-of-installation-methods">✔️ Summary of Installation
+    Methods</h1>
+    <table>
+    <colgroup>
+    <col style="width: 32%" />
+    <col style="width: 10%" />
+    <col style="width: 27%" />
+    <col style="width: 11%" />
+    <col style="width: 17%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Method</th>
+    <th>Isolation</th>
+    <th>System Impact</th>
+    <th>Difficulty</th>
+    <th>Recommended For</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><strong>Virtual Environment</strong></td>
+    <td>High</td>
+    <td>None</td>
+    <td>Easy</td>
+    <td>Most users</td>
+    </tr>
+    <tr class="even">
+    <td><strong>System-Wide pip Install</strong></td>
+    <td>Low</td>
+    <td>Overwrites system files</td>
+    <td>Medium</td>
+    <td>Experts only</td>
+    </tr>
+    <tr class="odd">
+    <td><strong>pipx Install</strong></td>
+    <td>High</td>
+    <td>None</td>
+    <td>Easy</td>
+    <td>CLI tool users</td>
+    </tr>
+    </tbody>
+    </table>
+  </main>
+
+  
+  <footer>
+          <p class="render-date">
+        Website last rendered on <time datetime="2026 February 01">2026
+February 01</time> with <a href="https://pandoc.org/">Pandoc</a> 
+      </p>
+      <p>have a look at Benjamin Italiaander his <a href="https://github.com/Benjamin-Italiaander/peronal-links/wiki"> Personal Links</a></p>
+      </footer>
+</body>
+</html>
