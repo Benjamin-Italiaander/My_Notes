@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-OUT_ROOT=./
+./cleanup.sh
+
+OUT_ROOT=.
 VARS_ROOT=./_vars
 
 TEMPLATE='./template.html'
@@ -93,13 +95,24 @@ while IFS= read -r -d '' vf; do
     fi
   fi
 
-  # Output dir mirrors md path but under _site and WITHOUT ../
-  md_clean="${md#./../}"               # strip leading ../
-  md_clean="${md_clean#../}"           # strip leading ../ if present
-  echo $md_clean
-  out_dir="$OUT_ROOT/${md_clean%.md}"
-  echo $out_dir
-  out_html="$out_dir/index.html"
+
+
+  md_clean="${md#./../}"
+  md_clean="${md_clean#../}"
+  echo "md_clean - $md_clean"
+
+  if [[ "$(basename "$md_clean")" == "README.md" ]]; then
+	  parent_dir="$(dirname "$md_clean")"      
+	  out_dir="$OUT_ROOT/$parent_dir"
+	  out_html="$out_dir/index.html"
+	  echo "if  = $out_dir"
+  else
+	  out_dir="$OUT_ROOT/${md_clean%.md}"          # e.g. ./_site/Linux/foo
+	  out_html="$out_dir/index.html"
+	  echo "else  = $out_dir"
+  fi
+
+  
 
   mkdir -p "$out_dir"
 
@@ -134,6 +147,10 @@ echo "Build script:          $BUILD_SCRIPT"
 echo 'cp ./../slices_of_life/README.md ./index.md' >> ./build_md2html.sh 
 echo './site-index.sh' >> ./build_md2html.sh
 echo 'md2html  ./index.md ./index.html  "Benjamin Italiaander" ./template.html ./style.css . ' >> ./build_md2html.sh
+
+rm -rf ./slices_of_life/art_i_enjoy/README/
+rm -rf ./slices_of_life/art_i_enjoy/takamizawa_mokuhansha/README/
+rm -rf ./slices_of_life/art_i_enjoy/Wood_Block_Printing_Uchinda/README/
 
 cat  build-site.sh_cat > ./build-site.sh
 cat build_md2html.sh >> ./build-site.sh
