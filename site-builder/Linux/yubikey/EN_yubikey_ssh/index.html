@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta charset="utf-8">
+  <title>EN Yubikey use ssh with yubikey</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+  <link rel="stylesheet" href="../../../style.css" />
+  </head>
+<body>
+    <nav class="breadcrumbs"><a href="../../../index.html">Home</a> › <a href="../../index.html">Linux</a> › <a href="../index.html">Yubikey</a> › EN yubikey ssh</nav>
+  
+  <main>
+    <h1 id="ssh-with-yubikey-fido2">SSH with YubiKey (FIDO2)</h1>
+    <p><strong>Make sure you do the <a
+    href="https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/index.html">first
+    steps</a> of initiating your YubiKey before you will start using the
+    SSH functionality on your yubikey.</strong></p>
+    <p>There are still two keys generated: your private key and your
+    public key. The private key remains important when using your
+    YubiKey. In fact, the private key functions as a challenge key and
+    works together with your YubiKey.</p>
+    <p>You should never share your private key with anyone. Your public
+    key, on the other hand, can be shared.</p>
+    <p>REMEMBER! <strong>Never use SSH agent forwarding with your
+    YubiKey or ssh -a — or better, don’t use it at all.</strong></p>
+    <p>It is <strong>not</strong> possible to copy an SSH private key
+    <em>into</em> a YubiKey.<br />
+    Instead, your YubiKey can <strong>generate and store</strong> the
+    private key internally.</p>
+    <p>You <strong>cannot extract</strong> the private key later — which
+    is the point.</p>
+    <hr />
+    <h2 id="generate-an-ssh-key-on-the-yubikey">Generate an SSH Key on
+    the YubiKey</h2>
+    <p>Generate a key <strong>without passphrase</strong> so just press
+    Enter twice when asked.</p>
+    <p>Use the serial number in your comment:</p>
+    <div class="sourceCode" id="cb1"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh-keygen</span> <span class="at">-t</span> ed25519-sk <span class="at">-O</span> resident <span class="at">-O</span> verify-required <span class="dt">\</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">-f</span> ~/.ssh/yubikey <span class="dt">\</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">-C</span> <span class="st">&quot;Benjamin Yubikey 12345678&quot;</span></span></code></pre></div>
+    <p>Example output:</p>
+    <pre><code>You may need to touch your authenticator to authorize key generation.
+Generating public/private ed25519 key pair.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/benjamin/.ssh/yubikey
+Your public key has been saved in /home/benjamin/.ssh/yubikey.pub
+The key fingerprint is:
+SHA256:hdfjfhsdjfhdjfhdjfhdjfhdjfhdjfhdjfhdjfhdj Benjamin Yubikey 12345678</code></pre>
+    <hr />
+    <h1 id="key-generation-options-explained">Key Generation Options
+    Explained</h1>
+    <table>
+    <colgroup>
+    <col style="width: 50%" />
+    <col style="width: 50%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Option</th>
+    <th>Meaning</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><strong><code>-t ed25519-sk</code></strong></td>
+    <td>FIDO2 security key-backed Ed25519 key.</td>
+    </tr>
+    <tr class="even">
+    <td><strong><code>-O resident</code></strong></td>
+    <td>Stores the private key <strong>inside</strong> the YubiKey
+    (resident credential).</td>
+    </tr>
+    <tr class="odd">
+    <td><strong><code>-O verify-required</code></strong></td>
+    <td>Requires <strong>PIN + touch</strong> on every
+    authentication.</td>
+    </tr>
+    <tr class="even">
+    <td><strong><code>-O application=ssh:&lt;name&gt;</code></strong></td>
+    <td>Optional label for multiple credentials.</td>
+    </tr>
+    <tr class="odd">
+    <td><strong><code>-C "comment"</code></strong></td>
+    <td>Adds a comment to the public key.</td>
+    </tr>
+    </tbody>
+    </table>
+    <h3 id="notes">Notes</h3>
+    <ul>
+    <li><p>Without <code>-O resident</code>, only a <em>key handle</em>
+    is stored on disk — not the private key.</p></li>
+    <li><p>Resident keys require a FIDO2 PIN.</p></li>
+    <li><p>Public keys (<code>*.pub</code>) are used for your servers or
+    GitHub.</p></li>
+    </ul>
+    <hr />
+    <h1 id="fido2-ssh-workflow">FIDO2 SSH Workflow</h1>
+    <p>The key generation process consists of:</p>
+    <ol type="1">
+    <li><p><strong>Touch YubiKey</strong> to confirm key
+    creation.</p></li>
+    <li><p><strong>Enter FIDO2 PIN</strong> for resident keys.</p></li>
+    <li><p><strong>Save location</strong> for the key handle.</p></li>
+    <li><p>Optional: <strong>add a passphrase</strong> for the handle
+    file (not needed if using PIN+touch).</p></li>
+    </ol>
+    <p>The <code>.pub</code> file is the only part you share.</p>
+  </main>
+
+  
+  <footer>
+          <p class="render-date">
+        Website last rendered on <time datetime="2026 February 01">2026
+February 01</time> with <a href="https://pandoc.org/">Pandoc</a> 
+      </p>
+      <p>have a look at Benjamin Italiaander his <a href="https://github.com/Benjamin-Italiaander/peronal-links/wiki"> Personal Links</a></p>
+      </footer>
+</body>
+</html>

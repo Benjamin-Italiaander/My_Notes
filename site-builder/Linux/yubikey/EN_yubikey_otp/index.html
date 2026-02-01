@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta charset="utf-8">
+  <title>EN Yubikey setup OTP from linux cli with yubikey</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+  <link rel="stylesheet" href="../../../style.css" />
+  </head>
+<body>
+    <nav class="breadcrumbs"><a href="../../../index.html">Home</a> › <a href="../../index.html">Linux</a> › <a href="../index.html">Yubikey</a> › EN yubikey otp</nav>
+  
+  <main>
+    <h1 id="yubikey-oath-totp-guide">🔐 YubiKey OATH / TOTP Guide</h1>
+    <h3 id="copying-existing-totp-secrets-into-your-yubikey">Copying
+    Existing TOTP Secrets into Your YubiKey</h3>
+    <hr />
+    <h2 id="about-this-guide">⚠️ About This Guide</h2>
+    <p>This guide explains <strong>how to copy your existing TOTP
+    secrets into your YubiKey</strong>.</p>
+    <h3 id="warning-1">⚠️ Warning 1</h3>
+    <p>Use this method <strong>only if you fully understand what you are
+    doing</strong>. TOTP secrets are <strong>extremely
+    sensitive</strong> — if someone obtains your secret, they can
+    generate your codes.</p>
+    <h3 id="why-do-this">Why do this?</h3>
+    <p>This method allows you to:</p>
+    <ul>
+    <li>create <strong>multiple YubiKeys</strong> containing the
+    <strong>same TOTP tokens</strong>, or</li>
+    <li>store a token on several YubiKeys <em>and/or</em> an
+    authenticator app</li>
+    </ul>
+    <p>Instead of generating new tokens per device, you can
+    <strong>duplicate</strong> a single TOTP secret across several
+    YubiKeys.</p>
+    <p>Use with caution.</p>
+    <h3 id="warning-2">⚠️ Warning 2</h3>
+    <p>Before using OATH/TOTP on your YubiKey, complete the
+    <strong>minimum setup</strong> guide: 👉 <strong><a
+    href="https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/index.html">https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/README.md</a></strong></p>
+    <h3 id="warning-3">⚠️ Warning 3</h3>
+    <p>After you finish all steps: 👉 <strong>Clear your terminal and
+    shell history!</strong></p>
+    <hr />
+    <h1 id="check-your-oath-configuration">1. Check Your OATH
+    Configuration</h1>
+    <p>Run:</p>
+    <div class="sourceCode" id="cb1"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">ykman</span> oath info</span></code></pre></div>
+    <p>Example output:</p>
+    <pre><code>OATH version:        5.7.4
+Password protection: disabled</code></pre>
+    <p>If password protection is <strong>disabled</strong>, continue to
+    the next step.</p>
+    <hr />
+    <h1 id="enable-oath-password-protection">2. Enable OATH Password
+    Protection</h1>
+    <p>This encrypts all TOTP secrets stored on the YubiKey.</p>
+    <p>Run:</p>
+    <div class="sourceCode" id="cb3"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">ykman</span> oath access change</span></code></pre></div>
+    <p>You will be asked:</p>
+    <pre><code>Enter the new password:
+Repeat for confirmation:</code></pre>
+    <p>Verify:</p>
+    <div class="sourceCode" id="cb5"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">ykman</span> oath info</span></code></pre></div>
+    <p>Expected result:</p>
+    <pre><code>OATH version:        5.7.4
+Password protection: enabled</code></pre>
+    <hr />
+    <h1 id="add-a-totp-credential">3. Add a TOTP Credential</h1>
+    <p>These examples use the <strong>correct ykman 5.x
+    syntax</strong>.</p>
+    <h3 id="example-1-generic-totp-entry">Example 1 — Generic TOTP
+    Entry</h3>
+    <div class="sourceCode" id="cb7"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">ykman</span> oath accounts add <span class="at">--touch</span> <span class="at">--digits</span> 6 <span class="at">--period</span> 30 <span class="st">&quot;appName:username&quot;</span> ABCDAOFKRNGKALWD</span></code></pre></div>
+    <h3 id="example-2-github-totp-entry">Example 2 — GitHub TOTP
+    Entry</h3>
+    <div class="sourceCode" id="cb8"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">ykman</span> oath accounts add <span class="at">--touch</span> <span class="at">--digits</span> 6 <span class="at">--period</span> 30 <span class="st">&quot;gitHub:myusername&quot;</span> ABCDAOFKRNGKALWD</span></code></pre></div>
+    <blockquote>
+    <p>The final argument (<code>ABCDAOFKRNGKALWD</code>) is the
+    <strong>Base32 TOTP secret</strong>.</p>
+    </blockquote>
+    <hr />
+    <h1 id="generate-totp-codes">4. Generate TOTP Codes</h1>
+    <p>List all codes:</p>
+    <div class="sourceCode" id="cb9"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">ykman</span> oath accounts code</span></code></pre></div>
+    <p>Get one specific code:</p>
+    <div class="sourceCode" id="cb10"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="ex">ykman</span> oath accounts code <span class="st">&quot;gitHub:myusername&quot;</span></span></code></pre></div>
+    <p>Or a short version:</p>
+    <div class="sourceCode" id="cb11"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="ex">ykman</span> oath accounts code github</span></code></pre></div>
+    <hr />
+    <h1 id="advanced-cli-tricks">5. Advanced CLI Tricks</h1>
+    <h2 id="copy-totp-code-directly-to-clipboard">Copy TOTP code
+    directly to clipboard</h2>
+    <div class="sourceCode" id="cb12"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="ex">ykman</span> oath accounts code zimbra:italiaan <span class="kw">|</span> <span class="fu">awk</span> <span class="st">&#39;{print $2}&#39;</span> <span class="kw">|</span> <span class="ex">xclip</span> <span class="at">-selection</span> c</span></code></pre></div>
+    <hr />
+    <h2 id="create-a-custom-totp-shell-function">Create a custom
+    <code>totp()</code> shell function</h2>
+    <p>Add to your <code>.bashrc</code> or <code>.zshrc</code>:</p>
+    <div class="sourceCode" id="cb13"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># example one</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="fu">totp()</span> <span class="kw">{</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>    <span class="ex">ykman</span> oath accounts code <span class="st">&quot;</span><span class="va">$1</span><span class="st">&quot;</span> <span class="kw">|</span> <span class="fu">awk</span> <span class="st">&#39;{print $2}&#39;</span> <span class="kw">|</span> <span class="ex">xclip</span> <span class="at">-selection</span> c</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>    <span class="bu">echo</span> <span class="st">&quot;Copied TOTP for </span><span class="va">$1</span><span class="st"> to clipboard.&quot;</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="kw">}</span></span></code></pre></div>
+    <h3 id="example-2-specific-account-function">Example 2 — Specific
+    account function</h3>
+    <div class="sourceCode" id="cb14"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">token-github()</span> <span class="kw">{</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>    <span class="ex">ykman</span> oath accounts code <span class="st">&quot;gitHub:myusername&quot;</span> <span class="kw">|</span> <span class="fu">awk</span> <span class="st">&#39;{print $2}&#39;</span> <span class="kw">|</span> <span class="ex">xclip</span> <span class="at">-selection</span> c</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">echo</span> <span class="st">&quot;Copied TOTP for gitHub to clipboard.&quot;</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="kw">}</span></span></code></pre></div>
+    <hr />
+    <h1 id="create-a-rofi-menu-for-totp">6. Create a Rofi Menu for
+    TOTP</h1>
+    <p>This script lists your YubiKey OATH accounts in
+    <strong>rofi</strong>, lets you pick one, and copies the code
+    automatically.</p>
+    <div class="sourceCode" id="cb15"><pre
+    class="sourceCode bash"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/usr/bin/env bash</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="bu">set</span> <span class="at">-euo</span> pipefail</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Dependencies:</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="co">#  - ykman (YubiKey Manager CLI)</span></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="co">#  - rofi</span></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="co">#  - xclip</span></span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a><span class="co">#  - notify-send (optional, from libnotify-bin)</span></span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Get list of OATH accounts from the YubiKey</span></span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a><span class="va">accounts</span><span class="op">=</span><span class="va">$(</span><span class="ex">ykman</span> oath accounts list <span class="kw">||</span> <span class="fu">true</span><span class="va">)</span></span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="bu">[</span> <span class="ot">-z</span> <span class="st">&quot;</span><span class="va">$accounts</span><span class="st">&quot;</span> <span class="bu">]</span><span class="kw">;</span> <span class="cf">then</span></span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>    <span class="ex">notify-send</span> <span class="st">&quot;YubiKey TOTP&quot;</span> <span class="st">&quot;No OATH accounts found (or YubiKey not inserted).&quot;</span> <span class="kw">||</span> <span class="fu">true</span></span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>    <span class="bu">exit</span> 1</span>
+<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a><span class="cf">fi</span></span>
+<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Choose account via rofi</span></span>
+<span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a><span class="va">selection</span><span class="op">=</span><span class="va">$(</span><span class="bu">printf</span> <span class="st">&#39;%s\n&#39;</span> <span class="st">&quot;</span><span class="va">$accounts</span><span class="st">&quot;</span> <span class="kw">|</span> <span class="ex">rofi</span> <span class="at">-dmenu</span> <span class="at">-p</span> <span class="st">&quot;YubiKey TOTP&quot;</span><span class="va">)</span></span>
+<span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-21"><a href="#cb15-21" aria-hidden="true" tabindex="-1"></a><span class="co"># If user cancelled rofi</span></span>
+<span id="cb15-22"><a href="#cb15-22" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="bu">[</span> <span class="ot">-z</span> <span class="st">&quot;</span><span class="va">${selection</span><span class="op">:-</span><span class="va">}</span><span class="st">&quot;</span> <span class="bu">]</span><span class="kw">;</span> <span class="cf">then</span></span>
+<span id="cb15-23"><a href="#cb15-23" aria-hidden="true" tabindex="-1"></a>    <span class="bu">exit</span> 0</span>
+<span id="cb15-24"><a href="#cb15-24" aria-hidden="true" tabindex="-1"></a><span class="cf">fi</span></span>
+<span id="cb15-25"><a href="#cb15-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-26"><a href="#cb15-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate code for selected account</span></span>
+<span id="cb15-27"><a href="#cb15-27" aria-hidden="true" tabindex="-1"></a><span class="va">code_line</span><span class="op">=</span><span class="va">$(</span><span class="ex">ykman</span> oath accounts code <span class="st">&quot;</span><span class="va">$selection</span><span class="st">&quot;</span><span class="va">)</span></span>
+<span id="cb15-28"><a href="#cb15-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-29"><a href="#cb15-29" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract the TOTP code (second field)</span></span>
+<span id="cb15-30"><a href="#cb15-30" aria-hidden="true" tabindex="-1"></a><span class="va">code</span><span class="op">=</span><span class="va">$(</span><span class="bu">printf</span> <span class="st">&#39;%s\n&#39;</span> <span class="st">&quot;</span><span class="va">$code_line</span><span class="st">&quot;</span> <span class="kw">|</span> <span class="fu">awk</span> <span class="st">&#39;{print $NF}&#39;</span><span class="va">)</span></span>
+<span id="cb15-31"><a href="#cb15-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-32"><a href="#cb15-32" aria-hidden="true" tabindex="-1"></a><span class="co"># Copy to clipboard</span></span>
+<span id="cb15-33"><a href="#cb15-33" aria-hidden="true" tabindex="-1"></a><span class="bu">printf</span> <span class="st">&#39;%s&#39;</span> <span class="st">&quot;</span><span class="va">$code</span><span class="st">&quot;</span> <span class="kw">|</span> <span class="ex">xclip</span> <span class="at">-selection</span> c</span>
+<span id="cb15-34"><a href="#cb15-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-35"><a href="#cb15-35" aria-hidden="true" tabindex="-1"></a><span class="co"># Optional notification</span></span>
+<span id="cb15-36"><a href="#cb15-36" aria-hidden="true" tabindex="-1"></a><span class="ex">notify-send</span> <span class="st">&quot;YubiKey TOTP&quot;</span> <span class="st">&quot;Code for &#39;</span><span class="va">$selection</span><span class="st">&#39; copied to clipboard.&quot;</span> <span class="kw">||</span> <span class="fu">true</span></span></code></pre></div>
+  </main>
+
+  
+  <footer>
+          <p class="render-date">
+        Website last rendered on <time datetime="2026 February 01">2026
+February 01</time> with <a href="https://pandoc.org/">Pandoc</a> 
+      </p>
+      <p>have a look at Benjamin Italiaander his <a href="https://github.com/Benjamin-Italiaander/peronal-links/wiki"> Personal Links</a></p>
+      </footer>
+</body>
+</html>
