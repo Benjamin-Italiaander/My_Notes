@@ -110,9 +110,8 @@ md2html() {
 }
 
 ./cleanup.sh
-
-mkdir ./img
-cp -R ./../slices_of_life/img/ .
+mkdir -p ./slices_of_life/img
+cp -R ./../slices_of_life/img/ ./slices_of_life
 
 # Build my booklist
 mkdir -p ./my_curated_booklist
