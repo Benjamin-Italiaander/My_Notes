@@ -1,4 +1,4 @@
-# De paradox binnen een veilige relatie
+# 1. De paradox binnen een veilige relatie
 
 Volgens Esther Perel is liefde niet hetzelfde als verlangen — en juist in langdurige relaties botsen verbondenheid en spanning vaak met elkaar.
 
@@ -89,13 +89,10 @@ Maar wanneer je denkt:
 Wat triggert jou hier het meest — dat stuk over veiligheid? Of juist over verveling en verlangen?
 
 
+---
+---
 
-
-
-
-
-
-# Overwin dit paradox
+# 2. Overwin dit paradox
 Je overwint de tegenstelling niet door te kiezen voor veiligheid óf verlangen, maar door ze bewust naast elkaar te laten bestaan — met structuur voor verbinding én ruimte voor autonomie.
 
 ---
