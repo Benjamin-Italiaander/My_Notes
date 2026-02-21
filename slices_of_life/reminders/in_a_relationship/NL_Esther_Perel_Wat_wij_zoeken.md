@@ -1,4 +1,4 @@
-# De contradictie binnen een veilige relatie
+# De paradox binnen een veilige relatie
 
 Volgens Esther Perel is liefde niet hetzelfde als verlangen — en juist in langdurige relaties botsen verbondenheid en spanning vaak met elkaar.
 
