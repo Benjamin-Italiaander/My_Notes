@@ -10,7 +10,7 @@ date: 2011
 
 -- I Like Linux for some reason --
 
-
+Dont forget to have a look at [kitty](https://github.com/kovidgoyal/kitty) 
 
 
 
