@@ -1,7 +1,7 @@
 # Murphyologische principes
 De wet van Murphy is de nadere uitwerking van en het logische vervolg op de algemene entropieleer 
 
-Entropieleer gaat over het universum sowieso al richting chaos beweegt waardoor dingen dus ook vanzelf mis gaan. entropieleer is alles dat beweegt richting chaos. 
+Entropieleer gaat over het universum dat sowieso al richting chaos beweegt waardoor dingen dus ook vanzelf mis gaan. entropieleer is alles dat beweegt richting chaos. 
 - Je kamer wordt vanzelf rommelig, maar hij wordt nooit vanzelf netjes.
 - Warme koffie wordt vanzelf koud, maar koude koffie wordt niet vanzelf warm.
 - Een ijsblokje smelt vanzelf, maar smeltwater vormt niet spontaan weer een ijsblokje.
