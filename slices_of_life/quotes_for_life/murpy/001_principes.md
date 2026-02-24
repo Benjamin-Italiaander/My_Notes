@@ -1,13 +1,15 @@
 # Murphyologische principes
-De wet van Murphy is de nadere uitwerking van en het logische vervolg op de algemene entropieleer, volgens welke alle deeltjes van het universum ernaar streven zich zo wanordelijk mogelijk te ordenen. 
-Het inzicht dat genoemde deeltjes al doende minstens één keer op je tenen vallen, leidde tot
+De wet van Murphy is de nadere uitwerking van en het logische vervolg op de algemene entropieleer 
+
+Entropieleer gaat over het universum sowieso al richting chaos beweegt waardoor dingen dus ook vanzelf mis gaan. entropieleer is alles dat beweegt richting chaos. 
+- Je kamer wordt vanzelf rommelig, maar hij wordt nooit vanzelf netjes.
+- Warme koffie wordt vanzelf koud, maar koude koffie wordt niet vanzelf warm.
+- Een ijsblokje smelt vanzelf, maar smeltwater vormt niet spontaan weer een ijsblokje.
 
 ## De wet van Murphy
-
 Wanneer iets mis kán gaan, gáát het ook mis.
 Met de uitvinding van de computer probeerde de mens voor het eerst levenloze materie een zekere mate van intelligentie mee te geven. Een fatale beslissing. 
-Immers, tot op de dag van vandaag zijn computers weliswaar intelligent noch creatief, maar achterbaksheid, geniepigheid en sluwheid zijn al optimaal ontwikkeld. 
-Daarom kunnen we de wet van Murphy uitbreiden met de
+Daarom kunnen we de wet van Murphy uitbreiden met:
 
 ---
 
