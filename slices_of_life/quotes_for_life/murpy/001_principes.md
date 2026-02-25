@@ -1,5 +1,5 @@
 # Murphyologische principes
-De wet van Murphy is de nadere uitwerking van en het logische vervolg op de algemene entropieleer 
+De wet van Murphy is de nadere uitwerking van en het logische vervolg op de algemene entropieleer.
 
 Entropieleer is alles dat beweegt richting chaos, het gaat over het universum dat sowieso al richting chaos beweegt waardoor dingen dus ook vanzelf mis gaan. 
 - Je kamer wordt vanzelf rommelig, maar hij wordt nooit vanzelf netjes.
@@ -9,20 +9,20 @@ Entropieleer is alles dat beweegt richting chaos, het gaat over het universum da
 ## De wet van Murphy
 Wanneer iets mis kán gaan, gáát het ook mis.
 Met de uitvinding van de computer probeerde de mens voor het eerst levenloze materie een zekere mate van intelligentie mee te geven. Een fatale beslissing. 
-Daarom kunnen we de wet van Murphy uitbreiden met:
+Sinds de introductie van de computer kunnen wij de wet van Murphy uitbreiden met de volgende digitale afleidingen:
 
 ---
 
-## Eerste digitale afleiding
-De wet van Murphy wordt door de computer geoptimaliseerd. Echter, aangezien moderne computers verschillende dingen tegelijk kunnen, volgt naadloos de
+##  Digitale afleiding 1
+De wet van Murphy wordt door de computer geoptimaliseerd. Echter, aangezien moderne computers verschillende dingen tegelijk kunnen, volgt naadloos de tweede digitale afleiding:
 
-## Tweede digitale afleiding
+## Digitale afleiding 2
 Alles gaat op hetzelfde moment mis.
-Met de uitvinding van checksums, correctie- en backup-programma’s en fouttolerante systemen krijgt de stomverbaasde, tot object gedegradeerde mens toegang tot de veelzijdige wereld van de informatica via de
+Met de uitvinding van checksums, correctie- en backup-programma’s en fouttolerante systemen krijgt de mens toegang tot de veelzijdige wereld van de informatica via de derde digitale afleiding:
 
-## Derde digitale afleiding
+## Digitale afleiding 3
 Het gaat ook mis wanneer het eigenlijk niet mis kán gaan.
-Puttend uit de rijke ervaring van gebruikers, programmeurs, ontwikkelaars en andere arme donders kunnen we nu de wet van Murphy en haar digitale afleidingen toepassen op de elektronische wereld van alledag.
+Puttend uit de ervaringen van de afgelopen decennia en die van gebruikers, programmeurs en ontwikkelaars kunnen we nu de wet van Murphy en haar digitale afleidingen toepassen op de elektronische wereld van alledag.
 
 ---
 
@@ -30,7 +30,7 @@ Puttend uit de rijke ervaring van gebruikers, programmeurs, ontwikkelaars en and
 Bij computers is niets ondenkbaar, laat staan onmogelijk — behalve het wenselijke.
 
 ## Tweede elektronische toepassing van de wet van Murphy
-In de wereld van de informatica gaan storingen niet over, maar gaan, elkaar overlappend, in elkaar over.
+In de wereld van de informatica gaan storingen niet over, maar gaan in elkaar over.
 
 ## Derde elektronische toepassing van de wet van Murphy
 Computerstoringen wachten geduldig op het ongelukkigste moment en slaan dan meedogenloos toe.
