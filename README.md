@@ -1,7 +1,6 @@
 +++
-date = 2023-10-19
-draft = true
-title = Home
+title= "HOME"
+draft= false
 +++
 
 ## 👋 Hi, I’m Benjamin
