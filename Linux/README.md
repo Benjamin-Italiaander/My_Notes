@@ -7,12 +7,4 @@ author: 'benjamin-italiaander'
 date: 2011
 
 ---
-
--- I Like Linux for some reason --
-
-Dont forget to have a look at [kitty](https://github.com/kovidgoyal/kitty) 
-
-
-
-- [Displaying Outgoing TCP Connections in the Linux Terminal](https://raw.githubusercontent.com/Benjamin-Italiaander/My_Notes/refs/heads/main/Linux/cli/outgoing_connections.md)
-- [Convert cli output into a qr code in the Linux Terminal](https://raw.githubusercontent.com/Benjamin-Italiaander/My_Notes/refs/heads/main/Linux/cli/qrcode.md)
+A collection of notes from the small Linux projects I build and experiment with. Feel free to look around.
