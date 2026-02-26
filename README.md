@@ -4,11 +4,6 @@ draft = true
 title = Home
 +++
 
----
-title: "Benjamin Italiaander"
-description: "Linux system engineer & open-source advocate. I help orgs keep ownership and control over their data with open-source tooling."
----
-
 ## 👋 Hi, I’m Benjamin
 
 Not just an open-source fan — a self-proclaimed advocate of open source.
