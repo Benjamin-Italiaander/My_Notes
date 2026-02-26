@@ -1,9 +1,7 @@
----
-
-title= "HOME"
-draft= false
-
----
++++
+date = 2020-10-19
+title = 'HOME'
++++
 
 ## 👋 Hi, I’m Benjamin
 
