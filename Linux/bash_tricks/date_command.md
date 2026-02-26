@@ -1,3 +1,13 @@
+---
+
+title: "Date command in bash"
+draft: false
+date: 2020
+
+---
+
+
+
 # Just a small example of the date command
 
 Show the weekday in number, always handy to know, small examples of the date command
