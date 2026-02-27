@@ -1,3 +1,14 @@
+---
+
+title: "YubiKey install ykman from git"
+draft: false
+date: 2020
+description: "Installing the Latest ykman Advanced Methods"
+
+---
+
+
+
 ## 🔧 Installing the Latest `ykman` (Advanced Methods)
 
 For advanced users, there are several ways to install the **latest development version** of YubiKey Manager (`ykman`) directly from source.
