@@ -1,3 +1,13 @@
+---
+date: 2025-09-01T12:30:21+01:00
+title: "Takamizawa Mokuhansha and the Art of Japanese Lithography"
+draft: false
+description: "Discovering Takamizawa Mokuhansha and the Art of Japanese Lithography"
+
+
+
+---
+
 # Discovering Takamizawa Mokuhansha and the Art of Japanese Lithography
 
 During my search for *Takamizawa Mokuhansha*, a Japanese wood-block print publisher, I came across the website of **George C. Baxley**, who shared some wonderful images showing how lithographs and wood-block prints are made.  
