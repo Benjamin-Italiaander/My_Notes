@@ -1,3 +1,13 @@
+---
+
+title: "YubiKey SSH Guide"
+draft: false
+date: 2020
+description: "This guide explains how use SSH with your YubiKey."
+
+---
+
+
 # SSH with YubiKey (FIDO2)
 **Make sure you do the [first steps](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/README.md) of initiating your YubiKey before you will start using the SSH functionality on your yubikey.**
 
