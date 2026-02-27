@@ -1,3 +1,15 @@
+---
+
+title: "Echkart Tolle Basis principes Bewustzijn"
+draft: false
+date: 2018-07-23
+description: "Books and analitics of books"
+
+---
+
+
+
+
 # 🌿 Basisprincipes in de boeken van Eckhart Tolle
 De kern van Eckhart Tolle’s werk draait om bewustzijn, aanwezigheid en innerlijke vrijheid.
 Onderstaande principes vormen de ruggengraat van al zijn boeken.
