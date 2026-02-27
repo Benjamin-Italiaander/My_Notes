@@ -1,3 +1,12 @@
+---
+
+title: "YubiKey OATH / TOTP Guide"
+draft: false
+date: 2020
+description: "This guide explains **how to copy your existing TOTP secrets into your YubiKey**."
+
+---
+
 
 
 # 🔐 YubiKey OATH / TOTP Guide
