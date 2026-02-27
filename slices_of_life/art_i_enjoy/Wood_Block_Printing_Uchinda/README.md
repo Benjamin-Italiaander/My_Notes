@@ -2,7 +2,7 @@
 
 title: "Japanese wood block printing Uchida Co., Kyoto"
 draft: false
-date: 2021
+date: 2025-09-01
 description: "THE OUTLINE OF JAPANESE WOOD BLOCK PRINT"
 
 ---
