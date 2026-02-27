@@ -1,10 +1,9 @@
 ---
+
 date: 2025-09-01T12:30:21+01:00
 title: "Takamizawa Mokuhansha and the Art of Japanese Lithography"
 draft: false
 description: "Discovering Takamizawa Mokuhansha and the Art of Japanese Lithography"
-
-
 
 ---
 
