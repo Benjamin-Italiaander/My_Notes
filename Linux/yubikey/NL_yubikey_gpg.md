@@ -1,3 +1,13 @@
+---
+
+title: "YubiKey GPG Guide"
+draft: false
+date: 2020
+description: "Hoe gebruik je PGP met je YubiKey**."
+
+---
+
+
 Hier is een **duidelijke, complete en professionele uitleg** voor het **instellen van PGP op een YubiKey**.
 Ik houd het overzichtelijk maar technisch correct.
 
