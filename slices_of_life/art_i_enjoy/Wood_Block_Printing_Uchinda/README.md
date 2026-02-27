@@ -1,3 +1,13 @@
+---
+
+title: "Japanise wood block printing Uchida Co., Kyoto"
+draft: false
+date: 2021
+description: "THE OUTLINE OF JAPANESE WOOD BLOCK PRINT"
+---
+
+
+
 # THE OUTLINE OF JAPANESE WOOD BLOCK PRINT
 
 #### Kyoto, Uchida Wood Block Printing Co., LTD, undated but ca 1950
