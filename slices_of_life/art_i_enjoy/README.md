@@ -2,7 +2,7 @@
 
 title: "How i started with my art projects"
 draft: false
-date: 2021
+date: 2025-09-01
 description: "A small introduction to my art hobby's"
 ---
 
