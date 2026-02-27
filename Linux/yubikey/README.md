@@ -1,3 +1,14 @@
+---
+
+title: "YubiKey Get started the safe way"
+draft: false
+date: 2020
+description: "A short Getting Started Using the Linux CLI"
+
+---
+
+
+
 # YubiKey bare minimum
 #### A short Getting Started Using the Linux CLI
 
