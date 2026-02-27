@@ -2,7 +2,7 @@
 
 title: "Date command in bash"
 draft: false
-date: 2020
+date: 2023-02-27T14:12:45+01:00
 
 ---
 
