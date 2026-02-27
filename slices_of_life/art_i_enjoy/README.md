@@ -1,3 +1,12 @@
+---
+
+title: "How i started with my art projects"
+draft: false
+date: 2021
+description: "A small introduction to my art hobby's"
+---
+
+
 ## How It All Started 🌸✨
 
 Under the cheerful influence of my ex-girlfriend **Hannah**, I once bought a piece of Japanese art from an online auction straight from Japan.  
