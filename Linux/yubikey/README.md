@@ -1,8 +1,8 @@
 ---
 
+date: 2025-09-01T12:30:21+01:00
 title: "YubiKey Get started the safe way"
 draft: false
-date: 2020
 description: "A short Getting Started Using the Linux CLI"
 
 ---
@@ -12,7 +12,11 @@ description: "A short Getting Started Using the Linux CLI"
 # YubiKey bare minimum
 #### A short Getting Started Using the Linux CLI
 
+In the following steps i show you what you should at least do with your YubiKey before you stert using it
 
+[test1](NL_yubikey_gpg.md/)
+
+[My Page]({{< ref "NL_yubikey_gpg.md" >}})
 
 
 Step 1 till step 8 are the absolute bare minimum you should complete before you start using your YubiKey.
