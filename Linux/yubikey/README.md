@@ -14,11 +14,9 @@ description: "A short Getting Started Using the Linux CLI"
 
 In the following steps i show you what you should at least do with your YubiKey before you stert using it
 
-[test1](NL_yubikey_gpg.md/)
+1. [Install all dependencies to be able to install ykman](EN_Install_all_dependencies.md)
+2. [Install ykman](EN_install_ykman.md)
 
-[My Page]({{< ref "NL_yubikey_gpg.md" >}})
-
-[My Page]({{< relref "NL_yubikey_gpg.md" >}})
 
 Step 1 till step 8 are the absolute bare minimum you should complete before you start using your YubiKey.
 If you skip these steps, there is nothing truly secure about using your YubiKey.
