@@ -17,7 +17,7 @@ You will need to have the following onboard
 
 
 ```bash
-apt install gnupg2 scdaemon pcscd pipx 
+apt install gnupg2 scdaemon pcscd pip pipx 
 ```
 
 GnuPG — The Universal Crypto Engine
