@@ -20,9 +20,9 @@ You will need to have the following onboard
 apt install gnupg2 scdaemon pcscd pip pipx 
 ```
 
-GnuPG — The Universal Crypto Engine
-scdaemon - Smartcard daemon for the GnuPG system
-pcscd - PC/SC Smart Card Daemon
-pipx - execute binaries from Python packages in isolated environments
+- GnuPG — The Universal Crypto Engine
+- scdaemon - Smartcard daemon for the GnuPG system
+- pcscd - PC/SC Smart Card Daemon
+- pipx - execute binaries from Python packages in isolated environments
 
 
