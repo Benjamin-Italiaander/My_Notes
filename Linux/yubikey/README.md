@@ -18,6 +18,7 @@ In the following steps i show you what you should at least do with your YubiKey 
 
 [My Page]({{< ref "NL_yubikey_gpg.md" >}})
 
+[My Page]({{< relref "NL_yubikey_gpg.md" >}})
 
 Step 1 till step 8 are the absolute bare minimum you should complete before you start using your YubiKey.
 If you skip these steps, there is nothing truly secure about using your YubiKey.
