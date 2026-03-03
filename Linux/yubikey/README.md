@@ -15,7 +15,7 @@ description: "A short Getting Started Using the Linux CLI"
 In the following steps i show you what you should at least do with your YubiKey before you stert using it
 
 1. [Install all dependencies to be able to install ykman](EN_Install_all_dependencies.md)
-2. [Install ykman](EN_install_ykman.md)
+2. [Install ykman](EN_yubikey_install_ykman.md)
 
 
 Step 1 till step 8 are the absolute bare minimum you should complete before you start using your YubiKey.
