@@ -41,17 +41,17 @@ Een eenvoudig en aromatisch linzengerecht met warme Indiase kruiden. Heerlijk me
 
 3. **Linzen toevoegen**
 
-   Voeg de **linzen** toe en giet er **een klein laagje water** bij zodat ze net onder staan.
+   Voeg de **linzen** toe en giet er laag water bij zodat ze goed onder water staan.
 
 4. **Koken**
 
-   Laat de linzen **ongeveer 20 minuten zacht koken**.
-
-5. **Tomaten toevoegen**
+   Laat de linzen **ongeveer 20 minuten zacht koken**. Zorg dat ze niet droog koken voeg eventueel tijdens het koken water toe, de linzen moeten het water opnemen.
+   
+6. **Tomaten toevoegen**
 
    Voeg na **15 minuten** het **tomatenconcentraat** toe en roer goed door.
 
-6. **Serveren**
+7. **Serveren**
 
    Serveer de linzen **warm met rijst**.
 
