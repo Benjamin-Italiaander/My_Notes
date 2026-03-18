@@ -16,7 +16,7 @@ Een eenvoudig en aromatisch linzengerecht met warme Indiase kruiden. Heerlijk me
 ### Overige
 - 1 theelepel **ghee** (of olie)
 - 200–250 g **linzen**
-- 1 eetlepel **tomatenconcentraat**
+- 100-200 g **tomatenconcentraat**
 - Water (genoeg om de linzen net onder te zetten)
 - **Rijst** om erbij te serveren
 
