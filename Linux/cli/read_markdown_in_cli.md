@@ -1,3 +1,7 @@
+---
+title: "Read Markdown In Cli"
+---
+
 # Reading markDown files in the Linux commandline
 
 One handy tool i came across is 

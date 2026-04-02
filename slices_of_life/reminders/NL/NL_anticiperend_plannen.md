@@ -1,3 +1,7 @@
+---
+title: "Nl Anticiperend Plannen"
+---
+
 ## Anticiperend plannen
 
 Wanneer je hoofd overloopt van stressvolle gedachten over hoe mensen zich voelen  

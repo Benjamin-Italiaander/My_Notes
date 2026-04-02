@@ -1,3 +1,7 @@
+---
+title: "Keyboard Not Working On Fujitsu Lifebook On Fedora"
+---
+
 title: "Keyboard not working on Fujitsu Lifebook on Fedora 36"
 author:
   - Benjamin Italiaander

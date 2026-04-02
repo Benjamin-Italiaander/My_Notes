@@ -1,3 +1,7 @@
+---
+title: "Quotations From Jana"
+---
+
 De uitdrukking **“beminnelijke deugd der inschikkelijkheid”** klinkt heel ouderwets en plechtig.
 Hier is wat het betekent in normaal, modern taalgebruik:
 

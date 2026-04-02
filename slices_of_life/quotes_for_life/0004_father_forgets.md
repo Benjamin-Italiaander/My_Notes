@@ -1,3 +1,7 @@
+---
+title: "0004 Father Forgets"
+---
+
 # *Father Forgets*
 
 *Father Forgets* by **W. Livingston Larned** was first published in **1927**. It originally appeared as an editorial in the **People’s Home Journal**, and it quickly became widely reprinted in newspapers, magazines, and anthologies — especially after **Dale Carnegie** featured it in *How to Win Friends and Influence People* (1936).

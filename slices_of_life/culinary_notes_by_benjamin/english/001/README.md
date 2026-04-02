@@ -1,3 +1,7 @@
+---
+title: "001"
+---
+
 # 🌱 Chickpea & Quinoa Power Bowl (Vegan & Protein-Rich)
 
 ![Chickpea Quinoa Bowl](./A_high-resolution_digital_photograph_showcases_a_v.png)

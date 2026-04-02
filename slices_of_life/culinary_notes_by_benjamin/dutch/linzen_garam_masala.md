@@ -1,3 +1,7 @@
+---
+title: "Linzen Garam Masala"
+---
+
 # 🍲 Linzen met Garam Masala
 
 Een eenvoudig en aromatisch linzengerecht met warme Indiase kruiden. Heerlijk met rijst.

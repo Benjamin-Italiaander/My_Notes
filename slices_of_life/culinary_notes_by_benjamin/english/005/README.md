@@ -1,3 +1,7 @@
+---
+title: "005"
+---
+
 # 🥥🌿 Chickpea & Spinach Coconut Curry
 
 ![Chickpea Quinoa Bowl](./../../../img/recipes/chickpea_spinach_coconut_curry_1.png)

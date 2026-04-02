@@ -1,3 +1,7 @@
+---
+title: "Diff"
+---
+
 # show the difference between two files
 
 

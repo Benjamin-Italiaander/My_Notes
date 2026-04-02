@@ -20,9 +20,7 @@ A public/private key pair is pair of mathematically related keys used in asymmet
 
 
 
-::: { .Error #custom-id .other-class } ::::::
 **NEVER SHARE YOUR PRIVATE KEY!** 
-::::::::::::::::::
 
 
 

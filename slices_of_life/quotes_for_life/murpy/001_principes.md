@@ -1,3 +1,7 @@
+---
+title: "001 Principes"
+---
+
 # Murphyologische principes
 De wet van Murphy is de nadere uitwerking van en het logische vervolg op de algemene entropieleer.
 

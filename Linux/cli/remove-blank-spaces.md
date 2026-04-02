@@ -1,3 +1,7 @@
+---
+title: "Remove Blank Spaces"
+---
+
 # Remove blankspace from output
 
 If you have a pattern like this in a file:

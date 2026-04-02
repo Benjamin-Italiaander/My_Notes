@@ -1,3 +1,7 @@
+---
+title: "Copy And Paste In Cli"
+---
+
 # Copying and pasting in the Linux terminal is quite easy with xclip.
 
 ### simple bash command

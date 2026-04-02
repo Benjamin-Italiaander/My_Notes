@@ -1,3 +1,7 @@
+---
+title: "Nl Esther Perel Wat Wij Zoeken"
+---
+
 # 1. De paradox binnen een veilige relatie
 
 Volgens Esther Perel is liefde niet hetzelfde als verlangen — en juist in langdurige relaties botsen verbondenheid en spanning vaak met elkaar.

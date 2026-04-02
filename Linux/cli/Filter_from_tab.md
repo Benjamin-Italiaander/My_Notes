@@ -1,3 +1,7 @@
+---
+title: "Filter From Tab"
+---
+
 # Extracting a Specific Column in Linux CLI  
 
 Sometimes, you may need to extract a specific column (or tab-separated field) from a file in the Linux command line.  

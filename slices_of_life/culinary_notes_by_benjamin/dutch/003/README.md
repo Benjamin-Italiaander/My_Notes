@@ -1,3 +1,7 @@
+---
+title: "003"
+---
+
 # 🍣 Vegan Zoete Aardappel & Avocado Sushirollen
 
 ![Vegan Sushi](sushi_header.png)

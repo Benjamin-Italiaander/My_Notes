@@ -1,3 +1,7 @@
+---
+title: "Nl Sitting In The Mud"
+---
+
 # Vriendschap, Loyaliteit en de Eer om Er Te Zijn
 
 Ik herinner me dat ik ooit tegen een van mijn beste vrienden zei—we waren ergens aan het fietsen, het leven voelde licht, en uit het niets, zonder dat ik wist waarom, keek ik hem aan en zei:

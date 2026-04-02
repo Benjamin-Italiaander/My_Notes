@@ -1,3 +1,7 @@
+---
+title: "Nl Deal With Situations"
+---
+
 # 🌿 De Eckhart Tolle-Formule voor Omgaan met Ongemakkelijke Situaties
 
 Eckhart Tolle beschrijft dat je in elke lastige of ongemakkelijke situatie uiteindelijk drie bewuste keuzes hebt. Deze keuzes brengen rust, helderheid en verantwoordelijkheid terug naar jouzelf.

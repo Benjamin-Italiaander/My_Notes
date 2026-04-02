@@ -1,3 +1,7 @@
+---
+title: "001"
+---
+
 # 🌱 Kikkererwten & Quinoa Power Bowl (Vegan & Eiwitrijk)
 
 ![Kikkererwten Quinoa Bowl](A_high-resolution_digital_photograph_showcases_a_v.png)

@@ -1,3 +1,7 @@
+---
+title: "006"
+---
+
 # Zuurdesembrood
 Voor zuurdesembrood heb je een starter nodig, je kan atlijd een stukje starter van iemand die er een heeft overnemen, een cultuur die al langer bestaat is sterker en makkelijker te onderhouden, maar je kan ook een eigen starter maken, het proces daarvoor heb ik hieronder beknopt uitgelegd:
 

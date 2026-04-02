@@ -1,3 +1,7 @@
+---
+title: "005"
+---
+
 # 🥥🌿 Kikkererwten & Spinazie Kokoscurry
 
 voor 4 personen

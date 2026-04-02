@@ -1,3 +1,7 @@
+---
+title: "Bearos Start Point"
+---
+
 # The first basics of Bareos
 
 ## Main components of Bareos

@@ -1,3 +1,7 @@
+---
+title: "Ssl Certificate Signing Request Best Practices"
+---
+
 # Certificate Signing Request Best Practices Using OpenSSL
 
 A Certificate Signing Request (CSR) can be generated with OpenSSL, during the creation of a CSR you generate two files, A private key (.key file) and a certificate signing request (.csr file)

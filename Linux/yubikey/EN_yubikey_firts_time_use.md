@@ -1,3 +1,7 @@
+---
+title: "En Yubikey Firts Time Use"
+---
+
 # YubiKey bare minimum
 #### A short Getting Started Using the Linux CLI
 

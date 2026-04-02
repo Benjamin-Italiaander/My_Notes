@@ -1,3 +1,7 @@
+---
+title: "Nl Compassion Determination"
+---
+
 # Drie Dingen Die Altijd Helpen
 
 Er zijn drie dingen waarvan ik denk dat ze altijd helpen.

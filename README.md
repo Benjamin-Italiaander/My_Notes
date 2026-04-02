@@ -1,3 +1,7 @@
+---
+title: "My Notes"
+---
+
 ## 👋 Hi, I’m Benjamin
 
 Not just an open-source fan — a self-proclaimed advocate of open source.

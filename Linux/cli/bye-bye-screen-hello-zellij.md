@@ -1,3 +1,7 @@
+---
+title: "Bye Bye Screen Hello Zellij"
+---
+
 # [zellij](https://zellij.dev/) is a great alternative for screen!
 
 ### I just came across a really nice tool zellij as a replacement of the tmux or screen terminal multiplexing applications. I instantly became a fan!

@@ -1,3 +1,7 @@
+---
+title: "0003 Abraham Lincoln"
+---
+
 ## Abraham Lincoln on Understanding Others
 
 **Abraham Lincoln** once said:

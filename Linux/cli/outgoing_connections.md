@@ -1,3 +1,7 @@
+---
+title: "Outgoing Connections"
+---
+
 #How to filter out outgoing connections on the linux cli 
 This is a small example how 
 

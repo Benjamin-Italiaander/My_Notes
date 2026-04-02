@@ -1,3 +1,7 @@
+---
+title: "Find Exclude Hidden Files"
+---
+
 ## Find files and igonre hidden (.*) files
 
 ```bash

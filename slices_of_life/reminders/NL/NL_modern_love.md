@@ -1,3 +1,7 @@
+---
+title: "Nl Modern Love"
+---
+
 # Moderne Liefde en Emotionele Verdediging
 
 Mensen zijn tegenwoordig niet meer in staat om lief te hebben.
