@@ -1,3 +1,7 @@
+---
+title: "Ssl Checks"
+---
+
 ## Regular ssl checks
 Check a Certificate Signing Request (CSR)
 ```bash

@@ -1,3 +1,7 @@
+---
+title: "Imagemagick"
+---
+
 # Using ImageMagick
 
 If you ever need to do some quick image or document conversions, ImageMagick is a command-line tool that can save you a ton of time. Here's a quick guide on how to install it and use it to convert images, PDFs, and more. Perfect for automating repetitive tasks.

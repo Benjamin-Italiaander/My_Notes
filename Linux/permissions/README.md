@@ -1,3 +1,7 @@
+---
+title: "Permissions"
+---
+
 # Here i explain how to chmod and chown from one file to another
 
 ## chmod 

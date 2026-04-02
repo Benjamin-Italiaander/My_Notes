@@ -1,3 +1,7 @@
+---
+title: "Nl Whats Behind The Emotions"
+---
+
 # echte gevoelens versus afweerreacties
 Het verschil tussen **echte gevoelens** versus **afweerreacties** die ontstaan vanuit een oude pijn.
 

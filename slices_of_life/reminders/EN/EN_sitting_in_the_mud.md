@@ -1,3 +1,7 @@
+---
+title: "En Sitting In The Mud"
+---
+
 # Friendship, Loyalty, and Showing Up
 
 And I remember telling one of my close friends, I said, we we were riding bikes somewhere and I just out of the blue, I don't know why it hit me, I I turned to him and I said, you know, you're one of those friends that if I was really in the I would call you.

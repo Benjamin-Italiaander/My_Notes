@@ -1,3 +1,7 @@
+---
+title: "Bash Otp Generator"
+---
+
 # Create an OTP MFA Tool in the Bash Terminal
 
 I was tired of using **Google Authenticator**, so I found a simple way to generate my own **OTP (One-Time Password)** codes directly in **Bash**.  

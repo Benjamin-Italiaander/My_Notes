@@ -1,3 +1,7 @@
+---
+title: "Culinary Notes By Benjamin"
+---
+
 # 📖 Benjamin’s Culinary Logbook
 
 *Welcome to my personal recipe collection, all is made by AI, and tested by myself.*

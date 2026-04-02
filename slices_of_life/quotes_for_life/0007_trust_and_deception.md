@@ -1,3 +1,7 @@
+---
+title: "0007 Trust And Deception"
+---
+
 ## Álvaro Obregón on Trust and Deception
 
 **Álvaro Obregón** (1880 – 1928), Mexicaans generaal, revolutionair leider en later president van Mexico, once said:

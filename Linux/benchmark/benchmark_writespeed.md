@@ -61,7 +61,7 @@ This creates many small files like:
 file_aaa
 file_aab
 file_aac
-...
+---
 ```
 
 ---

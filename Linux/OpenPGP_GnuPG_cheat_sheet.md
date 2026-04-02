@@ -1,3 +1,7 @@
+---
+title: "Openpgp Gnupg Cheat Sheet"
+---
+
 # A small list with som important commands i use with GnuPG
 
 ## YubiKey and gnuPG OpenPGP or gpg

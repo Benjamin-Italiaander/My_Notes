@@ -1,3 +1,7 @@
+---
+title: "Slices Of Life"
+---
+
 # 🌈 Benjamin's Life
 
 ## Hey there! 🌞

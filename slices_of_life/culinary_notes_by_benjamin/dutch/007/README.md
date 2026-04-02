@@ -1,3 +1,7 @@
+---
+title: "007"
+---
+
 # Rijstbowl met nori-omelet
 
 Een kleurrijke bowl met groente, rijst en een nori-omelet: makkelijk, snel, lekker en nog in een halfuur op tafel ook.

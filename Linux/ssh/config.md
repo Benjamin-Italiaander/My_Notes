@@ -1,3 +1,7 @@
+---
+title: "Config"
+---
+
 ### ssh config client config file
 
 #### File is located at

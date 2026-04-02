@@ -1,3 +1,7 @@
+---
+title: "En Deal With Situations"
+---
+
 # 🌿 The Eckhart Tolle Formula for Dealing with Difficult Situations
 
 Eckhart Tolle explains that in every uncomfortable or challenging situation, you ultimately have three conscious choices. These choices bring clarity, calmness, and responsibility back to yourself.

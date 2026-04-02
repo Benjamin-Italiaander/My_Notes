@@ -1,3 +1,7 @@
+---
+title: "008 We Never Rise Above The Opinion Of Ourselves"
+---
+
 **People will never rise above their opinion of themselves**
 
 Peter Sage

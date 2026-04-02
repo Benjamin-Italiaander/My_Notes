@@ -1,3 +1,7 @@
+---
+title: "Chmod Ssh Files"
+---
+
 # chmod ssh files
 
 - SSH folder -	~/.ssh	700	drwx------

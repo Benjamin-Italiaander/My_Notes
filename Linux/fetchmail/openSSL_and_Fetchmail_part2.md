@@ -1,11 +1,9 @@
 ---
-title: "Fetchmail OPENSSL error PART 2"
 author: Benjamin Italiaander
-date: "2022-08-24"
-subject: "OPENSSL FETCHMAIL"
+date: '2022-08-24'
 keywords: OPENSSL
-
-...
+title: Fetchmail OPENSSL error PART 2
+---
 
 
 # Fetchmail OpenSSL error PART 2

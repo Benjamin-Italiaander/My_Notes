@@ -1,3 +1,7 @@
+---
+title: "Katex"
+---
+
 Just a reminder how to do stuff
 
 A simple way to make a expression devide

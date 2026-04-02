@@ -1,3 +1,7 @@
+---
+title: "Nl Hata"
+---
+
 # **HATA – Snelle Emotie-Check**
 
 *Gebaseerd op* **Running on Empty** *van Jonice Webb*

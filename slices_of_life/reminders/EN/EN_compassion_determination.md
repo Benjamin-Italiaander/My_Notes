@@ -1,3 +1,7 @@
+---
+title: "En Compassion Determination"
+---
+
 # Three Things That Always Help Me
 There's three things that I think always help me.
 

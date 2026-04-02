@@ -1,3 +1,7 @@
+---
+title: "0001 Two Gun Crowley"
+---
+
 ## Two Gun Crowley — The “Cop Killer”
 
 Before he was caught, **Francis “Two Gun” Crowley** left this note on a piece of paper:

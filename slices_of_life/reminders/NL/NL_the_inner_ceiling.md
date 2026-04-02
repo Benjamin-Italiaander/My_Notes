@@ -1,3 +1,7 @@
+---
+title: "Nl The Inner Ceiling"
+---
+
 # Waarom Stellen Intelligente Mensen Dingen Uit?
 
 Waarom stellen intelligente mensen dingen uit? Waarom saboteren mensen die zo gemotiveerd zijn vaak zichzelf? En waarom is het zo dat, hoeveel nieuwe kansen of vaardigheden we ook krijgen, veel van ons toch eindigen met ongeveer hetzelfde inkomen of hetzelfde niveau van succes?

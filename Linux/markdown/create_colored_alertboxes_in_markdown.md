@@ -15,13 +15,11 @@ keywords:
 Alert boxes in pandoc goodies or easy-pandoc-template
 
 
-::: { .Alert #custom-id .other-class } ::::::
 **UPDATE**  --- My [addup](addup.html) has been [commited by Ryan Rose](https://github.com/ryangrose/easy-pandoc-templates/commit/337d251bdc5c3577ebf8f128e418f6428398fb46) so the easy pandoc template now works with alert boxes.
 
 My current favourite is the [easy-pandoc-templates](https://github.com/ryangrose/easy-pandoc-templates). 
 
 
-::::::::::::::::::
 
 
 
@@ -33,53 +31,37 @@ It does not feel like the ease of MD but just copy and paste if you like this st
 
 
 ### Alert box
-::: { .Alert #custom-id .other-class } ::::::
 **Alert!**  --- Alertbox with 
 ```markdown
-::: { .Alert #custom-id .other-class } ::::::
 **Alert!**  --- Alertbox with Blue
-::::::::::::::::::
 ```
-::::::::::::::::::
 
 
 
 
 ### Error box 
-::: { .Error #custom-id .other-class } ::::::
 **Error!**  --- Errorbox with red
 
 ```markdown
-::: { .Error #custom-id .other-class } ::::::
 **Error!**  --- Errorbox with red
-::::::::::::::::::
 ```
-::::::::::::::::::
 
 
 ### Warning box 
-::: { .Warning #custom-id .other-class } ::::::
 **Warning!**  --- Warningbox with red
 
 ```markdown
-::: { .Warning #custom-id .other-class } ::::::
 **Warning!**  --- Warningbox with yellow
-::::::::::::::::::
 ```
-::::::::::::::::::
 
 
 
 ### Success box 
-::: { .Success #custom-id .other-class } ::::::
 **Success!**  --- Successbox with Green
 
 ```markdown
-::: { .Success #custom-id .other-class } ::::::
 **Success!**  --- Successbox with Green 
-::::::::::::::::::
 ```
-::::::::::::::::::
 
 
 
@@ -87,15 +69,11 @@ It does not feel like the ease of MD but just copy and paste if you like this st
 
 
 ### Note box 
-::: { .Note #custom-id .other-class } ::::::
 **Note!**  --- Notebox Grey 
 
 ```markdown
-::: { .Success #custom-id .other-class } ::::::
 **Note!**  --- Notebox Grey
-::::::::::::::::::
 ```
-::::::::::::::::::
 
 
 

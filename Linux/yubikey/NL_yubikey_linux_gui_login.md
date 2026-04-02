@@ -1,3 +1,7 @@
+---
+title: "Nl Yubikey Linux Gui Login"
+---
+
 Hier is een **duidelijke en complete handleiding** om **op Ubuntu in te loggen met je YubiKey** (PAM + FIDO2 / WebAuthn).
 Dit werkt voor:
 

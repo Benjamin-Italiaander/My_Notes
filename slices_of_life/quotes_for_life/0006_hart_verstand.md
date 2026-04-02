@@ -1,3 +1,7 @@
+---
+title: "0006 Hart Verstand"
+---
+
 ## Over Hart en Verstand
 
 >
