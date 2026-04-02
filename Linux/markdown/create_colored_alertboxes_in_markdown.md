@@ -2,7 +2,7 @@
 title: "Create colored alertboxes in Markdown (MD)"
 author:
   - Benjamin Italiaander
-date: 20202-09-09
+date: 2022-09-09
 keywords:
     - pandoc
     - pandoc goodies
