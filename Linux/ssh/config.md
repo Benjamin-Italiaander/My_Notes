@@ -1,5 +1,5 @@
 ---
-title: "Config"
+title: "SSH config file"
 ---
 
 ### ssh config client config file
