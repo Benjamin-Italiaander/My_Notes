@@ -2,7 +2,7 @@
 title: "Connect S4048 with console in Linux"
 author:
   - Benjamin Italiaander
-date: 2022-09-7
+date: 2022-09-07
 keywords:
     - Dell
     - Z9100
