@@ -20,4 +20,5 @@ Under the cheerful influence of my ex-girlfriend Hannah, I once bought a piece o
 
 ## More Art
 
-- [Takamizawa Mokuhansha](takamizawa_mokuhansha/README.md)
+- [Takamizawa Mokuhansha](takamizawa_mokuhansha/)
+- [Wood Block Printing Uchinda](Wood_Block_Printing_Uchinda/)
