@@ -11,6 +11,25 @@ description: "This guide explains how use SSH with your YubiKey."
 # SSH with YubiKey (FIDO2)
 **Make sure you do the [first steps](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/README.md) of initiating your YubiKey before you will start using the SSH functionality on your yubikey.**
 
+First check if your pin is enabled for the FIDO function 'ykman fido info'
+```bash
+# ykman fido info
+
+AAGUID:                       abcder-abc-abc-abc
+PIN:                          Not set
+Minimum PIN length:           4
+Always Require UV:            Off
+Credential storage remaining: 100
+```
+If you see at PIN not set, creat a passowrd for the FIDO function
+
+```bash
+# ykman fido access change-pin
+Enter your new PIN: 
+Repeat for confirmation: 
+FIDO PIN updated.
+```
+
 There are still two keys generated: your private key and your public key.
 The private key remains important when using your YubiKey. In fact, the private key functions as a challenge key and works together with your YubiKey.
 
