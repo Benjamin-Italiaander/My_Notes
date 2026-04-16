@@ -51,7 +51,7 @@ Hardware tokens are powerful tools that can significantly improve your security�
 |                      | **Static Password** | Types a fixed password (legacy, not recommended)        | ❌          | ✅          | Legacy                   |
 
 3. Lets Get started with coping your [TOTP tokens to your yubikey](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/EN_yubikey_otp.md)
-
+4. Let's contieue with creating a SSH key, this is just to practise a bit becaus i recomend you use openPGP for this part. But since openPGP is a little bit of a complex [lets start with SSH and your yubikey](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/EN_yubikey_ssh.md)
 
 ## 📚 Source
 
