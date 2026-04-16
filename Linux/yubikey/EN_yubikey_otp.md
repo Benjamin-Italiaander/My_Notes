@@ -9,33 +9,31 @@ description: "This guide explains **how to copy your existing TOTP secrets into 
 
 
 
-# 🔐 YubiKey OATH / TOTP Guide
+# YubiKey OATH / TOTP Guide
 
 ### Copying Existing TOTP Secrets into Your YubiKey
 
 ---
 
-## ⚠️ About This Guide
+## About This Guide
 
 This guide explains **how to copy your existing TOTP secrets into your YubiKey**.
 
-### ⚠️ Warning 1
+### Warning 1
 
 Use this method **only if you fully understand what you are doing**.
 TOTP secrets are **extremely sensitive** — if someone obtains your secret, they can generate your codes.
 
 ### Why do this?
-
 This method allows you to:
 
 * create **multiple YubiKeys** containing the **same TOTP tokens**, or
 * store a token on several YubiKeys *and/or* an authenticator app
 
 Instead of generating new tokens per device, you can **duplicate** a single TOTP secret across several YubiKeys.
-
 Use with caution.
 
-### ⚠️ Warning 3
+### ⚠️ Warning 2
 
 After you finish all steps:
 👉 **Clear your terminal and shell history!**
