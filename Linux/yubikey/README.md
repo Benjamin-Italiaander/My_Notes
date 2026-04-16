@@ -8,61 +8,48 @@ description: "A short Getting Started Using the Linux CLI"
 ---
 
 
-# YubiKey Advanced quiqstart
+# 🔐 YubiKey Advanced Quickstart
 ### A Short Getting Started Guide (Linux CLI)
 
-In the following steps, I will show you what you should **at minimum configure** seperated per by each yubikey function.
+This guide is structured **per YubiKey function**.
 
-## 📦 Installation
+Each section focuses on one specific feature (e.g. FIDO2, OpenPGP, PIV) and explains the **minimum required configuration** for that function.
 
-1. [Install all dependencies to be able to install ykman](EN_Install_all_dependencies.md)  
+You can follow only the parts relevant to your use case—but make sure to fully complete the steps for any function you decide to use.
+
+---
+
+##  Installation
+
+1. [Install all dependencies required for ykman](EN_Install_all_dependencies.md)  
 2. [Install ykman](EN_yubikey_install_ykman.md)
 
 ---
 
-## ⚠️ Important
+##  Important
 
-My manual are the **absolute bare minimum** you should complete before using your YubiKey for each function.
+Each section in this guide represents the **absolute minimum setup** for a specific YubiKey function.
 
-If you skip some of these steps, there is nothing truly secure about using your YubiKey.
+If you skip steps within a section, that function may **not be secure or behave as expected**.
 
-Hardware tokens are a powerful tool and can significantly improve your security—but **only when used correctly**.
+Hardware tokens are powerful tools that can significantly improve your security—but **only when configured and used correctly**.
 
-> Using a hardware token incorrectly does **not** make your environment more secure.
-
----
-
-## 🧠 YubiKey Built-in Functions
-
-The YubiKey contains multiple built-in authentication functions:
-
-| Function            | Description |
-|--------------------|------------|
-| **OATH-TOTP**       | Authenticator codes (like Google Authenticator) |
-| **OTP**             | Yubico OTP (Yubico’s own format) |
-| **FIDO2**           | WebAuthn (modern passwordless login) |
-| **U2F**             | Older version of FIDO |
-| **PIV**             | Smart card functionality (Windows login, VPN, certificates) |
-| **OpenPGP**         | GPG keys for SSH authentication and email encryption/signing |
-| **Challenge-Response** | Advanced use (e.g. LUKS disk encryption, custom scripts) |
-| **Static Password** | Types a fixed password (legacy, not recommended) |
+> Using a hardware token incorrectly can create a **false sense of security** rather than actually protecting your environment.
 
 ---
+## 🔐 YubiKey Built-in Functions Overview
 
-## 🔐 Function Overview
+| Category              | Function            | Description                                              | Needs PIN   | Needs Touch | Typical Use              |
+|----------------------|--------------------|----------------------------------------------------------|------------|------------|--------------------------|
+| **🔑 Modern Auth**    | **FIDO2**           | WebAuthn (modern passwordless login)                    | ✅          | ✅          | Modern login             |
+|                      | **U2F**             | Older version of FIDO                                   | ❌          | ✅          | Older 2FA                |
+| **🔢 Auth Codes**     | **OATH-TOTP**       | Authenticator codes (like Google Authenticator)         | Optional   | ❌          | Authenticator codes      |
+|                      | **OTP (Yubico)**    | Yubico OTP (Yubico’s own format)                        | ❌          | ✅          | Legacy login             |
+| **🪪 Certificates & Keys** | **PIV**       | Smart card (Windows login, VPN, certificates)           | ✅          | ❌          | Smartcard login          |
+|                      | **OpenPGP**         | GPG keys for SSH and email encryption/signing           | ✅          | ❌          | SSH, email               |
+| **⚙️ Advanced / Legacy** | **Challenge-Response** | Advanced use (e.g. LUKS, custom scripts)        | ❌          | ❌          | Advanced setups          |
+|                      | **Static Password** | Types a fixed password (legacy, not recommended)        | ❌          | ✅          | Legacy                   |
 
-| Function            | Needs PIN   | Needs Touch | Typical Use              |
-|--------------------|------------|------------|--------------------------|
-| FIDO2              | ✅          | ✅          | Modern login             |
-| U2F                | ❌          | ✅          | Older 2FA                |
-| OTP (Yubico)       | ❌          | ✅          | Legacy login             |
-| OATH-TOTP          | Optional   | ❌          | Authenticator codes      |
-| PIV                | ✅          | ❌          | Smartcard login          |
-| OpenPGP            | ✅          | ❌          | SSH, email               |
-| Challenge-Response | ❌          | ❌          | Advanced setups          |
-| Static Password    | ❌          | ✅          | Legacy (not recommended) |
-
----
 
 ## 📚 Source
 
