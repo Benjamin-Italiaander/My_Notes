@@ -56,6 +56,11 @@ If the PIN is not set, configure it:
 ykman fido access change-pin
 ```
 
+Enable UV (User Verification)
+```bash
+ykman fido config toggle-always-uv
+```
+
 ---
 
 ## Important Notes
