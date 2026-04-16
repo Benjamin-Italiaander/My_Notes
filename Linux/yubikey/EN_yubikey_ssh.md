@@ -11,6 +11,12 @@ description: "This guide explains how use SSH with your YubiKey."
 # SSH with YubiKey (FIDO2)
 **Make sure you do the [first steps](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/README.md) of initiating your YubiKey before you will start using the SSH functionality on your yubikey.**
 
+I assume you do know how ssh-keys work, that you do know the difference betweer private and public keys. 
+
+For the use of SSH in a more advanced way i would recomend to youse the openPGP solution, but since openPGP is a bit more complex this is a really good alternative. 
+The thing is, your yubikey generates two privated keys, the real private key is inside your yubikey and you cant get it out, the second part is on your desktop in you ~/.ssh folder, the second part you can only use in combination with the part on your yubikey. This makes ssh really safe (as long as you turn of password authentication on you servers but thats a other story)
+
+
 First check if your pin is enabled for the FIDO function 'ykman fido info'
 ```bash
 # ykman fido info
