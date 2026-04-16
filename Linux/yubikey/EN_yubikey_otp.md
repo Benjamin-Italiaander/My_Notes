@@ -35,15 +35,14 @@ Instead of generating new tokens per device, you can **duplicate** a single TOTP
 
 Use with caution.
 
-### ⚠️ Warning 2
-
-Before using OATH/TOTP on your YubiKey, complete the **minimum setup** guide:
-👉 **[https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/README.md](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/README.md)**
-
 ### ⚠️ Warning 3
 
 After you finish all steps:
 👉 **Clear your terminal and shell history!**
+
+```bahs
+history -c
+```
 
 ---
 
