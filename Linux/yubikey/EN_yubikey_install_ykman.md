@@ -12,7 +12,7 @@ description: "Installing the Latest ykman Advanced Methods"
 ## 🔧 Installing the Latest `ykman` (Advanced Methods)
 
 For advanced users, there are several ways to install the **latest development version** of YubiKey Manager (`ykman`) directly from source.
-Choose the method that best fits your workflow.
+Choose the method that best fits your workflow. For me pipx works the best.
 
 ---
 
