@@ -8,26 +8,71 @@ description: "A short Getting Started Using the Linux CLI"
 ---
 
 
+# 🔑 YubiKey Bare Minimum
+### A Short Getting Started Guide (Linux CLI)
 
-# YubiKey bare minimum
-#### A short Getting Started Using the Linux CLI
+In the following steps, I will show you what you should **at minimum configure** on your YubiKey before you start using it.
 
-In the following steps i show you what you should at least do with your YubiKey before you stert using it
+## 📦 Installation
 
-1. [Install all dependencies to be able to install ykman](EN_Install_all_dependencies.md)
+1. [Install all dependencies to be able to install ykman](EN_Install_all_dependencies.md)  
 2. [Install ykman](EN_yubikey_install_ykman.md)
 
+---
 
-Step 1 till step 8 are the absolute bare minimum you should complete before you start using your YubiKey.
+## ⚠️ Important
+
+Steps 1 through 8 are the **absolute bare minimum** you should complete before using your YubiKey.
+
 If you skip these steps, there is nothing truly secure about using your YubiKey.
 
-Hardware tokens are a powerful tool and can raise your security to a very high level—but only when used correctly.
-Be aware that using hardware tokens incorrectly will not result in a more secure user environment.
+Hardware tokens are a powerful tool and can significantly improve your security—but **only when used correctly**.
 
+> Using a hardware token incorrectly does **not** make your environment more secure.
 
-This instruction is a modified document based on the YubiKey guide found here **[Securing SSH with FIDO2](https://developers.yubico.com/SSH/Securing_SSH_with_FIDO2.html)**
+---
 
+## 🧠 YubiKey Built-in Functions
 
-> **Never use SSH agent forwarding with your YubiKey — or use of ssh -a — in fact, it’s best not to use agent forwarding at all.**
+The YubiKey contains multiple built-in authentication functions:
 
+| Function            | Description |
+|--------------------|------------|
+| **OATH-TOTP**       | Authenticator codes (like Google Authenticator) |
+| **OTP**             | Yubico OTP (Yubico’s own format) |
+| **FIDO2**           | WebAuthn (modern passwordless login) |
+| **U2F**             | Older version of FIDO |
+| **PIV**             | Smart card functionality (Windows login, VPN, certificates) |
+| **OpenPGP**         | GPG keys for SSH authentication and email encryption/signing |
+| **Challenge-Response** | Advanced use (e.g. LUKS disk encryption, custom scripts) |
+| **Static Password** | Types a fixed password (legacy, not recommended) |
 
+---
+
+## 🔐 Function Overview
+
+| Function            | Needs PIN   | Needs Touch | Typical Use              |
+|--------------------|------------|------------|--------------------------|
+| FIDO2              | ✅          | ✅          | Modern login             |
+| U2F                | ❌          | ✅          | Older 2FA                |
+| OTP (Yubico)       | ❌          | ✅          | Legacy login             |
+| OATH-TOTP          | Optional   | ❌          | Authenticator codes      |
+| PIV                | ✅          | ❌          | Smartcard login          |
+| OpenPGP            | ✅          | ❌          | SSH, email               |
+| Challenge-Response | ❌          | ❌          | Advanced setups          |
+| Static Password    | ❌          | ✅          | Legacy (not recommended) |
+
+---
+
+## 📚 Source
+
+This guide is based on and modified from:  
+👉 **[Securing SSH with FIDO2](https://developers.yubico.com/SSH/Securing_SSH_with_FIDO2.html)**
+
+---
+
+## 🚨 Security Warning
+
+> **Never use SSH agent forwarding with your YubiKey.**  
+> Avoid using `ssh -A` (or `ssh -a`).  
+> In general, it is best to avoid agent forwarding entirely.
