@@ -145,7 +145,7 @@ ykman oath accounts code github
 ## Copy TOTP code directly to clipboard
 
 ```bash
-ykman oath accounts code zimbra:italiaan | awk '{print $2}' | xclip -selection c
+ykman oath accounts code gitHub:username | awk '{print $2}' | xclip -selection c
 ```
 
 ---
