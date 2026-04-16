@@ -50,6 +50,8 @@ Hardware tokens are powerful tools that can significantly improve your security�
 | **⚙️ Advanced / Legacy** | **Challenge-Response** | Advanced use (e.g. LUKS, custom scripts)        | ❌          | ❌          | Advanced setups          |
 |                      | **Static Password** | Types a fixed password (legacy, not recommended)        | ❌          | ✅          | Legacy                   |
 
+3. Lets Get started with coping your [TOTP tokens to your yubikey](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/EN_yubikey_otp.md)
+
 
 ## 📚 Source
 
