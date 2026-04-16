@@ -8,10 +8,10 @@ description: "A short Getting Started Using the Linux CLI"
 ---
 
 
-# 🔑 YubiKey Bare Minimum
+# YubiKey Advanced quiqstart
 ### A Short Getting Started Guide (Linux CLI)
 
-In the following steps, I will show you what you should **at minimum configure** on your YubiKey before you start using it.
+In the following steps, I will show you what you should **at minimum configure** seperated per by each yubikey function.
 
 ## 📦 Installation
 
@@ -22,9 +22,9 @@ In the following steps, I will show you what you should **at minimum configure**
 
 ## ⚠️ Important
 
-Steps 1 through 8 are the **absolute bare minimum** you should complete before using your YubiKey.
+My manual are the **absolute bare minimum** you should complete before using your YubiKey for each function.
 
-If you skip these steps, there is nothing truly secure about using your YubiKey.
+If you skip some of these steps, there is nothing truly secure about using your YubiKey.
 
 Hardware tokens are a powerful tool and can significantly improve your security—but **only when used correctly**.
 
