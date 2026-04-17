@@ -26,3 +26,23 @@ There is no assurance this key belongs to the named user
 encryption failed: Unusable public key
 
 [Continue reading here](GPG_unusable_public_key.md) for a fix
+
+
+Here is a cleaner and slightly more polished Markdown version:
+
+## GPG Error: Unusable Public Key
+
+If you encounter the following error:
+
+```
+
+There is no assurance this key belongs to the named user
+encryption failed: Unusable public key
+
+```
+
+You can find a step-by-step solution here:
+
+[Fix: Unusable public key](GPG_unusable_public_key.md)
+
+If you want it a bit more formal or documentation-style, I can tweak the tone as well.
