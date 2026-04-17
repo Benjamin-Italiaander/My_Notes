@@ -25,4 +25,4 @@ If you encounter the error
 There is no assurance this key belongs to the named user
 encryption failed: Unusable public key
 
-[Continue reading here]() for a fix
+[Continue reading here](GPG_unusable_public_key.md) for a fix
