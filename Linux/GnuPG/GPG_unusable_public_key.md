@@ -1,3 +1,14 @@
+---
+section: Linux
+title: 'GnuPG Unusable public key"'
+description: 'GnuPG fix There is no assurance this key belongs to the named user error in OpenPGP'
+author: 'benjamin-italiaander'
+date: 2022
+
+---
+
+
+
 # Fix: "Unusable public key" error in GPG
 
 ## Error message
