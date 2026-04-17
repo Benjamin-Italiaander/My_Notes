@@ -12,23 +12,15 @@ date: 2021
 How to encrypt and decrypt a file
 
 ```bash
-#encrypt a file
+# encrypt a file
 gpg -e -r someone@domain.tld file-to-encrypt.txt
 
-#decrypt a file
+# decrypt a file
 gpg -d -o secrets.txt file-to-encrypt.txt.gpg
 ```
 
 ---
 
-If you encounter the error
-There is no assurance this key belongs to the named user
-encryption failed: Unusable public key
-
-[Continue reading here](GPG_unusable_public_key.md) for a fix
-
-
-Here is a cleaner and slightly more polished Markdown version:
 
 ## GPG Error: Unusable Public Key
 
