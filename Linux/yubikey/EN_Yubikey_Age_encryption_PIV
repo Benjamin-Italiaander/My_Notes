@@ -60,7 +60,15 @@ an other way of finding your public key is to print public key with the  age-plu
 age-plugin-yubikey --list
 ```
 
-You can encrypt files with multiple age identities, so just add multiple recipients while you encrpy a file. for example i have 2 yubikeys and one offline key
+You can encrypt files with multiple age identities, so just add multiple recipients while you encrpy a file. for example i have 2 yubikeys and one offline key.
+You cant mix PQ-keys and regular keys. 
+a example to encrypt a file with multible yubikeys is
+```bash
+age -R ./yubikey1.pub  -R ./yubikey2.pub -o file.txt.age file.txt
+```
+The thing is, with age you put the input file at the end witch feels a bit strange.
+
+
 
 
 
