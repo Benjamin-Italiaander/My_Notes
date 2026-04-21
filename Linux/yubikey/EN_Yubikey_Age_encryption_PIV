@@ -1,0 +1,45 @@
+You need a extra tool for this function
+install it with 
+```bash
+sudo apt install pcscd
+sudo systemctl enable --now pcscd
+```
+
+Via cargo you need to install age-plugin-yubikey if you dont have cargo install this first with 
+```bash
+cargo install age-plugin-yubikey
+```
+
+
+When you are going to use age-encryption, you will need to configure a few things before you get started. It is extremely important to always first change your managemnt-key at the piv options.
+
+The factory default management key from every yubikey is 010203040506070801020304050607080102030405060708 and you really need to change this!
+
+There are two ways of generating a managemnt-key with or without  the --portect
+
+With the protect option you let the yubikey generate it based on your pin
+```bash
+ykman piv access change-management-key --generate --protect
+```
+
+without the protect option the yubikeu  generates the key and you store it somewhere offline (on a usb or print it or create a qrcode from it)
+```bash
+ykman piv access change-management-key --generate
+```
+In my case it store the managemnt-key offline so i just run 
+ykman piv access change-management-key --generate
+and i keep the management-key somewhere safe.
+
+Now you have to change the pin and puk code by
+
+Change PIN with (default pin is 123456)
+```bash
+ykman piv access change-pin
+```
+
+Change PUK with (default puk is 12345678)
+```bash
+ykman piv access change-puk
+```
+Now you took all the masurements to copy the Identityfile (or private key) to your Yubikey.
+now you can copy your age 
