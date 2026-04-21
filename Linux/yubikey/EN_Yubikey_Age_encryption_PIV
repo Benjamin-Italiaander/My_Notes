@@ -41,5 +41,12 @@ Change PUK with (default puk is 12345678)
 ```bash
 ykman piv access change-puk
 ```
-Now you took all the masurements to copy the Identityfile (or private key) to your Yubikey.
-now you can copy your age 
+Now you took all the masurements to generate your age Identityfile (or private key) with your Yubikey.
+Unfortunatly there is no way you can copy a existing Age-identity file to your yubikey. but you can encrypt files with multipble keys, so you can create backups. 
+
+```bash
+ ykman piv access change-management-key --algorithm AES256 --generate --protect --management-key <ENTER HERE YOUR PREVIOUS GENERATED MANAGEMENT KEY>
+```
+
+
+
