@@ -30,7 +30,7 @@ without the protect option the yubikeu  generates the key and you store it somew
 ```bash
 ykman piv access change-management-key --generate
 ```
-In my case it store the managemnt-key offline so i just run 
+In my case it store the managemnt-key on the yubikey so i run 
 ```bash 
 ykman piv access change-management-key -a TDES --protect
 ```
