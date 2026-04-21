@@ -153,8 +153,127 @@ A common setup:
 This gives you redundancy without relying on a single hardware token.
 
 ---
+In my case it looks like this.
 
-If you want, I can also extend this with:
+```bash
+age \
+  -R yubikey1.pub \
+  -R yubikey2.pub \ 
+  -R offline.pub \
+  -o secrets.txt.age \
+  secrets.txt
+```
 
-* a **full backup/restore workflow**
-* or a **hybrid PQ + YubiKey strategy** (which is where things get interesting right now)
+You can also script it by adding something like this in .bashrc .zshrc 
+
+```bash
+agey() {
+    # Default recipients
+    local DEFAULT_RECIPIENTS=(
+        "$HOME/.config/age/yubikey1.pub"
+        "$HOME/.config/age/yubikey2.pub"
+        "$HOME/.config/age/offline.pub"
+    )
+
+    local input=""
+    local output=""
+    local extra_recipients=()
+
+    # Help menu
+    show_help() {
+        cat << EOF
+Usage: agey [options] <input-file>
+
+Encrypt a file using predefined age recipients.
+
+Options:
+  -o <file>     Specify output file (default: <input>.age)
+  -r <file>     Add extra recipient (can be used multiple times)
+  -l            List default recipients
+  -h            Show this help message
+
+Examples:
+  agey secret.txt
+  agey -o secret.enc secret.txt
+  agey -r other.pub secret.txt
+EOF
+    }
+
+    # Parse arguments
+    while [[ $# -gt 0 ]]; do
+        case "$1" in
+            -h|--help)
+                show_help
+                return 0
+                ;;
+            -o)
+                output="$2"
+                shift 2
+                ;;
+            -r)
+                extra_recipients+=("$2")
+                shift 2
+                ;;
+            -l)
+                echo "Default recipients:"
+                for r in "${DEFAULT_RECIPIENTS[@]}"; do
+                    echo "  $r"
+                done
+                return 0
+                ;;
+            -*)
+                echo "Unknown option: $1"
+                show_help
+                return 1
+                ;;
+            *)
+                input="$1"
+                shift
+                ;;
+        esac
+    done
+
+    # Validate input
+    if [[ -z "$input" ]]; then
+        echo "Error: No input file specified"
+        show_help
+        return 1
+    fi
+
+    if [[ ! -f "$input" ]]; then
+        echo "Error: File not found: $input"
+        return 1
+    fi
+
+    # Default output
+    if [[ -z "$output" ]]; then
+        output="${input}.age"
+    fi
+
+    # Build recipient args
+    local recipient_args=()
+
+    for r in "${DEFAULT_RECIPIENTS[@]}"; do
+        if [[ -f "$r" ]]; then
+            recipient_args+=("-R" "$r")
+        else
+            echo "Warning: recipient not found, skipping: $r"
+        fi
+    done
+
+    for r in "${extra_recipients[@]}"; do
+        recipient_args+=("-R" "$r")
+    done
+
+    # Encrypt
+    echo "Encrypting: $input -> $output"
+    age "${recipient_args[@]}" -o "$output" "$input"
+
+    if [[ $? -eq 0 ]]; then
+        echo "Done."
+    else
+        echo "Encryption failed."
+        return 1
+    fi
+}
+```
