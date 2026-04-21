@@ -27,8 +27,9 @@ without the protect option the yubikeu  generates the key and you store it somew
 ykman piv access change-management-key --generate
 ```
 In my case it store the managemnt-key offline so i just run 
-ykman piv access change-management-key --generate
-and i keep the management-key somewhere safe.
+```bash 
+ykman piv access change-management-key -a TDES --protect
+```
 
 Now you have to change the pin and puk code by
 
@@ -44,9 +45,14 @@ ykman piv access change-puk
 Now you took all the masurements to generate your age Identityfile (or private key) with your Yubikey.
 Unfortunatly there is no way you can copy a existing Age-identity file to your yubikey. but you can encrypt files with multipble keys, so you can create backups. 
 
+Run the age-plugin-yubikey and follow the menu.
 ```bash
- ykman piv access change-management-key --algorithm AES256 --generate --protect --management-key <ENTER HERE YOUR PREVIOUS GENERATED MANAGEMENT KEY>
+age-plugin-yubikey
 ```
+a file is generate thats  age-yubikey-identity-*.txt 
 
-
+print public keu with 
+``bash
+age-plugin-yubikey --list
+```
 
