@@ -164,6 +164,14 @@ age \
   secrets.txt
 ```
 
+Even better is to add all the public files into one file like, you can share this file so everyone will send you encrypted files with all your keys.
+```bash
+# recipients.txt 
+age1pq1g6p6uaw52w...   # software key
+age1yubikey1qt5k5...   # yubikey1 key
+age1ql3z7hjy54pw3...   # yubikey1 key
+```
+
 You can also script it by adding something like this in .bashrc .zshrc 
 
 ```bash
