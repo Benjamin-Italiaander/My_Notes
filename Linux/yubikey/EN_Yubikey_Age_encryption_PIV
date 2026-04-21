@@ -1,3 +1,7 @@
+Using age with your yubikey is not post quantum proof yet. Unfortunatle only age keys generated manualy are quantum proof. its also not possible to copy a age-key into your yubikey its only possible to have your yubikey generate a age key.
+So if you are really serious about PQ-proof encryption your yubikey is not the tool you want to use. 
+
+
 You need a extra tool for this function
 install it with 
 ```bash
@@ -49,10 +53,15 @@ Run the age-plugin-yubikey and follow the menu.
 ```bash
 age-plugin-yubikey
 ```
-a file is generate thats  age-yubikey-identity-*.txt 
+a file is generate thats  age-yubikey-identity-*.txt the line that starts with Recipient: is yout public key. 
 
-print public keu with 
+an other way of finding your public key is to print public key with the  age-plugin-yubikey --list command, the last line is your public key, its a long string
 ``bash
 age-plugin-yubikey --list
 ```
+
+You can encrypt files with multiple age identities, so just add multiple recipients while you encrpy a file. for example i have 2 yubikeys and one offline key
+
+
+
 
