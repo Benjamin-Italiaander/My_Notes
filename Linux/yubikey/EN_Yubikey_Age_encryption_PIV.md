@@ -1,6 +1,3 @@
-Here’s a cleaned-up, clearer, and GitHub-friendly version of your text. I kept your intent but tightened the wording and fixed a few technical/grammar issues:
-
----
 
 # Using `age` with a YubiKey (and Post-Quantum Notes)
 
@@ -112,7 +109,7 @@ age-yubikey-identity-*.txt
 
 ---
 
-## 🔍 Retrieve Public Keys
+## Retrieve Public Keys
 
 You can also list keys directly:
 
@@ -120,13 +117,13 @@ You can also list keys directly:
 age-plugin-yubikey --list
 ```
 
-* The **last line** contains your public key (long string).
+* The last line contains your public key (long string).
 
 ---
 
-## 🔒 Encrypting Files
+## Encrypting Files
 
-You can encrypt files for **multiple recipients** (e.g. multiple YubiKeys + backup keys).
+You can encrypt files for multiple recipients (e.g. multiple YubiKeys + backup keys).
 
 Example:
 
