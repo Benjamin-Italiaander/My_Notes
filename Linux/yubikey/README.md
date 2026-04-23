@@ -53,8 +53,10 @@ Hardware tokens are powerful tools that can significantly improve your security�
 3. Lets Get started with coping your [TOTP tokens to your yubikey](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/EN_yubikey_otp.md)
 4. Let's contieue with creating a SSH key, this is just to practise a bit becaus i recomend you use openPGP for this part. But since openPGP is a little bit of a complex [lets start with SSH and your yubikey](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/EN_yubikey_ssh.md)
 5. And now the fun stuff how i work with my OpnePGP keys with my Yubikey(https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/YubiKey-OpenPGP-SSH)
+6. If you dont l ike OpenPGP you can switch to age it can be used with the PIV option in [this tutorial i explain the use of age with your yubikey](EN_Yubikey_Age_encryption_PIV.md)
 
-## 📚 Source
+
+##  Source
 
 This guide is based on and modified from:  
 👉 **[Securing SSH with FIDO2](https://developers.yubico.com/SSH/Securing_SSH_with_FIDO2.html)**
