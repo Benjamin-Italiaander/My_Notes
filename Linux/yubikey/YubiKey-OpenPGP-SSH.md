@@ -1,5 +1,8 @@
 # 🔐 YubiKey + GPG + SSH Setup Guide
 
+> in deze handleiding ben ik het onderwerp kdf-setup vergeten, dit moet ik nog toevoegen.
+> 
+
 ## 🎯 Doel
 
 * GPG subkeys op YubiKey zetten
