@@ -1,5 +1,9 @@
-### Stelling over ADHD 
-Mensen met adhd worden niet als ziek bestempeld, in tgenstelling to bijvoorbeel spychotische mensen. Er kan worden gesteld dat mensen ahdh met ADHD het in een andere maatschapij, die niet hangt op prestatie en productievieteit het stempel adhd niet hadden gekregen. ADHD een bijproduct van een [neo liberale sameleveng](./neo_liberale_samenleving.md).
+### Stelling over ADHD
+Mensen met ADHD worden doorgaans niet als “ziek” beschouwd, in tegenstelling tot bijvoorbeeld mensen met psychotische aandoeningen. Er kan worden beargumenteerd dat mensen met ADHD in een samenleving die minder draait om deadlines, prestaties en productiviteit, mogelijk nooit het label ADHD zouden hebben gekregen of deze in ieder geval niet als “aandoening” zouden worden gezien.
+
+Vanuit dit perspectief zou ADHD deels kunnen worden beschouwd als een bijproduct van de  [neo liberale sameleveng](./neo_liberale_samenleving.md) waarin wij tegenwoordig leven.
+
+
 
 
 in tegenstelling tot Pycoose wordt gezien als het meesst boilogische 
