@@ -32,19 +32,66 @@ nano /usr/local/bin/login-notify.sh
 
 Contents:
 
-```bash
-#!/bin/bash
+```bash#!/bin/bash
 
-SUBJECT="Login on $(hostname)"
-TO="benjamin@tlnd.org"
+TO="[benjamin@tlnd.org](mailto:benjamin@tlnd.org)"
+HOST="$(hostname -f 2>/dev/null || hostname)"
+
+case "$PAM_TYPE" in
+auth)
+DESCRIPTION="Authentication attempt (password, SSH key, MFA or other authentication mechanism)"
+;;
+account)
+DESCRIPTION="Account validation (access rules, expiration checks, login restrictions)"
+;;
+open_session)
+DESCRIPTION="User session opened successfully (login)"
+;;
+close_session)
+DESCRIPTION="User session closed (logout or disconnect)"
+;;
+password)
+DESCRIPTION="Password change operation"
+;;
+*)
+DESCRIPTION="Unknown PAM event"
+;;
+esac
+
+SUBJECT="PAM Event [$PAM_TYPE] on $HOST"
 
 MESSAGE="
-User: $PAM_USER
-Remote Host: $PAM_RHOST
-TTY: $PAM_TTY
-Service: $PAM_SERVICE
-Date: $(date)
-Hostname: $(hostname)
+PAM Event Notification
+
+Event Type : $PAM_TYPE
+Description: $DESCRIPTION
+
+Hostname   : $HOST
+Date       : $(date)
+
+User       : ${PAM_USER:-N/A}
+Remote User: ${PAM_RUSER:-N/A}
+Remote Host: ${PAM_RHOST:-N/A}
+TTY        : ${PAM_TTY:-N/A}
+Service    : ${PAM_SERVICE:-N/A}
+
+## Process Information
+
+PID        : $$
+Parent PID : $PPID
+Script User: $(id -un)
+Script UID : $(id -u)
+
+## Environment
+
+SSH_CLIENT : ${SSH_CLIENT:-N/A}
+SSH_CONNECTION : ${SSH_CONNECTION:-N/A}
+SSH_TTY    : ${SSH_TTY:-N/A}
+"
+
+echo "$MESSAGE" | mail -s "$SUBJECT" "$TO"
+
+exit 0
 "
 
 echo "$MESSAGE" | mail -s "$SUBJECT" "$TO"
