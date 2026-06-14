@@ -32,8 +32,10 @@ nano /usr/local/bin/login-notify.sh
 
 Contents:
 
-```bash#!/bin/bash
+```bash
+#!/bin/bash
 
+## DONT FORGET TO CHANGE YOUR EMAIL!!
 TO="[admin@example.com](mailto:admin@example.com)"
 HOST="$(hostname -f 2>/dev/null || hostname)"
 
