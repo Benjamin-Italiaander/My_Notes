@@ -12,7 +12,6 @@ Daarbij spelen reserves een belangrijke rol. Kunnen verloren manschappen, materi
 
 Pyrrusoverwinningen kunnen daardoor ook een rol spelen in een **uitputtingsoorlog**. Een partij kan bewust proberen de tegenstander verliezen toe te brengen die deze moeilijker kan aanvullen dan zijzelf.
 
-Een historisch voorbeeld hiervan is de eerste fase van de **Slag om Engeland**. De Duitse Luftwaffe probeerde de Britse RAF tot gevechten te dwingen. Hoewel beide partijen daarbij zware verliezen leden, was vooral het verlies van ervaren piloten voor de RAF moeilijk op te vangen. De strategische vraag was daardoor niet alleen wie afzonderlijke luchtgevechten won, maar vooral **welke partij haar verliezen het langst kon blijven aanvullen**.
 
 ## Oorsprong van de uitdrukking
 
