@@ -221,4 +221,3 @@ Gebruik deze voor:
 
 ## Wil je dat ik hier een **stap-voor-stap Markdown handleiding** van maak voor je documentatie?
 
-Of een **kortere TL;DR versie** voor in je YubiKey setup guide?
