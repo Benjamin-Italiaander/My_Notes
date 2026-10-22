@@ -242,22 +242,16 @@ ssh-ed25519 ... cardno:XXXX
 # 12. 🔗 SSH config voorbeeld
 
 ```sshconfig
-Host gateway.example.com
-    User italiaan
+Host some.host.domain.tld
+    User Username
     IdentityFile ~/.ssh/id_ed25519
 
-Host turku-proxy
-    HostName 192.16.191.110
-    User benjamin
-    ProxyJump gateway.example.com
+Host other.host.domain.tlnd
+    HostName 192.168.1.1
+    User Username
+    ProxyJump some.host.domain.tld
     ForwardAgent yes
 
-Host proxy.example.com
-    HostName 192.168.214.4
-    User root
-    ProxyJump turku-proxy
-    ForwardAgent yes
-    IdentitiesOnly no
 ```
 
 ---
