@@ -15,7 +15,7 @@ keywords:
 Alert boxes in pandoc goodies or easy-pandoc-template
 
 
-**UPDATE**  --- My [addup](addup.html) has been [commited by Ryan Rose](https://github.com/ryangrose/easy-pandoc-templates/commit/337d251bdc5c3577ebf8f128e418f6428398fb46) so the easy pandoc template now works with alert boxes.
+**UPDATE**  --- My [addup](addup.md) has been [commited by Ryan Rose](https://github.com/ryangrose/easy-pandoc-templates/commit/337d251bdc5c3577ebf8f128e418f6428398fb46) so the easy pandoc template now works with alert boxes.
 
 My current favourite is the [easy-pandoc-templates](https://github.com/ryangrose/easy-pandoc-templates). 
 

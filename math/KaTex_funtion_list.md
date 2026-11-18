@@ -4,7 +4,7 @@ title: Supported Functions
 ---
 This is a list of TeX functions supported by KaTeX. It is sorted into logical groups.
 
-There is a similar [Support Table](support_table.md), sorted alphabetically, that lists both supported and un-supported functions.
+There is a similar [Support Table](https://katex.org/docs/support_table.html), sorted alphabetically, that lists both supported and un-supported functions.
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous">
 <style>
@@ -127,9 +127,9 @@ The `{array}` environment does not yet support `\cline` or `\multicolumn`.
 The following "raw HTML" features are potentially dangerous for untrusted
 inputs, so they are disabled by default, and attempting to use them produces
 the command names in red (which you can configure via the `errorColor`
-[option](options.md)).  To fully trust your LaTeX input, you need to pass
+[option](https://katex.org/docs/options.html)).  To fully trust your LaTeX input, you need to pass
 an option of `trust: true`; you can also enable just some of the commands
-or for just some URLs via the `trust` [option](options.md).
+or for just some URLs via the `trust` [option](https://katex.org/docs/options.html).
 
 |||
 |:----------------|:-------------------|
@@ -343,7 +343,7 @@ Direct Input: $∀ ∴ ∁ ∵ ∃ ∣ ∈ ∉ ∋ ⊂ ⊃ ∧ ∨ ↦ → ← �
 |                                      | `\renewcommand\macroname[numargs]{definition}`
 |                                      | `\providecommand\macroname[numargs]{definition}`
 
-Macros can also be defined in the KaTeX [rendering options](options.md).
+Macros can also be defined in the KaTeX [rendering options](https://katex.org/docs/options.html).
 
 Macros accept up to nine arguments: #1, #2, etc.
 
@@ -707,7 +707,7 @@ where:
 
 F = (font size of surrounding HTML text)/(10 pt)
 
-G = 1.21 by default, because KaTeX font-size is normally 1.21 × the surrounding font size. This value [can be overridden](font.md#font-size-and-lengths) by the CSS of an HTML page.
+G = 1.21 by default, because KaTeX font-size is normally 1.21 × the surrounding font size. This value [can be overridden](https://katex.org/docs/font.html#font-size-and-lengths) by the CSS of an HTML page.
 
 </div>
 

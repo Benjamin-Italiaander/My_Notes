@@ -149,7 +149,7 @@ of Japanese Ukiyoe prints.
 
 ---
 
-![](./../../img/wood_block_prints/uchida_woodblock_prints_txt_1.jpg)![](./../../../img/wood_block_prints/uchida_woodblock_prints_txt_2.jpg)
+![](./../../img/wood_block_prints/uchida_woodblock_prints_txt_1.jpg)![](./../../img/wood_block_prints/uchida_woodblock_prints_txt_2.jpg)
 
 ![](./../../img/wood_block_prints/uchida_woodblock_prints_txt_3.jpg)
 

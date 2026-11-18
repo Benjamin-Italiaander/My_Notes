@@ -3,7 +3,6 @@
 title: "Benchmark write speed"
 draft: false
 date: 2023-02-27T14:12:45+01:00
-description: "test"
 ---
 
 # 💾 Benchmark Write Speed to a Disk
