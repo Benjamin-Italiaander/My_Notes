@@ -3,6 +3,7 @@ title: "Worst Books Ever Written"
 date: 2024-03-24
 description: "Curated List of the Worst Books Ever Written"
 draft: false
+original: "worst_books_ever_nl.md"
 ---
 
 # My Curated List of the Worst Books Ever Written
