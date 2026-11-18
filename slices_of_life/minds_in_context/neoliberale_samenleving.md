@@ -1,3 +1,11 @@
+---
+title: "De neoliberale samenleving"
+date: 2016-07-13
+description: "Wat een neoliberale samenleving is, waar het vandaan komt en wat voor- en tegenstanders zeggen."
+---
+
+*🇬🇧 [Read this page in English](neoliberale_samenleving_en.md)*
+
 Een neoliberale samenleving is een maatschappij waarin veel nadruk ligt op **vrije marktwerking, concurrentie en individuele verantwoordelijkheid**. Het idee is dat bedrijven en markten vaak efficiënter werken dan de overheid.
 
 Kort gezegd zegt neoliberalisme ongeveer:
@@ -15,7 +23,7 @@ Bekende onderwerpen die vaak met neoliberalisme worden verbonden:
 * lagere belastingen voor bedrijven
 * nadruk op economische groei en efficiëntie
 
-Historisch werd dit populair vanaf de jaren 80, onder leiders zoals:
+Historisch gezien werd dit populair vanaf de jaren tachtig, onder leiders zoals:
 
 * Margaret Thatcher
 * Ronald Reagan
@@ -25,7 +33,7 @@ In Nederland zeggen sommige mensen dat delen van de samenleving neoliberaal zijn
 * marktwerking in de zorg
 * woningmarktproblemen
 * flexcontracten
-* prestatiemaatschappij
+* de prestatiemaatschappij
 
 Maar het woord wordt ook vaak als kritiek gebruikt. Tegenstanders vinden bijvoorbeeld dat:
 

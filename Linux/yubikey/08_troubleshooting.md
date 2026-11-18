@@ -1,11 +1,11 @@
 ---
-
-date: 2025-10-01T12:30:21+01:00
 title: "YubiKey 8 — Troubleshooting"
-draft: false
+date: 2025-10-01T12:30:21+01:00
 description: "Fixes for common YubiKey problems on Linux: card not found, wrong SSH agent, locked PIN"
-
+draft: false
 ---
+
+*🇳🇱 [Lees deze pagina in het Nederlands](08_troubleshooting_nl.md)*
 
 # 8. Troubleshooting
 

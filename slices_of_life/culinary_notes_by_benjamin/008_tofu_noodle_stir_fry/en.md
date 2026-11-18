@@ -1,5 +1,7 @@
 ---
 title: "Tofu Noodle Stir-Fry"
+date: 2025-11-18
+description: "Crispy tofu and noodles stir-fried with vegetables in a sweet and spicy gochujang sauce."
 emoji: "🥢"
 category: "main"
 ---

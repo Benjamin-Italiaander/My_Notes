@@ -1,15 +1,15 @@
 ---
-
+title: "Takamizawa Mokuhansha and the Art of Japanese Woodblock Printing"
 date: 2025-09-01T12:30:21+01:00
-title: "Takamizawa Mokuhansha and the Art of Japanese Lithography"
+description: "Discovering Takamizawa Mokuhansha and the art of Japanese woodblock printing"
 draft: false
-description: "Discovering Takamizawa Mokuhansha and the Art of Japanese Lithography"
-
 ---
 
-# Discovering Takamizawa Mokuhansha and the Art of Japanese Lithography
+*🇳🇱 [Lees deze pagina in het Nederlands](nl.md)*
 
-During my search for *Takamizawa Mokuhansha*, a Japanese wood-block print publisher, I came across the website of **George C. Baxley**, who shared some wonderful images showing how lithographs and wood-block prints are made.  
+# Discovering Takamizawa Mokuhansha and the Art of Japanese Woodblock Printing
+
+During my search for *Takamizawa Mokuhansha*, a Japanese wood-block print publisher, I came across the website of **George C. Baxley**, who shares some wonderful images showing how woodblock prints and lithographs are made.  
 
 On his site, he states:
 
@@ -21,7 +21,7 @@ On his site, he states:
 Based on that, I believe I’m allowed to use some of these beautiful images from his site to illustrate how the different wood-block and lithographic prints were created.  
 
 Baxley’s website also includes a fascinating history of the **Fujiya Hotel**, complete with images, drawings, and lithographs.  
-Altogether, I decided to keep these here because I really enjoy them and want to share them — especially the Japanese art, which I find particularly inspiring.  
+I decided to keep these here because I really enjoy them and want to share them, especially the Japanese art, which I find particularly inspiring.  
 
 ---
 
@@ -44,7 +44,7 @@ Their studio combined the craftsmanship of hand-carved blocks and hand-printed c
 ## Selected Works from Takamizawa Mokuhansha
 
 ### 🌸 1. Floral Print — Cherry Blossoms (c. 1950s)
-![Cherry Blossoms – Takamizawa Mokuhansha]( ./../../img/Cherry_Blossoms–Takamizawa_Mokuhansha.jpg)  
+![Cherry Blossoms – Takamizawa Mokuhansha](./../../img/Cherry_Blossoms–Takamizawa_Mokuhansha.jpg)  
 **Publisher:** Takamizawa Mokuhansha (Tokyo)  
 **Date:** circa 1950s  
 **Medium:** Colour wood-block print on *washi* paper  

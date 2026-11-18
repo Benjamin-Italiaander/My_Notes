@@ -1,11 +1,11 @@
 ---
-
-date: 2025-10-01T12:30:21+01:00
 title: "YubiKey 4 — SSH with FIDO2"
-draft: false
+date: 2025-10-01T12:30:21+01:00
 description: "Create an SSH key that lives on your YubiKey using FIDO2 (ed25519-sk)"
-
+draft: false
 ---
+
+*🇳🇱 [Lees deze pagina in het Nederlands](04_ssh_fido2_nl.md)*
 
 # 4. SSH with FIDO2
 

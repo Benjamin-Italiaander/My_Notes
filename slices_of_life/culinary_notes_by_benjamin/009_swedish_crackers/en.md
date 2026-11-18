@@ -1,5 +1,7 @@
 ---
 title: "Swedish Crackers"
+date: 2025-11-18
+description: "Crispy oat and seed crackers that are easy to make and keep well."
 emoji: "🍘"
 category: "bread"
 ---

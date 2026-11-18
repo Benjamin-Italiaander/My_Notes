@@ -1,5 +1,7 @@
 ---
 title: "Portabella Tagliata met Aardappel-Pastinaakpuree"
+date: 2016-03-22
+description: "Gemarineerde portabella's op een puree van aardappel en pastinaak met rucola."
 emoji: "🌿"
 category: "main"
 ---

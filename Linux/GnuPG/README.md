@@ -1,15 +1,16 @@
 ---
-section: Linux
 title: 'GnuPG'
-description: 'GnuPG is a complete and free implementation of the OpenPGP'
+date: 2021-01-01
+description: 'GnuPG is a complete and free implementation of the OpenPGP standard'
+section: Linux
 author: 'benjamin-italiaander'
-date: 2021
-
 ---
+
+*🇳🇱 [Lees deze pagina in het Nederlands](nl.md)*
 
 # The GNU Privacy Guard
 
-How to encrypt and decrypt a file
+How to encrypt and decrypt a file:
 
 ```bash
 # encrypt a file
@@ -26,15 +27,11 @@ gpg -d -o secrets.txt file-to-encrypt.txt.gpg
 
 If you encounter the following error:
 
-```
-
+```text
 There is no assurance this key belongs to the named user
 encryption failed: Unusable public key
-
 ```
 
 You can find a step-by-step solution here:
 
 [Fix: Unusable public key](GPG_unusable_public_key.md)
-
-If you want it a bit more formal or documentation-style, I can tweak the tone as well.

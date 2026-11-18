@@ -1,19 +1,19 @@
 ---
 title: "Firefox Already Running"
+date: 2016-09-17
+description: "Fix the \"Firefox is already running\" message by removing leftover lock files."
 ---
 
-# firefox already running 
+*🇳🇱 [Lees deze pagina in het Nederlands](firefox_already_running_nl.md)*
 
+# Firefox is already running
 
-If you try to open firefox and get the message firefox already running,
-you may try this script
-
+If you try to open Firefox and get the message *"Firefox is already running"*, close all Firefox windows and try this script. It removes the leftover lock files:
 
 ```bash
 #!/bin/bash
-files=`find ~/.mozilla -name "*lock"`
-for file in `echo $files`
-do
+find ~/.mozilla -name "*lock" -print0 |
+while IFS= read -r -d '' file; do
   echo "removing $file..."
   rm "$file"
 done

@@ -1,3 +1,11 @@
+---
+title: "Pyrrusoverwinning"
+date: 2016-10-16
+description: "Wat een pyrrusoverwinning is en waar de uitdrukking vandaan komt."
+---
+
+*🇬🇧 [Read this page in English](pyrrusoverwinning_en.md)*
+
 # Pyrrusoverwinning
 
 Een **pyrrusoverwinning** is een overwinning die zoveel kost en zoveel schade veroorzaakt, dat ze uiteindelijk nauwelijks van een nederlaag te onderscheiden is.

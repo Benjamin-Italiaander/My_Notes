@@ -1,11 +1,11 @@
 ---
-
-date: 2025-10-01T12:30:21+01:00
 title: "YubiKey 5 — OpenPGP: GPG and SSH"
-draft: false
+date: 2025-10-01T12:30:21+01:00
 description: "Create GPG keys, move the subkeys to your YubiKey and use them for signing, encryption and SSH"
-
+draft: false
 ---
+
+*🇳🇱 [Lees deze pagina in het Nederlands](05_openpgp_gpg_ssh_nl.md)*
 
 # 5. OpenPGP — GPG + SSH
 

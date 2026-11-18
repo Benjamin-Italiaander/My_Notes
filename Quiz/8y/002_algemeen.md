@@ -1,9 +1,12 @@
 ---
+title: "Weekquiz 2 voor Eline en Thije"
+date: 2022-10-27
+description: "Een korte weekquiz voor kinderen van ongeveer 8 jaar."
 author: Benjamin Italiaander
-date: '2022-10-27'
 keywords: quiz
-title: Week quiz voor Eline en Thije
 ---
+
+*🇬🇧 [Read this page in English](002_algemeen_en.md)*
 
 1. **Wat betekent de uitdrukking "Met de kippen op stok gaan"?**
    - Vroeg opstaan
@@ -22,7 +25,7 @@ title: Week quiz voor Eline en Thije
 
 4. **Welke groente kan je vormen met de letters PIER?**
 
-5. **Wat is een TOMHAWK?**
+5. **Wat is een TOMAHAWK?**
    - Een strijdbijl van de indianen
    - Een sneeuwhut van de Inuit
    - Een wapen van cowboys

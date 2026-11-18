@@ -1,17 +1,14 @@
 ---
-
-title: "Echkart Tolle Basis principes Bewustzijn"
-draft: false
+title: "Eckhart Tolle: basisprincipes van bewustzijn"
 date: 2018-07-23
-description: "Books and analitics of books"
-
+description: "De kern van de boeken van Eckhart Tolle"
+draft: false
 ---
 
-
-
+*🇬🇧 [Read this page in English](the_power_of_now_Eckhart_Tolle_en.md)*
 
 # 🌿 Basisprincipes in de boeken van Eckhart Tolle
-De kern van Eckhart Tolle’s werk draait om bewustzijn, aanwezigheid en innerlijke vrijheid.
+De kern van het werk van Eckhart Tolle draait om bewustzijn, aanwezigheid en innerlijke vrijheid.
 Onderstaande principes vormen de ruggengraat van al zijn boeken.
 
 ---
@@ -40,7 +37,7 @@ Het ego leeft van vergelijking, angst en onrust.
 
 * het ego is niet wie je werkelijk bent
 * het ego voedt zich met angst, controle en drama
-* door het ego te observeren verlies je er niet meer in
+* door het ego te observeren, verlies je jezelf er niet meer in
 
 ---
 
@@ -99,7 +96,7 @@ Die stilte is niet leeg — het is de plek waar helderheid, liefde en intuïtie 
 
 ## 7. 🔄 **Pijnlichaam herkennen**
 
-Het “pain body” is een verzameling oude emoties en pijn die af en toe geactiveerd wordt.
+Het pijnlichaam (“pain body”) is een verzameling oude emoties en pijn die af en toe geactiveerd wordt.
 Door het bewust te observeren, verliest het zijn kracht.
 
 **Essentie:**
@@ -136,7 +133,7 @@ Wil je de wereld veranderen? Word zelf bewuster.
 
 ---
 
-## ❤️ Samenvatting van Tolle’s filosofie
+## ❤️ Samenvatting van de filosofie van Tolle
 
 Als je het zou moeten samenvatten in één zin:
 

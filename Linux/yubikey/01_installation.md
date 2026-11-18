@@ -1,11 +1,11 @@
 ---
-
-date: 2025-10-01T12:30:21+01:00
 title: "YubiKey 1 — Installation (Debian/Ubuntu and Fedora)"
-draft: false
+date: 2025-10-01T12:30:21+01:00
 description: "Install GnuPG, pcscd and ykman, and make sure your YubiKey is detected"
-
+draft: false
 ---
+
+*🇳🇱 [Lees deze pagina in het Nederlands](01_installation_nl.md)*
 
 # 1. Installation
 

@@ -1,15 +1,18 @@
 ---
-title: "Bye Bye Screen Hello Zellij"
+title: "Bye Bye Screen, Hello Zellij"
+date: 2016-03-28
+description: "Zellij, a modern terminal multiplexer that replaces screen and tmux, plus a fix for copy-paste."
 ---
 
-# [zellij](https://zellij.dev/) is a great alternative for screen!
+*🇳🇱 [Lees deze pagina in het Nederlands](bye-bye-screen-hello-zellij_nl.md)*
 
-### I just came across a really nice tool zellij as a replacement of the tmux or screen terminal multiplexing applications. I instantly became a fan!
+# [Zellij](https://zellij.dev/) is a great alternative to screen!
 
-[zellij can be found here](https://zellij.dev/) it's not in all repository's yet, but easy to build from source or download the binary and copy it into your /sbin folder
+I recently came across Zellij, a really nice replacement for terminal multiplexers like tmux and screen. I instantly became a fan!
 
-If you have copy-paste problems with zellij try to add the line "mouse_mode false"  to the config.kdl file after adding this line you really have to kill all running zellij applications and start zellij again.
+[Zellij can be found here](https://zellij.dev/). It isn't in every distribution's repositories yet, but it is easy to build from source, or you can download the binary and copy it to a folder in your `PATH`, such as `/usr/local/bin`.
 
+If you have copy-paste problems in Zellij, add the line `mouse_mode false` to `config.kdl`. After adding it, kill all running Zellij sessions and start Zellij again.
 
 ```bash
 echo "mouse_mode false" >> ~/.config/zellij/config.kdl

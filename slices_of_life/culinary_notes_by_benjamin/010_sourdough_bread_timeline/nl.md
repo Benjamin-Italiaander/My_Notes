@@ -1,5 +1,7 @@
 ---
 title: "Zuurdesembrood met een Complete Tijdlijn"
+date: 2016-07-23
+description: "Zuurdesembrood met de stretch & fold-methode en een complete tijdlijn van zaterdag tot zondag."
 emoji: "🍞"
 category: "bread"
 ---

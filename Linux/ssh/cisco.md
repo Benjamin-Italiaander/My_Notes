@@ -1,32 +1,32 @@
 ---
-title: "Connect to cisco switch with SSH"
+title: "Connect to a Cisco switch with SSH"
+date: 2020-04-20
+description: "Fix \"no matching key exchange method found\" when connecting to an old Cisco switch with SSH."
 author:
   - Benjamin Italiaander
-date: 2020-04-20
 keywords:
     - ssh
     - cisco
- 
     - ssh-keygen
     - ED25519
-    
 ---
 
-### Introduction 
-I got this error message when i try to login with SSH to my cisco switch. 
+*🇳🇱 [Lees deze pagina in het Nederlands](cisco_nl.md)*
 
-**CISCO**  --- SSH fails to connect
+### Introduction
+I got this error message when I tried to log in to my Cisco switch with SSH.
 
-```markdown
-Unable to negotiate with [hostname or ip]  port 22: no matching key exchange method found. Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1,diffie-hellman-group14-sha1
+**Cisco**: SSH fails to connect
+
+```text
+Unable to negotiate with [hostname or ip] port 22: no matching key exchange method found. Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1,diffie-hellman-group14-sha1
 ```
 
 
 
-You can solve this by using
+You can solve this by explicitly allowing the old key exchange method:
 ```bash
-ssh -o KexAlgorithms=diffie-hellman-group1-sha1 [hostname or ip]
+ssh -o KexAlgorithms=+diffie-hellman-group1-sha1 [hostname or ip]
 ```
 
-
-
+> ⚠️ These SHA-1 algorithms are outdated and insecure. Only use them for old network equipment, ideally on a management network.

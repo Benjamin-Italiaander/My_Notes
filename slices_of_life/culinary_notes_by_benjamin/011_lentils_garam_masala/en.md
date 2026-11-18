@@ -1,5 +1,7 @@
 ---
 title: "Lentils with Garam Masala"
+date: 2025-11-18
+description: "A simple, aromatic lentil dish with warm Indian spices, served with rice."
 emoji: "🍲"
 category: "main"
 ---

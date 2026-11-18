@@ -1,5 +1,7 @@
 ---
 title: "Kikkererwten & Quinoa Power Bowl"
+date: 2016-06-08
+description: "Een vegan, eiwitrijke bowl met quinoa, krokante kikkererwten, groenten en een tahindressing."
 emoji: "🌱"
 category: "bowls"
 ---

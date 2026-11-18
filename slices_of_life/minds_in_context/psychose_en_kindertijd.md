@@ -1,3 +1,11 @@
+---
+title: "Psychose en kindertijd"
+date: 2016-03-10
+description: "Naar aanleiding van The Desert of the Real: hoe kindertijd en omgeving bijdragen aan psychoses."
+---
+
+*🇬🇧 [Read this page in English](psychose_en_kindertijd_en.md)*
+
 De documentaire *The Desert of the Real* is interessant omdat deze psychoses niet uitsluitend vanuit een biologisch perspectief benadert, maar ook aandacht besteedt aan persoonlijke ervaringen en maatschappelijke invloeden.
 
 Dit roept de vraag op in hoeverre ervaringen tijdens de kindertijd, zoals opvoeding, hechting, trauma en de sociale omgeving, bijdragen aan de kwetsbaarheid voor psychoses op latere leeftijd.

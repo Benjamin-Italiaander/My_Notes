@@ -1,0 +1,29 @@
+---
+title: "Two Gun Crowley"
+date: 2016-04-16
+description: "The note Two Gun Crowley left before his arrest: nobody sees themselves as the bad guy."
+source: "Dale Carnegie, How to Win Friends and Influence People"
+aliases: ["/slices_of_life/quotes_for_life/0001_two_gun_crowley/"]
+---
+
+## Two Gun Crowley — The “Cop Killer”
+
+Before he was caught, **Francis “Two Gun” Crowley** left this note on a piece of paper:
+
+> *“To whom it may concern:
+> Under my coat is a weary heart — but a kind one,
+> one that would do nobody any harm.”*
+
+Crowley was later sentenced to death by the electric chair.
+When he arrived at the death house in **Sing Sing Prison**, the guards told him what awaited him.
+
+> **They told him:**
+> “This is what you get for killing people.”
+
+> **He replied:**
+> “No — this is what I get for defending myself.”
+
+**The point:**
+Two Gun Crowley didn’t see himself as guilty. He blamed everyone except himself.
+
+*From Dale Carnegie, How to Win Friends and Influence People.*

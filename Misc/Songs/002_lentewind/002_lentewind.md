@@ -1,7 +1,10 @@
 ---
-title: "002 Lentewind"
+title: "Lentewind"
+date: 2016-04-28
+description: "Songtekst met akkoorden van Lentewind."
 ---
 
+*🇬🇧 [Read this page in English](002_lentewind_en.md)*
 
 c1: C              G            F     C
 l1: Luister wat de vogel in de boom  verzint
@@ -21,7 +24,7 @@ l1: In de lentewind
 
 
 
-l1: De kat op het kozijn vind het welletjes
+l1: De kat op het kozijn vindt het welletjes
 
 l1: Het visje in de kom blaast belletjes
 
@@ -32,7 +35,7 @@ l1: Het eindigt zoals het begint
 l1: In de lentewind
 ---
 
-l1:  Bach schreef het om tot sonaten
+l1: Bach schreef het om tot sonaten
 
 l1: Strauss schreef het om tot een wals
 
@@ -72,19 +75,19 @@ l1: De olieman telt al zijn centen
 
 l1: De kolenman kuiert in Cannes
 
-l1: Pappie heeft hooikoorts t'is lente
+l1: Pappie heeft hooikoorts, ’t is lente
 l1: Pappie is een zielige man
 
 l1: De mussen in de dakgoot spelen krijgertje
 
-l1: De tijgerin in blijdorp krijgt een tijgertje
+l1: De tijgerin in Blijdorp krijgt een tijgertje
 
 l1: En ieder die het hoorde zei blij: hé het begint
 
 l1: In de lentewind
 ---
 
-l1: T’is een liedje zonder woorden t eindigt zoals het begint
+l1: ’t Is een liedje zonder woorden, ’t eindigt zoals het begint
 
 l1: In de lentewind
 ---

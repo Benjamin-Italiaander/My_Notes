@@ -1,5 +1,7 @@
 ---
 title: "Sourdough Bread with a Complete Timeline"
+date: 2025-11-18
+description: "A sourdough loaf with the stretch & fold method and a complete Saturday-to-Sunday timeline."
 emoji: "🍞"
 category: "bread"
 ---

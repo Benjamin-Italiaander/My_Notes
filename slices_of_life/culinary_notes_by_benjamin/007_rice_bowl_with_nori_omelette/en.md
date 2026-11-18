@@ -1,5 +1,7 @@
 ---
 title: "Rice Bowl with Nori Omelette"
+date: 2025-11-18
+description: "A colourful rice bowl with vegetables and a nori omelette, ready in half an hour."
 emoji: "🍚"
 category: "bowls"
 ---

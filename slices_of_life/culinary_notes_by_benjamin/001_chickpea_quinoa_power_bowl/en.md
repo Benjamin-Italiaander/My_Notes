@@ -1,5 +1,7 @@
 ---
 title: "Chickpea & Quinoa Power Bowl"
+date: 2016-06-08
+description: "A vegan, protein-rich bowl with quinoa, crispy chickpeas, vegetables and a tahini dressing."
 emoji: "🌱"
 category: "bowls"
 ---

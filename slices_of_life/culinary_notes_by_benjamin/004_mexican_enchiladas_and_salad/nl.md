@@ -1,5 +1,7 @@
 ---
 title: "Vegetarische Enchiladas + Mexicaanse Salade"
+date: 2016-09-29
+description: "Vegetarische enchiladas met groenten en cheddar, met een frisse Mexicaanse bonensalade."
 emoji: "🌯"
 category: "main"
 ---

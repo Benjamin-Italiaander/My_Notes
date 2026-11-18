@@ -1,6 +1,11 @@
 ---
-title: "Slices Of Life"
+title: "Slices of Life"
+date: 2016-07-22
+description: "Recipes, books, art, quotes and reminders: the things that make my days brighter."
+aliases: ["/slices_of_life/_README/"]
 ---
+
+*🇳🇱 [Lees deze pagina in het Nederlands](nl.md)*
 
 # 🌈 Benjamin's Life
 

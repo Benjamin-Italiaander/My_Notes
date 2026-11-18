@@ -1,11 +1,11 @@
 ---
-
-date: 2025-10-01T12:30:21+01:00
 title: "YubiKey 7 — Linux login with PAM (sudo, desktop, TTY)"
-draft: false
+date: 2025-10-01T12:30:21+01:00
 description: "Use your YubiKey for sudo, desktop (GDM) and TTY login with pam_u2f on Ubuntu and Fedora"
-
+draft: false
 ---
+
+*🇳🇱 [Lees deze pagina in het Nederlands](07_linux_login_pam_nl.md)*
 
 # 7. Linux Login with PAM (sudo, desktop, TTY)
 

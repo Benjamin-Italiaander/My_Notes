@@ -1,8 +1,10 @@
 ---
-title: "004 The Night We Met"
+title: "The Night We Met"
+date: 2016-08-01
+description: "Lyrics and chords of The Night We Met by Lord Huron."
 ---
 
-
+*🇳🇱 [Lees deze pagina in het Nederlands](nl.md)*
 
 ## 🎵 **Verse**
 

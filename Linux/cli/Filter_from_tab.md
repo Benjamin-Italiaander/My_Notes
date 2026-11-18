@@ -1,8 +1,12 @@
 ---
-title: "Filter From Tab"
+title: "Extract a Column"
+date: 2016-06-03
+description: "Extract a single column from a text file with awk."
 ---
 
-# Extracting a Specific Column in Linux CLI  
+*🇳🇱 [Lees deze pagina in het Nederlands](Filter_from_tab_nl.md)*
+
+# Extracting a Specific Column in the Linux CLI  
 
 Sometimes, you may need to extract a specific column (or tab-separated field) from a file in the Linux command line.  
 
@@ -46,7 +50,7 @@ E
 H  
 ```
 
-### Why Use `awk` Instead of `cat`?  
+### No Need for `cat`  
 
 Using `cat file | awk ...` is unnecessary; `awk` can directly read the file. Always prefer:  
 

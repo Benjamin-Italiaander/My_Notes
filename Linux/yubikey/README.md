@@ -1,11 +1,11 @@
 ---
-
-date: 2025-09-01T12:30:21+01:00
 title: "YubiKey on Linux — Get started the safe way"
-draft: false
+date: 2025-09-01T12:30:21+01:00
 description: "A chapter-by-chapter guide to setting up and using a YubiKey from the Linux CLI (Debian/Ubuntu and Fedora)"
-
+draft: false
 ---
+
+*🇳🇱 [Lees deze pagina in het Nederlands](nl.md)*
 
 # 🔐 YubiKey on Linux — Get Started the Safe Way
 

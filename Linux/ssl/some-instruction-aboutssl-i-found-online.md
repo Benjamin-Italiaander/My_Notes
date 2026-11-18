@@ -1,11 +1,15 @@
 ---
-title: "Some Instruction Aboutssl I Found Online"
+title: "How to Set Up Your Own CA with OpenSSL"
+date: 2016-07-03
+description: "A guide (by Igor Soarez) to setting up your own certificate authority with OpenSSL."
 ---
 
-i found this useful instruction [here](https://gist.github.com/soarez/9688998) Thank you for sharing [Igor Soarez](https://uk.linkedin.com/in/soarez)
+*🇳🇱 [Lees deze pagina in het Nederlands](some-instruction-aboutssl-i-found-online_nl.md)*
+
+I found this useful guide [here](https://gist.github.com/soarez/9688998). Thank you for sharing, [Igor Soarez](https://uk.linkedin.com/in/soarez)!
 
 
-# How to setup your own CA with OpenSSL
+# How to set up your own CA with OpenSSL
 
 For educational reasons I've decided to create my own CA.
 Here is what I learned.
@@ -120,7 +124,7 @@ When connecting to an HTTPS server, browsers will check the CN value and it
 should be conforming to the domain. Wildcard certificates usually start with
 a `*` in CN to allow any subdomain. e.g. `CN=*.example.com`
 
-Note that browsers will reject the wilcard for the naked domain, i.e.
+Note that browsers will reject the wildcard for the naked domain, i.e.
 `example.com` is not conforming to `*.example.com`.
 
 However, a certificate can be used for an HTTPS server that replies in multiple
@@ -627,7 +631,7 @@ Authorities section in the certificate store. And now it works!
 ![](https://i.cloudup.com/OhL6UKbvkM.png)
 
 Well... The browser doesn't give any warning. But it doesn't show the green
-icon you're probably already used to seing
+icon you're probably already used to seeing
 
 ![](https://i.cloudup.com/tpp1u2bPAr.png)
 

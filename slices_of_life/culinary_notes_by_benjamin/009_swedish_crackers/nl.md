@@ -1,5 +1,7 @@
 ---
 title: "Zweedse Crackers"
+date: 2016-11-08
+description: "Krokante crackers van havermout en zaden, makkelijk te maken en lang houdbaar."
 emoji: "🍘"
 category: "bread"
 ---

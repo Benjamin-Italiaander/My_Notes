@@ -1,18 +1,14 @@
 ---
-
 title: "Poetry writers"
-draft: false
 date: 2018-07-23
-description: "Books and analitics of books"
-
+description: "Well-loved poets"
+draft: false
 ---
 
+*🇳🇱 [Lees deze pagina in het Nederlands](poetry_nl.md)*
 
-**well-loved verse and poetry writers**
+**Well-loved poetry writers**
 
-- **isława Szymborska** (1923 – 2012)
-- **Rumi** (Jalāl al-Dīn Rūmī, (1207 – 1273)
-- **Toon Tellegen** [1941](https://nl.wikipedia.org/wiki/1941)
-
----
-
+- **Wisława Szymborska** (1923–2012)
+- **Rumi** (Jalāl al-Dīn Rūmī, 1207–1273)
+- **[Toon Tellegen](toon_tellegen.md)** (born 1941)

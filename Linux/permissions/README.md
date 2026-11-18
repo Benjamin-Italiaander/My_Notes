@@ -1,9 +1,27 @@
 ---
 title: "Permissions"
+date: 2016-03-12
+description: "Copy permissions and ownership from one file to another with chmod and chown --reference."
 ---
 
-# Here i explain how to chmod and chown from one file to another
+*🇳🇱 [Lees deze pagina in het Nederlands](nl.md)*
 
-## chmod 
-To copy file permissions from one file to another file, use chmod command with the --reference switch in the following syntax, where reference_file is the file from which permissions will be copied rather than specifying mode (i.e octal or numerical mode permissions) for file.
+# Copy permissions and ownership from one file to another
 
+## chmod
+
+To copy the permissions of one file to another, use `chmod` with the `--reference` option. Instead of specifying a mode (such as octal permissions like `644`), you point to a reference file whose permissions are copied:
+
+```bash
+chmod --reference=reference_file target_file
+```
+
+## chown
+
+`chown` works the same way for the owner and group:
+
+```bash
+chown --reference=reference_file target_file
+```
+
+Add `-R` to apply it recursively to a whole directory.

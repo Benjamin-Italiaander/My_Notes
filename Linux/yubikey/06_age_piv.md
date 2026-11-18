@@ -1,11 +1,11 @@
 ---
-
-date: 2025-10-01T12:30:21+01:00
 title: "YubiKey 6 — age encryption (PIV)"
-draft: false
+date: 2025-10-01T12:30:21+01:00
 description: "Encrypt files with age using keys stored in the YubiKey's PIV application"
-
+draft: false
 ---
+
+*🇳🇱 [Lees deze pagina in het Nederlands](06_age_piv_nl.md)*
 
 # 6. age Encryption (PIV)
 

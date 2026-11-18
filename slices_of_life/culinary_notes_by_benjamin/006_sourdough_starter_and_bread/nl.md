@@ -1,5 +1,7 @@
 ---
 title: "Zuurdesemstarter & Zuurdesembrood"
+date: 2016-11-19
+description: "Maak in een week je eigen zuurdesemstarter en bak een zuurdesembrood in een gietijzeren pan."
 emoji: "🫙"
 category: "bread"
 ---

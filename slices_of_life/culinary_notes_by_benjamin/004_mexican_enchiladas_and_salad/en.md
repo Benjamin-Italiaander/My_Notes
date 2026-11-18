@@ -1,5 +1,7 @@
 ---
 title: "Veggie Enchiladas + Mexican Salad"
+date: 2016-09-29
+description: "Vegetarian enchiladas with vegetables and cheddar, served with a fresh Mexican bean salad."
 emoji: "🌯"
 category: "main"
 ---

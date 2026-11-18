@@ -1,24 +1,23 @@
 ---
+title: 'Count logged-in users'
+date: 2021-01-01
+description: 'Count logged-in users'
 section: Linux
-title: 'Some tricks in bash'
-description: 'Count loggedin users'
 author: 'benjamin-italiaander'
-date: 2021
 ---
 
-# Display the number of logged in users using the who command
+*🇳🇱 [Lees deze pagina in het Nederlands](display_number_of_loggedin_users_nl.md)*
 
+# Display the number of logged-in users with the who command
 
-Keeping track of the number of users logged into a system can be incredibly useful. Here's a concise Bash command that displays the exact 
-count of active users
+Keeping track of the number of users logged into a system can be very useful. This short Bash command shows the exact number of active users:
 
-```bash 
+```bash
 who -q | grep "users=" | sed 's/# users=//g'
 ```
 
-For a continuous, real-time update of the user count, try piping the command to `watch` - it's as easy as
+For a continuous, real-time update of the user count, pipe it through `watch`:
 
 ```bash
-watch "who -q | grep "users=" | sed 's/# users=//g'"
+watch "who -q | grep 'users=' | sed 's/# users=//g'"
 ```
-

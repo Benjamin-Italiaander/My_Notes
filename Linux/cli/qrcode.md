@@ -1,31 +1,35 @@
 ---
+title: 'Generate a QR code from a pipe in the Linux CLI'
+date: 2024-01-01
+description: "Turn command output into a QR code with qrencode, and read QR codes from images with zbarimg."
 section: Linux CLI
-title: 'generate qrcode from pipe in linux cli'
 author: 'benjamin-italiaander'
-date: 2024
 ---
 
-# Create a qrcode from command output 
-I needed to pipe my cli output to a qrcode and generate a qrcode from it.
-So here a short one how to generate qrcode from pipe in linux cli.
+*🇳🇱 [Lees deze pagina in het Nederlands](qrcode_nl.md)*
+
+# Create a QR code from command output
+
+I needed to turn the output of a command into a QR code. Here is a short guide on how to generate a QR code from a pipe in the Linux CLI:
 
 ```bash
-cat ./somefile.txt | qrencode -t ansiutf8
+qrencode -t ansiutf8 < ./somefile.txt
 ```
 
-or i manage my passowords with pass and needed to copy a password to my phone by qr
+I manage my passwords with `pass` and wanted to get a password onto my phone with a QR code:
 
 ```bash
-pass work/someaccount | head -n1 | tr -d \\n | qrencode -t ansiutf8
+pass work/someaccount | head -n1 | tr -d '\n' | qrencode -t ansiutf8
 ```
-'tr' removes the newline at the end witch is added. 
 
+`tr` removes the newline that is added at the end.
 
-# Other way around - read a qrcode from linux cli -
-One option is to use [zbar-tools](https://github.com/mchehab/zbar). Zbar-tools is a great tool becaus you dont need to cut out the qrcode or anything, you just send the image to zbmarim and the app is looking for the qrcodes by itself. 
+# The other way around: read a QR code in the Linux CLI
+
+One option is [zbar-tools](https://github.com/mchehab/zbar). It is a great tool because you don't need to crop the QR code or anything: you just give the image to `zbarimg` and it finds the QR codes by itself.
 
 ```bash
-zbarimg  --raw ./file_that_contains_a_qrcode.jpg 
+zbarimg --raw ./file_that_contains_a_qrcode.jpg
 OUTPUT STRING WILL BE DISPLAYED HERE
 scanned 1 barcode symbols from 1 images in 0,07 seconds
 ```

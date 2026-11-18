@@ -1,5 +1,7 @@
 ---
-title: "Culinary Notes By Benjamin"
+title: "Culinary Notes by Benjamin"
+date: 2016-08-03
+description: "My recipe collection, every recipe in English and Dutch."
 ---
 
 # 📖 Benjamin’s Culinary Logbook

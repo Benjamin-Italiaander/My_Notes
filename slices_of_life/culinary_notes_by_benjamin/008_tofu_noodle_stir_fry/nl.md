@@ -1,5 +1,7 @@
 ---
 title: "Tofu Noodle Stir-Fry (roerbakgerecht)"
+date: 2016-08-21
+description: "Krokante tofu en noedels uit de wok met groenten en een zoet-pittige gochujangsaus."
 emoji: "🥢"
 category: "main"
 ---

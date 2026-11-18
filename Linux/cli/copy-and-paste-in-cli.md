@@ -1,24 +1,30 @@
 ---
-title: "Copy And Paste In Cli"
+title: "Copy and Paste in the CLI"
+date: 2016-11-03
+description: "Copy command output to the clipboard with xclip, and a handy shell function for it."
 ---
 
-# Copying and pasting in the Linux terminal is quite easy with xclip.
+*🇳🇱 [Lees deze pagina in het Nederlands](copy-and-paste-in-cli_nl.md)*
 
-### simple bash command
+# Copying and pasting in the Linux terminal is easy with xclip
+
+### A simple command
+
 ```bash
-# This command copys
+# Copy whatever is piped in to the clipboard
 xclip -selection c
 ```
 
-### making it in a function
-I added in my .bashrc file a function because i keep forgetting it. 
+### Making it a function
+
+I keep forgetting the command, so I added a function to my `.bashrc`:
+
 ```bash
-# call this function by just open copy-to-clipboard
-
-copy-to-clipboard(){
+# Use it by piping something into copy-to-clipboard
+copy-to-clipboard() {
   xclip -selection c
-  }
+}
 
-#for example:
+# For example:
 cat some-file.txt | copy-to-clipboard
 ```

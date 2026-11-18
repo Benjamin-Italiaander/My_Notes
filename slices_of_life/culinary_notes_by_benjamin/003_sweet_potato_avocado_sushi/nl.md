@@ -1,5 +1,7 @@
 ---
 title: "Vegan Zoete Aardappel & Avocado Sushirollen"
+date: 2016-04-18
+description: "Vegan sushirollen met geroosterde zoete aardappel, avocado en kimchi."
 emoji: "🍣"
 category: "main"
 ---

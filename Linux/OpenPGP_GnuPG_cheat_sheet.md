@@ -1,19 +1,23 @@
 ---
-title: "Openpgp Gnupg Cheat Sheet"
+title: "OpenPGP / GnuPG Cheat Sheet"
+date: 2016-03-14
+description: "The GnuPG commands I use most with a YubiKey: the card menu, key status and editing the card."
 ---
 
-# A small list with som important commands i use with GnuPG
+*🇳🇱 [Lees deze pagina in het Nederlands](OpenPGP_GnuPG_cheat_sheet_nl.md)*
 
-## YubiKey and gnuPG OpenPGP or gpg
-Just start with
+# A short list of important commands I use with GnuPG
+
+## YubiKey and GnuPG (OpenPGP / gpg)
+Start with:
 ```
-# open the gpg with your yubikey
+# open the card menu for your YubiKey
 gpg --card-edit
 
 # Now enter the admin command
 gpg/card> admin
 
-# Now enter Help and you see all possible commands
+# Now enter help to see all available commands
 gpg/card> help
 quit           quit this menu
 admin          show admin commands
@@ -39,13 +43,13 @@ key-attr       change the key attribute
 
 
 
-List all keys including keygrip or keyidentity on a yubiKey
+List all keys on a YubiKey, including their keygrips:
 ```
- gpg --card-status --with-keygrip
+gpg --card-status --with-keygrip
 ```
 
 
-Edit yubiKey with gpg
+Edit the YubiKey with gpg:
 ```
 gpg --expert --edit-card
 ```

@@ -1,11 +1,11 @@
 ---
-
-date: 2025-10-01T12:30:21+01:00
 title: "YubiKey 2 — First-time setup (the bare minimum)"
-draft: false
+date: 2025-10-01T12:30:21+01:00
 description: "Replace every default PIN, PUK and management key before using your YubiKey"
-
+draft: false
 ---
+
+*🇳🇱 [Lees deze pagina in het Nederlands](02_first_time_setup_nl.md)*
 
 # 2. First-Time Setup — The Bare Minimum
 

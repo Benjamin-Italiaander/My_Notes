@@ -1,5 +1,7 @@
 ---
 title: "Portabella Tagliata with Potato & Parsnip Mash"
+date: 2016-03-22
+description: "Marinated portabella mushrooms on a potato and parsnip mash with rocket."
 emoji: "🌿"
 category: "main"
 ---

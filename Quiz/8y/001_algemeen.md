@@ -1,11 +1,13 @@
 ---
+title: "Weekquiz 1 voor Eline en Thije"
+date: 2022-08-24
+description: "Een weekquiz voor kinderen van ongeveer 8 jaar: taal, raadsels, rekenen en algemene kennis."
 author: Benjamin Italiaander
-date: '2022-08-24'
 keywords: quiz
-title: Week quiz voor Eline en Thije
+math: true
 ---
 
-
+*🇬🇧 [Read this page in English](001_algemeen_en.md)*
 
 1. **Wat betekent de uitdrukking "Met de kippen op stok gaan"?**
 
@@ -27,7 +29,7 @@ title: Week quiz voor Eline en Thije
 4. **Welke groente kan je vormen met de letters PIER?**
 
 
-5. **Wat is een TOMHAWK?**
+5. **Wat is een TOMAHAWK?**
 
 * Een strijdbijl van de indianen
 * Een sneeuwhut van de Inuit
@@ -35,10 +37,10 @@ title: Week quiz voor Eline en Thije
 
 6. **Hoe heet het mannetje van een koe?**
 
-* Een Stier
-* Een Hengst
-* Een Kalf
-* Een Os
+* Een stier
+* Een hengst
+* Een kalf
+* Een os
 
 7. **Welk woord hoort niet thuis in dit rijtje?**
 
@@ -61,7 +63,7 @@ Appel ---  Peer ---  Pruim ---  Wortel
 
 
 
-10. **De onderstaande letters vormen ieder een woord. Welke van de onderstaande woorden vormen geen dier?**
+10. **Van de letters hieronder kun je steeds een woord maken. Welk woord is geen dier?**
 
 TAK ---  DARAP ---  OEK ---  FLAB
 
@@ -69,7 +71,7 @@ TAK ---  DARAP ---  OEK ---  FLAB
 
 * Het blindenschrift
 * De televisie
-* De Auto
+* De auto
 
 
 12. **Welke letters ontbreken in deze reeks?**
@@ -96,7 +98,7 @@ A ---  C ---  D ---  F ---  G ---  H ---  I ---  J ---  K ---  L ---  M ---  O -
 
 
 
-15. **Welk woord hoort niet thuis is dit rijtje?**
+15. **Welk woord hoort niet thuis in dit rijtje?**
 
 * Warm
 * Lauw
@@ -105,7 +107,7 @@ A ---  C ---  D ---  F ---  G ---  H ---  I ---  J ---  K ---  L ---  M ---  O -
 
 
 
-16. **wat is het juiste uitkomst?**
+16. **Wat is de juiste uitkomst?**
 
 $$ 1200 + 1300 $$
 
@@ -132,11 +134,10 @@ $$ 900 + 1300 $$
 
 $$ 30 \times 40 $$
 
-* 40
-* 60
-* 90
+* 70
 * 120
-* 130
+* 1200
+* 12000
 
 
 
@@ -186,7 +187,7 @@ $$ 321 - 123 $$
 
 23. **Wat is de juiste uitkomst?** 
 
-$$ {\frac{4}{4}} deel van 100 $$
+$$ \frac{4}{4} \text{ deel van } 100 $$
 
 
 * 25
@@ -198,7 +199,7 @@ $$ {\frac{4}{4}} deel van 100 $$
 
 24. **Wat is de juiste uitkomst?** 
 
-$$ {\frac{3}{4}} deel van 100 $$
+$$ \frac{3}{4} \text{ deel van } 100 $$
 
 
 * 25
@@ -211,7 +212,7 @@ $$ {\frac{3}{4}} deel van 100 $$
 
 25. **Wat is de juiste uitkomst?** 
 
-$$ {\frac{2}{4}} deel van 100 $$
+$$ \frac{2}{4} \text{ deel van } 100 $$
 
 
 * 25
@@ -225,7 +226,7 @@ $$ {\frac{2}{4}} deel van 100 $$
 
 26. **Wat is de juiste uitkomst?** 
 
-$$ {\frac{1}{4}} deel van 100 $$
+$$ \frac{1}{4} \text{ deel van } 100 $$
 
 
 * 25

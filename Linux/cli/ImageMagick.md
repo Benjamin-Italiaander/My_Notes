@@ -1,14 +1,27 @@
 ---
-title: "Imagemagick"
+title: "ImageMagick"
+date: 2016-10-10
+description: "Convert, resize and batch-process images and PDFs with ImageMagick's convert and mogrify."
 ---
+
+*🇳🇱 [Lees deze pagina in het Nederlands](ImageMagick_nl.md)*
 
 # Using ImageMagick
 
-If you ever need to do some quick image or document conversions, ImageMagick is a command-line tool that can save you a ton of time. Here's a quick guide on how to install it and use it to convert images, PDFs, and more. Perfect for automating repetitive tasks.
+If you ever need to do some quick image or document conversions, ImageMagick is a command-line tool that can save you a ton of time. Here's a quick guide on how to install it and use it to convert images, PDFs and more. Perfect for automating repetitive tasks.
 
-## Installing ImageMagick 🪄 with Homebrew 🍺 (macOS)
+> 💡 In ImageMagick 7 the `convert` command is called `magick` (e.g. `magick input.psd output.jpg`). `convert` still works but is deprecated.
 
-To install ImageMagick on macOS, you can use Homebrew:
+## Installing ImageMagick 🪄
+
+On Linux, use your package manager:
+
+```bash
+sudo apt install imagemagick     # Debian/Ubuntu
+sudo dnf install ImageMagick     # Fedora
+```
+
+On macOS, use Homebrew 🍺:
 
 ```bash
 brew install imagemagick
@@ -49,7 +62,7 @@ This will resize the `.psd` to 800x600 and save it as `.jpg`.
 
 ## Batch Conversion Using `mogrify` (PSD to JPG)
 
-If you need to convert a bunch of files at once, `mogrify` is the way to go. It’s part of ImageMagick and is great for batch processing. Unlike `convert`, `mogrify` modifies files in place or creates new versions if you’re changing formats.
+If you need to convert a bunch of files at once, `mogrify` is the way to go. It’s part of ImageMagick and is great for batch processing. Unlike `convert`, `mogrify` modifies files in place, or creates new files when you change the format.
 
 To convert all `.psd` files in a directory to `.jpg`, use:
 

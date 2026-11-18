@@ -1,5 +1,7 @@
 ---
 title: "Linzen met Garam Masala"
+date: 2016-09-22
+description: "Een eenvoudig, aromatisch linzengerecht met warme Indiase kruiden, met rijst."
 emoji: "🍲"
 category: "main"
 ---

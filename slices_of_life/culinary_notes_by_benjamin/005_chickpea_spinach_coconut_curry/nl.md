@@ -1,5 +1,7 @@
 ---
 title: "Kikkererwten & Spinazie Kokoscurry"
+date: 2016-07-17
+description: "Een snelle vegan curry met kikkererwten, spinazie en kokosmelk."
 emoji: "🥥"
 category: "main"
 ---

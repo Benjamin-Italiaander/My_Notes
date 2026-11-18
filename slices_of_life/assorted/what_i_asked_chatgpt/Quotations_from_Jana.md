@@ -1,6 +1,10 @@
 ---
-title: "Quotations From Jana"
+title: "Uitdrukkingen van Jana"
+date: 2016-07-06
+description: "Ouderwetse uitdrukkingen uitgelegd"
 ---
+
+*🇬🇧 [Read this page in English](Quotations_from_Jana_en.md)*
 
 De uitdrukking **“beminnelijke deugd der inschikkelijkheid”** klinkt heel ouderwets en plechtig.
 Hier is wat het betekent in normaal, modern taalgebruik:
@@ -12,14 +16,13 @@ Hier is wat het betekent in normaal, modern taalgebruik:
 
 ### 👉 Samengevat
 
-**“De beminnelijke deugd der inschikkelijkheid” betekent:
-*de mooie en sympathieke eigenschap dat iemand gemakkelijk met anderen meebeweegt en niet moeilijk doet.”***
+**“De beminnelijke deugd der inschikkelijkheid”** betekent: *de mooie en sympathieke eigenschap dat iemand gemakkelijk met anderen meebeweegt en niet moeilijk doet.*
 
 Het beschrijft iemand die vriendelijk, flexibel en prettig in de omgang is.
 
 ---
 
-De uitdrukking **“aan een lub zitten konkelen”** is **oud, dialect/volks taalgebruik** en wordt bijna niet meer gebruikt.
+De uitdrukking **“aan een lub zitten konkelen”** is **oud, volks taalgebruik (dialect)** en wordt bijna niet meer gebruikt.
 Hier is wat het betekent:
 
 ### 📘 Betekenis
@@ -29,13 +32,10 @@ Hier is wat het betekent:
 
 ### 👉 Samengevat
 
-**“Aan een lub zitten konkelen” betekent:
-*aan een klein dingetje zitten friemelen of rommelen, vaak nutteloos of stiekem.”***
+**“Aan een lub zitten konkelen”** betekent: *aan een klein dingetje zitten friemelen of rommelen, vaak nutteloos of stiekem.*
 
 Het kan gaan om:
 
 * zenuwachtig prutsen aan je kleding
 * stiekem iets zitten te rommelen
-* onhandig aan iets lopen te friemelen
-
-Wil je dat ik het in een zin gebruik?
+* onhandig aan iets zitten te friemelen

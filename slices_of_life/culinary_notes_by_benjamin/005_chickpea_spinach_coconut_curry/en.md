@@ -1,5 +1,7 @@
 ---
 title: "Chickpea & Spinach Coconut Curry"
+date: 2016-07-17
+description: "A quick vegan curry with chickpeas, spinach and coconut milk."
 emoji: "🥥"
 category: "main"
 ---

@@ -1,18 +1,18 @@
 ---
 title: "CSS addup for alert boxes"
+date: 2022-09-09
+description: "The CSS I added to easy-pandoc-templates to support coloured alert boxes."
 author:
   - Benjamin Italiaander
-date: 2022-09-09
 keywords:
     - pandoc
     - css
     - html5
     - github-style
     - markdown
-    
 ---
 
-
+*🇳🇱 [Lees deze pagina in het Nederlands](addup_nl.md)*
 
 ```css
 

@@ -1,13 +1,12 @@
 ---
+title: 'GnuPG: Unusable public key'
+date: 2022-01-01
+description: 'Fix the "There is no assurance this key belongs to the named user" error in GnuPG'
 section: Linux
-title: 'GnuPG Unusable public key"'
-description: 'GnuPG fix There is no assurance this key belongs to the named user error in OpenPGP'
 author: 'benjamin-italiaander'
-date: 2022
-
 ---
 
-
+*🇳🇱 [Lees deze pagina in het Nederlands](GPG_unusable_public_key_nl.md)*
 
 # Fix: "Unusable public key" error in GPG
 

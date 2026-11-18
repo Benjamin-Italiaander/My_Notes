@@ -1,5 +1,7 @@
 ---
 title: "Sourdough Starter & Sourdough Bread"
+date: 2025-11-18
+description: "Make your own sourdough starter in a week and bake a sourdough loaf in a cast-iron pot."
 emoji: "🫙"
 category: "bread"
 ---

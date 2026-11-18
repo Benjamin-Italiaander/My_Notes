@@ -1,5 +1,11 @@
+---
+title: "Linux CLI Cheatsheet (Daily Use)"
+date: 2016-08-07
+description: "Daily-use shortcuts for the Linux command line: history search, cursor movement, editing and job control."
+---
 
-````markdown
+*🇳🇱 [Lees deze pagina in het Nederlands](cheatsheet_bash_nl.md)*
+
 # 🧠 Linux CLI Cheatsheet (Daily Use)
 
 ## 🔎 Search in History
@@ -13,7 +19,7 @@ history | grep ssh   # Search history with grep
 !123            # Run command number 123 from history
 !!              # Run last command
 !ssh            # Run last command starting with "ssh"
-````
+```
 
 ---
 
@@ -24,7 +30,7 @@ Ctrl + a        # Go to beginning of line
 Ctrl + e        # Go to end of line
 Alt + b         # Move back one word
 Alt + f         # Move forward one word
-Ctrl + xx       # Jump between start and cursor
+Ctrl + x x      # Jump between start of line and cursor
 ```
 
 ---
@@ -120,13 +126,8 @@ history -w      # Write changes to ~/.bash_history
 ## 🔧 Bonus (zsh / oh-my-zsh)
 
 ```bash
-Ctrl + r        # Fuzzy search (better in zsh)
+Ctrl + r        # History search
 
-# install fzf for even better search:
-# Ctrl + r becomes interactive fuzzy search
+# Install fzf for an even better search:
+# Ctrl + r becomes an interactive fuzzy search
 ```
-
-```
-
-
-

@@ -1,22 +1,26 @@
 ---
-title: "Bearos Start Point"
+title: "Bareos: Getting Started"
+date: 2016-01-28
+description: "The main components of Bareos and the bconsole commands I use to run, list and restore backup jobs."
 ---
+
+*🇳🇱 [Lees deze pagina in het Nederlands](bearos-start-point_nl.md)*
 
 # The first basics of Bareos
 
 ## Main components of Bareos
-Bareos is made up of the following major components or services: 
-- [Bareos Director Service](#Bareos-Director-Service)
-- [Console service](#Console-service)
-- [Bareos File deamon](#Bareos-File-Daemon)
-- [Bareos Storage Deamon](#Bareos-Storage-Daemon)
-- [Bareos Monitor service](#Bareos-Monitor-Service)
+Bareos is made up of the following major components or services:
+- [Bareos Director Service](#bareos-director-service)
+- [Console Service](#console-service)
+- [Bareos File Daemon](#bareos-file-daemon)
+- [Bareos Storage Daemon](#bareos-storage-daemon)
+- [Bareos Monitor Service](#bareos-monitor-service)
 
 ### Bareos Director Service
 The Director is the central control program for all the other daemons. It schedules and supervises all the backup, restore, verify and archive operations. The system administrator uses the Bareos Director to schedule backups and to recover files. The Director runs as a daemon (or service) in the background.
 
-### Console service
-The "bconsole" program that interfaces to the Director allowing the user or system administrator to control Bareos.
+### Console Service
+The `bconsole` program talks to the Director and lets the user or system administrator control Bareos.
 
 ### Bareos File Daemon
 The Bareos File Daemon is a program that must be installed on each (Client) machine that should be backed up. At the request of the Bareos Director, it finds the files to be backed up and sends them (their data) to the Bareos Storage Daemon.
@@ -24,16 +28,18 @@ It is specific to the operating system on which it runs and is responsible for p
 The Bareos File Daemon is also responsible for the file system dependent part of restoring the file attributes and data during a recovery operation. This program runs as a daemon on the machine to be backed up.
 
 ### Bareos Storage Daemon
-The Storage daemon, sometimes referred to as the SD, is the code that writes the attributes and data to a storage Volume (usually a tape or disk). The Bareos Storage Daemon is responsible, at the Bareos Director request, for accepting data from a Bareos File Daemon and storing the file attributes and data to the physical backup media or volumes. In the case of a restore request, it is responsible to find the data and send it to the Bareos File Daemon.
-There can be multiple Bareos Storage Daemon in your environment, all controlled by the same Bareos Director.
-The Storage services runs as a daemon on the machine that has the backup device (such as a tape drive).
+The Storage daemon, sometimes referred to as the SD, is the code that writes the attributes and data to a storage Volume (usually a tape or disk). The Bareos Storage Daemon is responsible, at the Bareos Director request, for accepting data from a Bareos File Daemon and storing the file attributes and data to the physical backup media or volumes. In the case of a restore request, it is responsible for finding the data and sending it to the Bareos File Daemon.
+There can be multiple Bareos Storage Daemons in your environment, all controlled by the same Bareos Director.
+The Storage service runs as a daemon on the machine that has the backup device (such as a tape drive).
 
 
 ### Bareos Monitor Service
-The program that interfaces to all the daemons allowing the user or system administrator to monitor Bareos status.
+The program that talks to all the daemons and lets the user or system administrator monitor the Bareos status.
+
+## Useful bconsole commands
 
 ```bash
-# estimate will give you the results of a job what will be backed up
+# estimate shows what a job will back up
 estimate job=MyFirstJob listing
 ```
 
@@ -43,7 +49,7 @@ run job=MyFirstJob yes
 ```
 
 ```bash
-# list running jop on client
+# list running jobs on the client
 status client
 ```
 
@@ -56,7 +62,7 @@ list joblog jobid=61
 ```
 
 ```bash
-# list on with tape the job is stored
+# list on which tape the job is stored
 *list volumes jobid=61
 +------------+
 | volumename |
@@ -141,8 +147,8 @@ $ cd storage/
 +-------+---------+-----------+---------------------+----------+------+-------+----------+------------+-----------+
 ```
 ```bash
-# GREP from linux CLI to bconsole
-root@backup01:~# bconsole <<< "list jobs" | grep 1001
+# grep bconsole output from the Linux CLI
+root@backup01:~# bconsole <<< "list jobs" | grep client01
 |    50 | client01          | bareos-fd | 2025-04-07 12:00:46 | 00:00:00 | B    | F     |      338 | 36,351,640 | T         |
 |    51 | client01          | bareos-fd | 2025-04-07 12:10:08 | 00:00:01 | B    | F     |      338 | 36,351,640 | T         |
 |    55 | client01          | bareos-fd | 2025-04-08 15:53:15 | 00:00:10 | B    | F     |       73 |          0 | T         |

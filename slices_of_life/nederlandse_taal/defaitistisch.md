@@ -1,4 +1,12 @@
-# defaitistisch
+---
+title: "Defaitistisch"
+date: 2016-01-08
+description: "Wat defaitistisch betekent, waar het woord vandaan komt en het verschil met pessimisme."
+---
+
+*🇬🇧 [Read this page in English](defaitistisch_en.md)*
+
+# Defaitistisch
 
 > *'Geneigd om niets meer te doen omdat men denkt dat alle handelen toch zinloos is.'*
 

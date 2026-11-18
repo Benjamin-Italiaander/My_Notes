@@ -1,6 +1,10 @@
 ---
-title: "Bash Otp Generator"
+title: "Bash OTP Generator"
+date: 2016-06-05
+description: "Generate TOTP codes in the terminal with oathtool, with the secret encrypted by GPG."
 ---
+
+*🇳🇱 [Lees deze pagina in het Nederlands](bash_otp_generator_nl.md)*
 
 # Create an OTP MFA Tool in the Bash Terminal
 
@@ -29,8 +33,8 @@ Here’s a simple working example — make sure both **gpg** and **oathtool** ar
 ```bash
 # This example decrypts a GPG file (example.gpg) and generates an OTP token
 secret="$(gpg -d ./example.gpg 2>/dev/null)"
-token="$(/usr/bin/oathtool -b --totp $secret)"
-echo $token
+token="$(/usr/bin/oathtool -b --totp "$secret")"
+echo "$token"
 ```
 
 ---
@@ -45,7 +49,7 @@ If you’d like to make this a small reusable script, here’s an example that c
 gentoken() {
     # Generate an OTP token from a GPG-encrypted file
     secret="$(gpg -d ./otp_secret_example.gpg 2>/dev/null)"
-    token="$(/usr/bin/oathtool -b --totp $secret)"
+    token="$(/usr/bin/oathtool -b --totp "$secret")"
 }
 
 Help() {

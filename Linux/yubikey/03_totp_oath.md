@@ -1,11 +1,11 @@
 ---
-
-date: 2025-10-01T12:30:21+01:00
 title: "YubiKey 3 — TOTP codes (OATH)"
-draft: false
+date: 2025-10-01T12:30:21+01:00
 description: "Store authenticator (TOTP) codes on your YubiKey and get them from the CLI or a rofi menu"
-
+draft: false
 ---
+
+*🇳🇱 [Lees deze pagina in het Nederlands](03_totp_oath_nl.md)*
 
 # 3. TOTP Codes (OATH)
 

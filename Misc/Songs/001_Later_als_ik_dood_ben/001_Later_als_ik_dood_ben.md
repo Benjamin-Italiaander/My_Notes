@@ -1,6 +1,10 @@
 ---
-title: "001 Later Als Ik Dood Ben"
+title: "Later als ik dood ben"
+date: 2016-08-06
+description: "Songtekst met akkoorden van Later als ik dood ben."
 ---
+
+*🇬🇧 [Read this page in English](001_Later_als_ik_dood_ben_en.md)*
 
 # Later als ik dood ben
 
@@ -69,7 +73,7 @@ c1:
 l1: Weg uit hun gedachten en zij ook uit de mijne
 
 c1: 
-l1: Ik heb teveel mijn tijd verloren met wat er niet toe doet
+l1: Ik heb te veel mijn tijd verloren met wat er niet toe doet
 
 c1:  
 l1: Later als ik dood ben wil ik de vader worden
@@ -78,7 +82,9 @@ c1:
 l1: Die ik door mijn onvermogen nooit heb kunnen zijn 
 
 c1:  
-l1: Lichtdoorgever…Wegbereider en een Engel op een schouder Een vader die er altijd is ook als hij verdwijnt
+l1: Lichtdoorgever… Wegbereider en een engel op een schouder
+c1: 
+l1: Een vader die er altijd is, ook als hij verdwijnt
 
 ---
 

@@ -1,31 +1,31 @@
 ---
-
 title: "Date command in bash"
-draft: false
 date: 2023-02-27T14:12:45+01:00
-
+description: "Small examples of the date command: weekday number and quarter of the year."
+draft: false
 ---
 
+*🇳🇱 [Lees deze pagina in het Nederlands](date_command_nl.md)*
 
+# A few small examples of the date command
 
-# Just a small example of the date command
-
-Show the weekday in number, always handy to know, small examples of the date command
+Show the day of the week as a number (1 = Monday), which is always handy to know:
 
 ```bash
-# Display weekday
 date +%u
 ```
 
-```bash
-# Display quater of the year
-date +%q
+Show the quarter of the year:
 
+```bash
+date +%q
 ```
+
+In a script:
 
 ```bash
 #!/bin/bash
 todayWeekday=$(date +%u)
-todayQuater=$(date +%q)
-echo -e 'The command "date +%u" gives the weekday in numbers output is:' $todayWeekday
+todayQuarter=$(date +%q)
+echo "Today is weekday $todayWeekday, in quarter $todayQuarter of the year."
 ```

@@ -1,14 +1,14 @@
 ---
-title: "Read Markdown In Cli"
+title: "Read Markdown in the CLI"
+date: 2016-11-22
+description: "Tools for reading Markdown in the terminal: Glow, Frogmouth, mdless and markdownlint."
 ---
 
-# Reading markDown files in the Linux commandline
+*🇳🇱 [Lees deze pagina in het Nederlands](read_markdown_in_cli_nl.md)*
 
-One handy tool i came across is 
-[Glow](https://github.com/charmbracelet/glow) well maintained and easy to use 
+# Reading Markdown files on the Linux command line
 
-[frogmouth](https://github.com/Textualize/frogmouth) is a simple MD vieuwer in the CLI build with textual(https://github.com/Textualize/textual)
-
-[mdless](https://github.com/ttscoff/mdless) mdless does not like it is maintained on a regular base, but it does give a good output of markdonwfiles in the cli. 
-
-[Markdown lint tool](https://github.com/markdownlint/markdownlint) fr the MD purists a check tool for you md files. Not wel maintained.
+- [Glow](https://github.com/charmbracelet/glow): a handy tool I came across. Well maintained and easy to use.
+- [Frogmouth](https://github.com/Textualize/frogmouth): a simple Markdown viewer for the CLI, built with [Textual](https://github.com/Textualize/textual).
+- [mdless](https://github.com/ttscoff/mdless): doesn't look like it is maintained regularly, but it gives good output of Markdown files in the CLI.
+- [Markdown lint tool](https://github.com/markdownlint/markdownlint): for the Markdown purists, a tool to check your Markdown files. Not well maintained.

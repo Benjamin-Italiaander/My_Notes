@@ -1,4 +1,14 @@
-On Ubuntu, create the user and add them to the `dialout` group. `dialout` normally grants access to serial devices such as `/dev/ttyUSB0`, `/dev/ttyACM0`, and `/dev/ttyS0`.
+---
+title: "Allow a User to Access Serial (TTY) Devices"
+date: 2016-11-14
+description: "Give a Linux user access to serial devices such as /dev/ttyUSB0 with the dialout group."
+---
+
+*🇳🇱 [Lees deze pagina in het Nederlands](allow_tty_nl.md)*
+
+# Allow a user to access serial (TTY) devices
+
+On Ubuntu, create the user and add them to the `dialout` group. `dialout` normally grants access to serial devices such as `/dev/ttyUSB0`, `/dev/ttyACM0` and `/dev/ttyS0`.
 
 ```bash
 # Create the user
@@ -22,7 +32,7 @@ username : username dialout
 
 The user needs to **log out and back in** before the new group membership takes effect.
 
-### Check a particular `/dev/tty*`
+### Check a particular `/dev/tty*` device
 
 For example:
 
@@ -36,15 +46,15 @@ Typically:
 crw-rw---- 1 root dialout ... /dev/ttyUSB0
 ```
 
-So membership in `dialout` is sufficient.
+So membership of `dialout` is sufficient.
 
-If you're talking about **all `/dev/tty*` devices**, including physical consoles such as `/dev/tty1`, that's slightly different. Those are often owned by the `tty` group:
+If you mean **all `/dev/tty*` devices**, including physical consoles such as `/dev/tty1`, it's slightly different. Those are often owned by the `tty` group:
 
 ```bash
 ls -l /dev/tty1
 ```
 
-You can add the user to that too:
+You can add the user to that group too:
 
 ```bash
 sudo usermod -aG tty username

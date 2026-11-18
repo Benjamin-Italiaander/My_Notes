@@ -1,5 +1,7 @@
 ---
 title: "Rijstbowl met Nori-omelet"
+date: 2016-08-20
+description: "Een kleurrijke rijstbowl met groenten en een nori-omelet, in een halfuur op tafel."
 emoji: "🍚"
 category: "bowls"
 ---

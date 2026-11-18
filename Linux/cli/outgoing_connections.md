@@ -1,18 +1,25 @@
 ---
-title: "Outgoing Connections"
+title: "List outgoing connections"
+date: 2016-04-02
+description: "List the remote addresses of outgoing TCP and UDP connections with netstat or ss."
 ---
 
-#How to filter out outgoing connections on the linux cli 
-This is a small example how 
+*🇳🇱 [Lees deze pagina in het Nederlands](outgoing_connections_nl.md)*
 
-Filter outoutgoing TCP connections
+# How to list outgoing connections on the Linux CLI
+
+A small example of how to show the remote addresses of your connections.
+
+Outgoing TCP connections:
+
 ```bash
-# Show ougoing TCP connections
-netstat -atn | tr -s ' '| cut -f5 -d ' ' | grep -v '127.0.0.1'
+netstat -atn | tr -s ' ' | cut -f5 -d ' ' | grep -v '127.0.0.1'
 ```
 
-Filter out going UDP connections
+Outgoing UDP connections:
+
 ```bash
-# Show outgoing UDP connections
-netstat -aun | tr -s ' '| cut -f5 -d ' ' | grep -v '127.0.0.1'
+netstat -aun | tr -s ' ' | cut -f5 -d ' ' | grep -v '127.0.0.1'
 ```
+
+On newer systems `netstat` may not be installed; `ss -tn` (TCP) and `ss -un` (UDP) give similar output.
