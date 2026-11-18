@@ -1,70 +1,67 @@
 ---
 
 date: 2025-09-01T12:30:21+01:00
-title: "YubiKey Get started the safe way"
+title: "YubiKey on Linux — Get started the safe way"
 draft: false
-description: "A short Getting Started Using the Linux CLI"
+description: "A chapter-by-chapter guide to setting up and using a YubiKey from the Linux CLI (Debian/Ubuntu and Fedora)"
 
 ---
 
+# 🔐 YubiKey on Linux — Get Started the Safe Way
 
-# 🔐 YubiKey Advanced Quickstart
-### A Short Getting Started Guide (Linux CLI)
+A practical guide to using a YubiKey from the Linux command line.
+Commands are given for **Debian/Ubuntu** (`apt`) and **Fedora** (`dnf`).
 
-This guide is structured **per YubiKey function**.
-
-Each section focuses on one specific feature (e.g. FIDO2, OpenPGP, PIV) and explains the **minimum required configuration** for that function.
-
-You can follow only the parts relevant to your use case—but make sure to fully complete the steps for any function you decide to use.
+> Hardware tokens can raise your security to a very high level — **but only when they are configured and used correctly.**
+> A badly configured token gives you a *false sense of security*, not actual protection.
 
 ---
 
-##  Installation
+## 📚 Chapters
 
-1. [Install all dependencies required for ykman](EN_Install_all_dependencies.md)  
-2. [Install ykman](EN_yubikey_install_ykman.md)
+Work through chapters 1 and 2 first. After that, pick the chapters for the functions you actually use.
+
+| #  | Chapter | What you get | Required? |
+|----|---------|--------------|-----------|
+| 1  | [Installation](01_installation.md) | All packages, `pcscd`, `ykman` (Debian/Ubuntu + Fedora) | ✅ Yes |
+| 2  | [First-time setup](02_first_time_setup.md) | Replace every default PIN, PUK and key | ✅ Yes |
+| 3  | [TOTP codes (OATH)](03_totp_oath.md) | Authenticator codes on the YubiKey, clipboard + rofi helpers | Optional |
+| 4  | [SSH with FIDO2](04_ssh_fido2.md) | The simplest secure SSH key — good place to start | Optional |
+| 5  | [OpenPGP: GPG + SSH](05_openpgp_gpg_ssh.md) | GPG subkeys on the YubiKey, used for email, Git signing and SSH | Optional |
+| 6  | [age encryption (PIV)](06_age_piv.md) | File encryption with `age` and multiple YubiKeys | Optional |
+| 7  | [Linux login with PAM](07_linux_login_pam.md) | YubiKey for `sudo`, desktop and TTY login | Optional |
+| 8  | [Troubleshooting](08_troubleshooting.md) | Card not found, wrong SSH agent, PIN locked, … | Reference |
+
+**Suggested learning path:** 1 → 2 → 3 → 4 → 5. SSH with FIDO2 (chapter 4) is a good warm-up; OpenPGP (chapter 5) is more complex but more powerful.
 
 ---
 
-##  Important
+## 🧩 What can a YubiKey do?
 
-Each section in this guide represents the **absolute minimum setup** for a specific YubiKey function.
-
-If you skip steps within a section, that function may **not be secure or behave as expected**.
-
-Hardware tokens are powerful tools that can significantly improve your security—but **only when configured and used correctly**.
-
-> Using a hardware token incorrectly can create a **false sense of security** rather than actually protecting your environment.
+| Category | Function | Description | PIN | Touch | Chapter |
+|----------|----------|-------------|-----|-------|---------|
+| 🔑 Modern auth | **FIDO2** | WebAuthn / passkeys, SSH `-sk` keys, PAM login | ✅ | ✅ | 4, 7 |
+| | **U2F** | Older version of FIDO (second factor only) | ❌ | ✅ | 7 |
+| 🔢 Codes | **OATH-TOTP** | Authenticator codes (like Google Authenticator) | Optional password | Optional | 3 |
+| | **Yubico OTP** | Yubico's own one-time-password format | ❌ | ✅ | — |
+| 🪪 Keys & certificates | **PIV** | Smartcard: certificates, VPN, `age` | ✅ | Optional | 2, 6 |
+| | **OpenPGP** | GPG keys for email, signing and SSH | ✅ | Optional | 2, 5 |
+| ⚙️ Advanced / legacy | **Challenge-response** | LUKS, custom scripts | ❌ | Optional | — |
+| | **Static password** | Types a fixed password (not recommended) | ❌ | ✅ | — |
 
 ---
-## 🔐 YubiKey Built-in Functions Overview
 
-| Category              | Function            | Description                                              | Needs PIN   | Needs Touch | Typical Use              |
-|----------------------|--------------------|----------------------------------------------------------|------------|------------|--------------------------|
-| **🔑 Modern Auth**    | **FIDO2**           | WebAuthn (modern passwordless login)                    | ✅          | ✅          | Modern login             |
-|                      | **U2F**             | Older version of FIDO                                   | ❌          | ✅          | Older 2FA                |
-| **🔢 Auth Codes**     | **OATH-TOTP**       | Authenticator codes (like Google Authenticator)         | Optional   | ❌          | Authenticator codes      |
-|                      | **OTP (Yubico)**    | Yubico OTP (Yubico’s own format)                        | ❌          | ✅          | Legacy login             |
-| **🪪 Certificates & Keys** | **PIV**       | Smart card (Windows login, VPN, certificates)           | ✅          | ❌          | Smartcard login          |
-|                      | **OpenPGP**         | GPG keys for SSH and email encryption/signing           | ✅          | ❌          | SSH, email               |
-| **⚙️ Advanced / Legacy** | **Challenge-Response** | Advanced use (e.g. LUKS, custom scripts)        | ❌          | ❌          | Advanced setups          |
-|                      | **Static Password** | Types a fixed password (legacy, not recommended)        | ❌          | ✅          | Legacy                   |
+## 🚨 Golden rules
 
-3. Lets Get started with coping your [TOTP tokens to your yubikey](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/EN_yubikey_otp.md)
-4. Let's contieue with creating a SSH key, this is just to practise a bit becaus i recomend you use openPGP for this part. But since openPGP is a little bit of a complex [lets start with SSH and your yubikey](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/EN_yubikey_ssh.md)
-5. And now the fun stuff how i work with my OpnePGP keys with my Yubikey(https://github.com/Benjamin-Italiaander/My_Notes/blob/main/Linux/yubikey/YubiKey-OpenPGP-SSH)
-6. If you dont l ike OpenPGP you can switch to age it can be used with the PIV option in [this tutorial i explain the use of age with your yubikey](EN_Yubikey_Age_encryption_PIV.md)
+1. **Change every default** (chapter 2) before you trust the key with anything.
+2. **Buy two YubiKeys.** Register both everywhere. One is a backup that stays in a safe place.
+3. **Store your PUK, management key and GPG backups offline** (paper, QR code, encrypted USB in a safe).
+4. **Never use SSH agent forwarding** (`ssh -A` / `ForwardAgent yes`). Use `ProxyJump` instead (see chapter 5).
+5. **Test in a second terminal** before you log out when changing login/PAM settings.
 
+---
 
-##  Source
+## 📖 Source
 
-This guide is based on and modified from:  
+Partly based on and modified from Yubico's guide
 👉 **[Securing SSH with FIDO2](https://developers.yubico.com/SSH/Securing_SSH_with_FIDO2.html)**
-
----
-
-## 🚨 Security Warning
-
-> **Never use SSH agent forwarding with your YubiKey.**  
-> Avoid using `ssh -A` (or `ssh -a`).  
-> In general, it is best to avoid agent forwarding entirely.
