@@ -39,7 +39,7 @@ ssh-keygen -t ed25519 -a 100 -C my@email.tld
 
 
 
-* -a  The number of KDF ([Key Derivation Function](https://en.wikipedia.org/wiki/Key_derivation_function)) rounds. Higher numbers make passphrase verification slower, which increases resistance to brute-force password cracking if the private key is stolen. Use at least 100 rounds.
+* -a  The number of KDF ([Key Derivation Function English](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/math/key_derivation_function_en.md)  ([Key Derivation Function English](https://github.com/Benjamin-Italiaander/My_Notes/blob/main/math/key_derivation_function_nl.md) rounds. Higher numbers make passphrase verification slower, which increases resistance to brute-force password cracking if the private key is stolen. Use at least 100 rounds.
 * -t  The type of key to create, in our case Ed25519.
 * -f  The filename of the generated key file. If you want SSH to find it automatically, store it in the default `.ssh` directory in your home directory.
 * -C  A comment. It's purely informational and can be anything, but it's usually `<login>@<hostname>` of whoever generated the key.
